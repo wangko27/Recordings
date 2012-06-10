@@ -1,189 +1,81 @@
-<project>
+<project name="Recordings">
+	<property file="local.properties" />
 	
-	<property name="browser-path" location="C:\Program Files\Mozilla Firefox\firefox.exe"/> 
-	<property name="tomcat-root" location="/home/jon/tomcat/apache-tomcat-7.0.27"/> 
-	<property name="tomcat-startup" location="${tomcat-root}\bin\startup.bat"/> 
-	<property name="tomcat-shutdown" location="${tomcat-root}\bin\shutdown.bat"/> 	
-	<property name="run-project" value="Recordings"/> 
-	<property name="run-host" value="http://localhost:8080"/>
-	<property name="deploy-base" location="${tomcat-root}\webapps\${run-project}" />
-	<property name="dev-base" location="/home/jon/repos/recordings\trunk\${run-project}" />
- 
-	<!-- folder to store results as xml file after tests are run -->
-	<property name="unittest-results" location="testResults"/>
-	<!-- folder where the unit test java files are contained -->
-	<property name="unittest-src" location="../test"/>
-	<!-- folder where the unit tests will be compiled to -->
-	<property name="unittest-bin" location="../bin/test"/>
+	<target name="init">
+		<echo>starting...</echo>
+	</target>
 	
-	<property name="tomcat-work" location="${tomcat-root}\work\Catalina" />
+	<target name="compile" depends="init">
+		<echo>compiling...</echo>
+		<javac srcdir="src" destdir="build" debug="true">
+			<classpath>
+				<fileset dir="lib" />
+			</classpath>
+		</javac>
+	</target>
 	
-	<path id="java">
-        <fileset dir="${tomcat-root}\lib">
-            <include name="*.jar"/>
-        </fileset>
-		<fileset dir="${dev-base}\WebContent\WEB-INF\lib">
-            <include name="*.jar"/>
-        </fileset>
-    </path>
+	<target name="package" depends="compile">
+		<echo>packaging...</echo>
 		
-	
-	<!--  
-		development area tasks 
-	 -->
-    <target name="clean">
-        <delete dir="${dev-base}/bin" />
-    </target>
-	
-    <target name="build" depends="clean">
-        <mkdir dir="${dev-base}/bin/classes" />
-        <javac srcdir="${dev-base}/src" destdir="${dev-base}/bin/classes" includeantruntime="false">
-        	<classpath refid="java"/>
-        </javac>
-    	<mkdir dir="${dev-base}/bin/test" />
-        <javac srcdir="${dev-base}/test" destdir="${dev-base}/bin/test" includeantruntime="false">
-    		<classpath refid="java"/>
-        	<classpath>
-        		<pathelement path="${dev-base}/bin/classes"/>
-        	</classpath> 
-    	</javac>
-    </target>
-    
-	
-	<!-- 
-		local deployment tasks
-	 -->
-	<target name="clean-deploy">
-	    <delete dir="${deploy-base}" />
-	</target>	
-	
-	<target name="deploy-tests" depends="build,deploy">
-		<mkdir dir="${deploy-base}/WEB-INF/test"/>
-		<copy todir="${deploy-base}/WEB-INF/test"> 
-			<fileset dir="${unittest-bin}"/> 
-		</copy> 		
-	</target> 
-	
-	<target name="deploy" depends="clean-deploy">
-		<!-- send over css folder -->
-		<mkdir dir="${deploy-base}/css" />
-		<copy todir="${deploy-base}/css">
-			<fileset dir="${dev-base}/WebContent/css" />
-		</copy>	
+		<!-- create unpacked war dir structure -->
+		<mkdir dir="dist/${project_name}/WEB-INF" />
+		<mkdir dir="dist/${project_name}/WEB-INF/classes" />
 		
-		<!-- send over img folder -->
-		<mkdir dir="${deploy-base}/img" />
-		<copy todir="${deploy-base}/img">
-			<fileset dir="${dev-base}/WebContent/img" />
-		</copy>	
+		<!-- copy over class files -->
+		<copy todir="dist/${project_name}/WEB-INF/classes">
+			<fileset dir="build" />
+		</copy>
 		
-		<!-- send over js folder -->
-		<mkdir dir="${deploy-base}/js" />
-		<copy todir="${deploy-base}/js">
-			<fileset dir="${dev-base}/WebContent/js" />
-		</copy>	
+		<!-- copy over web-inf contents -->
+		<copy todir="dist/${project_name}/WEB-INF">
+			<fileset dir="WEB-INF" />
+		</copy>
 		
-		<!-- send over jsp folder -->
-		<mkdir dir="${deploy-base}/jsp" />
-		<copy todir="${deploy-base}/jsp">
-			<fileset dir="${dev-base}/WebContent/jsp" />
-		</copy>	
-		
-		<!-- send over classes folder -->
-		<mkdir dir="${deploy-base}/WEB-INF/classes" />
-		<copy todir="${deploy-base}/WEB-INF/classes">
-			<fileset dir="${dev-base}/bin/classes" />
-		</copy>	
+		<!-- copy over lib -->
+		<copy todir="dist/${project_name}/WEB-INF/lib">
+			<fileset dir="lib/dist" />
+		</copy>
 
-		<!-- send over lib folder -->
-		<mkdir dir="${deploy-base}/WEB-INF/lib" />
-		<copy todir="${deploy-base}/WEB-INF/lib">
-			<fileset dir="${dev-base}/WebContent/WEB-INF/lib" />
-		</copy>	
+		<!-- copy over web contents -->
+		<copy todir="dist/${project_name}/web">
+			<fileset dir="web" />
+		</copy>
 		
-		<!-- send over tld folder -->
-		<mkdir dir="${deploy-base}/WEB-INF/tld" />
-		<copy todir="${deploy-base}/WEB-INF/tld">
-			<fileset dir="${dev-base}/WebContent/WEB-INF/tld" />
-		</copy>	
+		<!-- copy over hibernate.cfg.xml -->
+		<copy file="src/hibernate.cfg.xml" todir="dist/${project_name}/WEB-INF/classes" />
 		
-		<!--  send over hibernate files --> 
-		<copy todir="${deploy-base}/WEB-INF/classes">
-			<fileset dir="${dev-base}/src">
-				<include name="*.xml"/> 
-				<include name="*.properties"/>
-			</fileset> 
-		</copy> 
-		<mkdir dir="${deploy-base}/WEB-INF/classes/mappings" />
-		<copy todir="${deploy-base}/WEB-INF/classes/mappings">
-			<fileset dir="${dev-base}/src/mappings" />
-		</copy>	
-
-		<!-- send over web.xml  --> 
-		<copy file="${dev-base}/WebContent/WEB-INF/web.xml" todir="${deploy-base}/WEB-INF/"/> 
-
+		<!-- copy over hibernate mappings -->
+		<copy todir="dist/${project_name}/WEB-INF/classes/mappings">
+			<fileset dir="src/mappings" />
+		</copy>
 	</target>
 	
-	<target name="stop-tomcat">
-		<exec executable="${tomcat-shutdown}">
-			<env key="CATALINA_HOME" value="${tomcat-root}"/>
-		</exec> 
+	<target name="deploy_lcl" depends="clean,package">
+		<echo>deploying...</echo>
+		<copy todir="${appserver_home}/webapps">
+			<fileset dir="dist" />
+		</copy>
 	</target>
 	
-	<target name="start-tomcat"> 
-		<exec executable="${tomcat-startup}"> 
-			<env key="CATALINA_HOME" value="${tomcat-root}"/>
-		</exec> 
+	<target name="clean">
+		<echo>cleaning...</echo>
+		<delete>
+			<fileset dir="dist" />
+			<fileset dir="${appserver_home}/work" />
+		</delete>
 	</target>
 	
-	<!-- delete tomcat's work directory -->
-	<target name="clean-tomcat">
-	    <delete dir="${tomcat-work}" />
-	</target>
-	
-	<target name="fast">
-		<!-- send over css folder -->
-		<mkdir dir="${deploy-base}/css" />
-		<copy todir="${deploy-base}/css">
-			<fileset dir="${dev-base}/WebContent/css" />
-		</copy>	
+	<target name="deploy_web" depends="clean">
+		<echo>deploying static web files...</echo>
 		
-		<!-- send over img folder -->
-		<mkdir dir="${deploy-base}/img" />
-		<copy todir="${deploy-base}/img">
-			<fileset dir="${dev-base}/WebContent/img" />
-		</copy>	
+		<!-- clear existing static files -->
+		<delete>
+			<fileset dir="${appserver_home}/webapps/${project_name}/web" />
+		</delete>
 		
-		<!-- send over js folder -->
-		<mkdir dir="${deploy-base}/js" />
-		<copy todir="${deploy-base}/js">
-			<fileset dir="${dev-base}/WebContent/js" />
-		</copy>	
-		
-		<!-- send over jsp folder -->
-		<mkdir dir="${deploy-base}/jsp" />
-		<copy todir="${deploy-base}/jsp">
-			<fileset dir="${dev-base}/WebContent/jsp" />
-		</copy>	
-		<echo message="all ready..."></echo>
-    </target>
-	
-	
-	<target name="run" depends="build,clean-tomcat,deploy">
-		<echo message="all ready..."></echo>
-		<!-- launch browser and point to the testServlet
-		<exec executable="${browser-path}" spawn="yes">
-			<arg line="${run-host}/${run-project}/${run-servlet}" />
-		</exec> --> 
-    </target>
-	
-	<target name="start" depends="run, start-tomcat">
+		<!-- deploy static files -->
+		<copy todir="${appserver_home}/webapps/${project_name}/web">
+			<fileset dir="web" />
+		</copy>
 	</target>
-	
-	<target name="stop" depends="stop-tomcat">
-	</target>
-	
-	<target name="go" depends="stop, start">
-	</target>
-	
 </project>
