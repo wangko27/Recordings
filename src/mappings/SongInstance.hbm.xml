@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.SongInstance" table="songinstance"> 
+		<id name="id" column="id">
+        	<generator class="increment" />
+      	</id> 
+		
+		<property name="trackListing" column="tracklisting" />
+		<property name="section" column="section" />
+		
+		<many-to-one name="recording" class="bean.Recording">
+          <column name="recordingfk" not-null="true" />
+      	</many-to-one>
+      	<many-to-one name="song" class="bean.Song" >
+          <column name="songfk" not-null="true" />
+      	</many-to-one>
+		
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.Recording" table="recording"> 
+		<id name="id" column="id">
+        	<generator class="increment" />
+      	</id> 
+		
+		<property name="year" column="year" />
+		<property name="month" column="month" />
+		<property name="date" column="date"/>
+		<property name="link" column="link"/>
+		<property name="sublocation" column="sublocation"/>
+		<property name="name" column="name"/>
+		<property name="upvotes" column="upvotes"/>
+		<property name="downvotes" column="downvotes"/>
+		<property name="jon" column="jon"/>
+		<property name="jonnote" column="jonnote"/>
+		
+		<many-to-one name="venue" class="bean.Venue" >
+          <column name="venuefk" />
+      	</many-to-one>
+      	<many-to-one name="city" class="bean.City" >
+          <column name="cityfk" />
+      	</many-to-one>
+      	<many-to-one name="country" class="bean.Country">
+          <column name="countryfk" />
+      	</many-to-one>
+      	<many-to-one name="quality" class="bean.Quality">
+          <column name="qualityfk" />
+      	</many-to-one>
+      	<many-to-one name="format" class="bean.Format" >
+          <column name="formatfk" />
+      	</many-to-one>
+      	<many-to-one name="media" class="bean.Media">
+          <column name="mediafk" />
+      	</many-to-one>
+      	<many-to-one name="recordingType" class="bean.RecordingType" >
+          <column name="recordingtypefk" not-null="true" />
+      	</many-to-one>
+      	
+      	<list name="songInstances" cascade="all" >
+            <key column="recordingfk" />
+            <list-index column="trackListing" base="1" />
+            <one-to-many class="bean.SongInstance" />
+        </list>
+		
+        <bag name="comments" cascade="all" order-by="timestamp" >    
+        	<key column="recordingfk"/>
+        	<one-to-many class="bean.RecordingComment"/>
+        </bag>
+		
+	</class>
+</hibernate-mapping>

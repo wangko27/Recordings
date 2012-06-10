@@ -1,0 +1,112 @@
+#comments {
+	width:80%;	
+}
+
+#commentsposting {
+	border:1px solid black;
+	width:80%; 	
+	font-size: 100%;
+	margin-top:5px;
+}
+
+.error {
+	border:1px solid #000000; 
+	padding: 1px; 
+	background-color: #FF8888;	
+	text-align:center; 
+}
+
+.comment {
+	border:1px solid black;	
+	width:80%; 	
+	min-height: 4em; 
+	margin-top: 10px; 
+	margin-bottom: 10px; 	
+	font-size: 100%; 	
+}
+
+/* normal comment */
+.comment0 {
+}
+
+/* bob specific comment*/
+.comment1 {
+	background-color: #F6CF8D; 
+}
+
+.comment .commentId {
+	position: relative; 	
+	text-align: right; 
+	font-style: italic; 
+	text-transform: lowercase; 
+	font-weight: bold; 
+	margin-left: 12%;
+}
+
+.comment .commentText {
+	float:left;
+	padding:5px;
+}
+
+.comment .commentName {
+	font-weight: bold; 
+	font-style: italic; 
+	float:left;
+	font-size:110%;
+	padding:5px;
+	margin-left:2px;
+}
+
+.commentDate {
+	float:right;
+	padding:5px;	
+}
+
+.comment .error {
+	cursor:pointer; 
+}
+
+.comment .commentVotes {
+	font-size: 110%;
+	width:4%;
+	padding:3px 3px 5px 3px;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	text-align:center;
+	text-decoration: underline; 
+	cursor: pointer; 
+	float: left; 
+}
+	
+.comment .commentVotes div  
+{
+	font-size: 60%; 
+	background-color: #8DD743; 
+	display:none; 
+}
+	
+#commentheader {
+}
+
+#commentsposting table {
+		
+}
+#commentsposting table th {
+	font-family:Comic Sans MS, arial;
+	text-align:left;
+	vertical-align: text-top;
+	font-size:90%;
+}
+#commentsposting table td input#inusername {
+	width: 84%;
+	border-width:0px;
+	border-bottom:1px solid gray;
+	background-color:#F5EBDA;
+}
+
+input.editcommenttextbox {
+	background-color: #F5EBDA;
+    border-bottom: 1px solid gray;
+    border-width: 0 0 1px;
+    width: 500px;
+}

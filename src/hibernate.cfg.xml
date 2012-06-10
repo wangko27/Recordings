@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.generate_statistics">true</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/jrrecord</property>
+		<property name="connection.username">jrrecord</property>
+		<property name="connection.password">jrsi1970</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>    
+		<property name="current_session_context_class">thread</property>   
+		<property name="hibernate.show_sql">true</property>	
+		
+		<!--  connection pool settings to resolve broken pipe problems  -->
+ 		<property name="hibernate.c3p0.acquire_increment">1</property> 
+		<property name="hibernate.c3p0.idle_test_period">900</property> <!-- 30 minutes (seconds) -->
+		<property name="hibernate.c3p0.min_size">10</property> 
+		<property name="hibernate.c3p0.max_size">100</property> 
+		<property name="hibernate.c3p0.max_statements">100</property> 
+		<property name="hibernate.c3p0.timeout">5400</property> <!-- 6 hours (seconds) --> 
+
+		<mapping resource="mappings/Song.hbm.xml" />
+		<mapping resource="mappings/Venue.hbm.xml" />
+		<mapping resource="mappings/Quality.hbm.xml" />
+		<mapping resource="mappings/RecordingType.hbm.xml" />
+		<mapping resource="mappings/RecordingComment.hbm.xml" />
+		<mapping resource="mappings/RecordingUserActivity.hbm.xml" />
+		<mapping resource="mappings/RecordingCommentUserActivity.hbm.xml" />
+		<mapping resource="mappings/SongComment.hbm.xml" />
+		<mapping resource="mappings/SongCommentUserActivity.hbm.xml" />
+		<mapping resource="mappings/SongUserActivity.hbm.xml" />
+		<mapping resource="mappings/Format.hbm.xml" />
+		<mapping resource="mappings/City.hbm.xml" />
+		<mapping resource="mappings/Country.hbm.xml" />
+		<mapping resource="mappings/Media.hbm.xml" />
+		<mapping resource="mappings/SongInstance.hbm.xml" />
+		<mapping resource="mappings/SongTag.hbm.xml" />
+		<mapping resource="mappings/RecordingTag.hbm.xml" />
+		<mapping resource="mappings/Recording.hbm.xml" />
+		<mapping resource="mappings/SmartSong.hbm.xml" />
+		<mapping resource="mappings/QuickSearchBean.hbm.xml" />
+		<mapping resource="mappings/NotUsed.hbm.xml" />
+		<mapping resource="mappings/RecentChange.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

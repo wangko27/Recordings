@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+
+<description>
+Format Element custom tags
+</description>
+<tlib-version>1.0</tlib-version>
+<short-name>fe</short-name>
+
+  <tag>
+    <description>Generates a table that manages the number of columns to use for space reasons</description>
+    <name>fittedTable</name>
+    <tag-class>tag.FittedTableTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+        <description>A List of TableElements that hold the content of the table</description>
+        <name>tableElements</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>The number of columns that the table should have</description>
+        <name>cols</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>Used as the HTML class attribute</description>
+        <name>cssclass</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>Whether to allow the font size to be increased depending on the number of elements</description>
+        <name>autoFontSize</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <description>A Textarea that is aware of it's contents so it can control things like size</description>
+    <name>smartTextarea</name>
+    <tag-class>tag.SmartTextareaTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+        <description>Will go in the html name attribute</description>
+        <name>name</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>A List of Strings for each line of the textarea</description>
+        <name>contents</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>Will go the html id attribute</description>
+        <name>id</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+</taglib>

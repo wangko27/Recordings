@@ -1,0 +1,10 @@
+.disabled
+{
+	border: 1px solid black; 
+	border-color: #000000; 
+	background-color: #FF8888;	
+	float:left;
+	font-size:130%; 
+	padding: 3px;
+	margin-left:10px;
+}

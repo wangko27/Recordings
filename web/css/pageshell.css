@@ -1,0 +1,342 @@
+html {
+	background-image:url('../img/gradient.jpg');
+	background-position: left top;
+	background-repeat:repeat-y;
+	background-color:#f4f4f4;
+}
+
+body {
+	margin:0;
+	padding:0 0 0 2px;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:598px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:85%;
+	font-family: tahoma, lucida Grande;
+}
+a {
+	color: #703800;
+	text-decoration:none;
+}
+
+h1 {
+	letter-spacing:2px;
+	float:left;
+	font-family:Comic Sans MS,arial;
+	font-size:200%;
+}
+h1 a {
+	text-decoration:none;
+	color:#AD2B00; /* dark orange-red */	
+}
+h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+h2 {
+	margin-top:1px;	
+}
+h4 {
+	margin:0;
+	padding:0;
+	
+}
+p {
+	margin:.4em 0 0 0;
+	padding:0;
+}
+ul {
+	margin-top:0px;	
+}
+img {
+	margin:10px 0 5px;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	background-image: url("../img/rightHeaderImg.png");
+	background-position:right top;
+	background-repeat: no-repeat;
+}
+#header {
+	border-bottom:1px solid gray;
+    background-color: #F6CF8D;
+}
+#header p,
+#header h1,
+#header h2 {
+	padding-left:10px;
+	margin:0;
+}
+/*
+#header h1 {
+	padding-top:4px;	
+}*/
+#header ul {
+	clear:left;
+	float:left;
+	width:100%;
+	list-style:none;
+	margin:10px 0 0 0;
+	padding:0;
+}
+#header ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#header ul li a {
+	display:block;
+	float:left;
+	margin:0 0 0 1px;
+	padding:3px 10px;
+	text-align:center;
+	background:#eee;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	left:15px;
+	line-height:1.3em;
+}
+#header ul li a:hover {
+	background:#369;
+	color:#fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+	color:#fff;
+	background:#000;
+	font-weight:bold;
+}
+#header ul li a span {
+	display:block;
+}
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+	/*
+		background-image:url('/Recordings/img/curtain.png');
+		background-repeat: repeat-y;
+	*/
+}
+.col1 {
+}
+
+#belowheader {
+	background-image:url('../img/leftPic_scaled.png');
+	background-repeat:no-repeat;
+	background-position: right top;	
+}
+
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	/*background:#fff;		 right column background colour */
+}
+.leftmenu .colleft {
+	right:87%;			/* right column width */
+	/*background:#f4f4f4;	 left column background colour */
+}
+.leftmenu .col1 {
+	width:82%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:15%;			/* left column content width (column width minus left and right padding) */
+	left:5%;			/* (right column left and right padding) plus (left column left padding) */
+	margin-top:3px;
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+	text-align:center;
+}
+
+/* extra common styles */
+
+#error p {
+	border:1px solid black;
+	padding:5px;
+	color:black;	
+	font-size:20px;
+	font-weight:bold;
+}
+
+.shortinput {
+	width:80px;	
+}
+.mediuminput {
+	width:250px;
+}
+
+.navlist {
+	list-style-type: none;
+	font-size:110%;
+	padding-left:12px;
+	margin-bottom:8px;
+}
+
+/* generic error box for any use. Must position in your code. */ 
+.errorbox
+{
+    border: 1px solid black;
+    height: 5em;
+    position: absolute;
+    width: 27em;
+    z-index: 50;
+    display:none; 
+    cursor: pointer; 
+    cursor:hand; 
+}
+
+.errorbox #close
+{
+	text-align: center; 
+}
+
+.stdtable th, .stdtable td {
+	vertical-align:text-top;
+}
+
+
+.prevnext {
+	float:right;	
+}
+.prevnext a {
+	font-size:105%;
+	padding:2px;
+}
+.prevlink {
+	margin-right:20px;	
+}
+.prevnext a, .prevnext img {
+	float:right;
+	border-width:0px;
+}
+.arrowbutton {
+	margin:0px;
+	padding:0px;
+	border-width:0px;			
+}
+.adminonly {
+	font-family:arial;
+	font-size:80%;	
+}
+
+.basicnav {
+	background-color:white;
+	color:blue;
+	border:1px solid black;
+}
+
+#quicksearchtextbox {
+	width:180px;
+}
+
+.albumfont {
+	font-size:120%;	
+	font-weight:bold;
+}
+
+#eyeimg {
+	float:left;
+	margin:3px;
+	margin-bottom:2px;
+	border-left:1px solid white;
+	border-top:1px solid white;
+	border-right:1px solid gray;
+	border-bottom:2px solid silver;
+	padding:0px;	
+	width:14.5%
+}
+
+#previoussearch {
+    background-color: silver;
+    float: right;
+    text-align: center;
+    width: 25%;
+    border:1px solid white;
+    margin-right:5px;
+    margin-top:5px;
+    padding:2px;
+    font-size:95%;
+}
+
+#subheader {
+	background-color:#F5EBDA;
+	border-bottom:1px solid grey;
+}
+#subheader div {
+	float:left;
+}
+#subheader p {
+	margin:0;
+	font-size:105%; 
+	margin-left:15%;	
+}
+
+.buildnumber
+{
+	margin-left: 35%; 
+}
+
+div#sidepics {
+	text-align:center;
+}
+div#sidepics img {
+	width:85.5%;
+	margin:9px;
+	margin-top:15px;
+	margin-bottom:0px;
+	border:1px solid silver;
+}
+
+div#footer p
+{
+	padding:0px; 
+}
+
+ul#adminlist li a {
+	color:red;	
+}

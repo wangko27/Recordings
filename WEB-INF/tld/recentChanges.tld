@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+
+<description>
+tld file
+</description>
+<tlib-version>1.0</tlib-version>
+<short-name>rc</short-name>
+
+  <tag>
+    <description>Formats recent change data for display on the recent changes box </description>
+    <name>recentChangesFormatter</name>
+    <tag-class>tag.RecentChangesFormatterTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+        <description>The type of item to format: summary, date</description>
+        <name>item</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+    <attribute>
+        <description>The publish date to be formatted</description>
+        <name>date</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+    <attribute>
+        <description>The summary to be formatted</description>
+        <name>summary</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+     <attribute>
+        <description>The maximum length of the summary before being truncated</description>
+        <name>summaryLength</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute> 
+  </tag>
+  
+</taglib>

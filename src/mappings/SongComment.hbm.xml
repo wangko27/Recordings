@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.SongComment" table="songcomment"> 
+		<id name="id" column="id">
+        	<generator class="increment" />
+      	</id> 
+		
+		<property name="username" column="username" />
+		<property name="text" column="text" />
+		<property name="timestamp" column="timestamp"/>
+		<property name="voteRank" column="voterank"/>
+		<property name="bob" column="bob"/>   
+		
+		<many-to-one name="song" class="bean.Song">
+          <column name="songfk" not-null="true" />
+      	</many-to-one>
+		
+	</class>
+</hibernate-mapping>

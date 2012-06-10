@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+
+<description>
+Utility Tags
+</description>
+<tlib-version>1.0</tlib-version>
+<short-name>ru</short-name>
+
+  <tag>
+    <description>Generates the Recording title text</description>
+    <name>recordingTitle</name>
+    <tag-class>tag.RecordingTitleTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+        <description>The recording to generate the title from</description>
+        <name>recording</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>What to use for the link's href</description>
+        <name>link</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <description>format (to be implemented in the future. Determines how much info to put in the title)</description>
+        <name>format</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+</taglib>

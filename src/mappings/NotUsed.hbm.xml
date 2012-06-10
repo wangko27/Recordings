@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.NotUsed" table="v_notused">
+	
+		<!-- 
+		<id name="id" column="id">
+        	<generator class="increment" />
+      	</id>
+      	 -->
+      	
+      	<composite-id>
+	        <key-property name="id" column="id" />
+	        <key-property name="category" column="category" />
+	        <key-property name="value" column="notused" />
+        </composite-id> 
+      	
+      	<!-- 	
+		<property name="category" column="category" />
+		<property name="value" column="notused" />
+		 -->
+		
+	</class>
+</hibernate-mapping>

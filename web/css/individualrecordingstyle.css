@@ -1,0 +1,39 @@
+.summarytable table {
+	
+}
+.summarytable th {
+	text-align:left;
+	padding-right:10px;
+}
+
+.songinstancetable {
+	width:70%;	
+}
+.songinstancetable {
+	width:70%;	
+}
+.songinstancetable .label {
+	color:#703800;
+	font-family: "Times New Roman", arial
+}
+.songinstancetable a:hover {
+	text-decoration:underline;	
+}
+
+#deletediv {
+	color:red;
+	font-size:80%;
+	font-family:arial;
+	cursor:hand;
+	cursor:pointer;	
+}
+
+#deletelink  {
+}
+
+div#editSongInstances table input:hover {
+	background-color:yellow;
+}
+div#editSongInstances table select:hover {
+	background-color:yellow;
+}

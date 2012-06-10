@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.SmartSong" table="v_smartsong"> 
+      	<id name="id" column="id">
+        	<generator class="increment" />
+      	</id>
+      	
+		<property name="value" column="value" update="true"/>
+		<property name="alias" column="alias" update="true" />
+		<property name="firstPlayed" column="firstPlayed" />
+		<property name="lastPlayed" column="lastPlayed" />
+		<property name="count" column="count" />
+		<property name="frequency" column="frequency" />
+		<property name="upvotes" column="upvotes" />
+		<property name="downvotes" column="downvotes" />
+		<property name="album1" column="album1" />
+		<property name="album2" column="album2" />
+		<property name="album3" column="album3" />
+		
+	</class>
+</hibernate-mapping>

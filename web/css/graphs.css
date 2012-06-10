@@ -1,0 +1,109 @@
+#error 
+{
+	color: #FF0000;
+}
+
+#graphpanel,
+#graphstyleoptions,
+#graphdataentry,
+#cannedgraphs,
+#graphoptions
+{
+	float: left; 
+}
+
+.getgraph
+{
+    background-color: #F6CF8D;
+    border: 2px solid black;
+    cursor: pointer;
+    display: block;
+    font-size: 146%;
+    height: 20%;
+    left: 25%;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    width: 44%;
+}
+
+#graphlink
+{
+	font-size: 116%; 	
+	font-style:italic; 
+	color: #0000FF; 
+	width: 100%; 
+	border: none; 
+	background: none;
+	display:none; 
+}
+
+#graphcodearea span
+{
+	color: black; 
+	text-decoration: underline; 
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+#graphdisplay
+{
+	clear:both; 	
+}
+
+#graphstyleoptions .contexthelp
+{
+	width: 3%; 
+}
+
+.helpbox {
+    border: 2px solid black;
+    cursor: pointer;
+    display: block;
+}
+
+.helppopup
+{
+	text-decoration: underline;
+	font-weight: bold; 
+	color: blue; 
+	font-size: 120%;
+	display: block; 
+	cursor: pointer;  
+}
+
+.helptitle
+{
+	font-weight: bold; 
+	text-decoration: underline;
+	font-size: 120%; 
+	text-align: center;  
+}
+
+.panel
+{
+	border-style: solid;
+    border-width: 1px;  
+    border-color:#F6CF8D;  
+    margin: 10px;
+    min-height: 12em;
+    padding: 10px;
+    width: 45%;
+}
+
+.panel select
+{
+	width: 96%; 
+}
+
+.panel .panellink
+{    
+    font-size: 152%;
+    padding-bottom: 9px;
+    text-align: center; 
+}
+
+table
+{
+	width:100%; 	
+}

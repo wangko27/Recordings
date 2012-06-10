@@ -1,0 +1,15 @@
+#associatedrecordings 
+{
+	margin-top: 10px;	
+}
+#associatedrecordings ul {
+	padding-left:20px;	
+}
+#associatedrecordings ul li {
+	list-style: none;
+}
+
+.summarytable th {
+	text-align:left;
+	padding-right:10px;
+}

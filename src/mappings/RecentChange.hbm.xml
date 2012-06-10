@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping> 
+	<class name="bean.RecentChange" table="v_recentchanges"> 
+		<id name="referenceId" column="referenceid">
+        	<generator class="increment" />
+      	</id> 
+
+		<property name="publishDate" column="time"/> 
+		<property name="author"/> 
+		<property name="summary"/> 
+		
+		<many-to-one name="recording" class="bean.Recording">
+          <column name="recordingfk" />
+      	</many-to-one>
+      	
+      	<many-to-one name="song" class="bean.Song" >
+          <column name="songfk" />
+      	</many-to-one>
+
+		<property name="type" column="type" >
+			<type name="org.hibernate.type.EnumType">
+				<param name="enumClass">enumeration.RecentChangeType</param>
+			</type>
+		</property>
+	</class>
+</hibernate-mapping>

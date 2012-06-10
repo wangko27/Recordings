@@ -1,0 +1,55 @@
+.changeitem .summary
+{
+	height: 70%; 
+	font-size: 85%; 
+	padding:2px;
+	margin:0;
+	overflow:hidden;
+}
+
+.changeitem .itemtitle
+{
+	text-align: center; 
+}
+
+.changeitem .info
+{
+	font-size: 70%; 
+	font-style: italic; 
+}
+
+#changelist {    
+    height: 23em;
+    overflow: hidden;
+    width: 100%;
+    padding-top:5px;
+}
+
+#changelist .changeitem 
+{
+	display: block; 
+    border: 1px solid black;
+    height: 9em;
+    margin:auto;
+    margin-bottom: 5%;
+    padding: 2px;
+    width: 84%;
+    cursor: pointer; 
+}
+
+#changelist div.first{
+	margin-top:0;
+}
+		
+#recentchanges
+{
+	border-bottom: 1px solid gray;
+}
+
+#recentchanges .title
+{
+	position: relative; 
+	text-align: center; 
+	font-weight: bold;
+	width:100%;
+}
