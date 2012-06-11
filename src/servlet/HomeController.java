@@ -10,10 +10,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import data.RecordingData;
 import data.SimpleEntityData;
 import domain.AlbumManager;
-import domain.RecordingManager;
 import domain.SimpleEntityManager;
 import enumeration.Frequency;
 import exception.RecordingException;
@@ -93,6 +91,6 @@ public class HomeController extends ServletExtension
 		this.setEmbeddedJs(req, embeddedJs); 
 		this.setEmbeddedCSS(req, embeddedCSS); 
 		
-		loadJSP(req, response, "/jsp/pageShell.jsp");
+		loadJSP(req, response, "jsp/pageShell.jsp");
 	}
 }

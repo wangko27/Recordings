@@ -73,7 +73,7 @@ public class RecentChangesFormatterTag extends TagSupport
 		}
 		else if (item.equals("date"))
 		{
-			SimpleDateFormat format = new SimpleDateFormat("MM/dd/yy 'at' hh:mm aa"); 
+			SimpleDateFormat format = new SimpleDateFormat("MM/dd/yy hh:mm aa"); 
 			Calendar instance = Calendar.getInstance();
 			instance.setTime(date); 
 			

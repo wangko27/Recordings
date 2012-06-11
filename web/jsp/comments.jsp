@@ -8,8 +8,8 @@
 <% // and commentData %>
 <% // assumes jQuery is already loaded (should be true)  %>
 
-<link rel="stylesheet"  type="text/css" href="css/comments.css"/>
-<script type="text/javascript" src="js/comments.js"></script>
+<link rel="stylesheet" type="text/css" href="web/css/comments.css"/>
+<script type="text/javascript" src="web/js/comments.js"></script>
 
 <div id="comments">
 	<form id="postcomment">
@@ -21,9 +21,9 @@
 			<div id="commentheader">
 				<div class="votes common_panel">
 					<h2>Recommend?</h2>
-					<img src="img/thumb-up.png" alt="Button to indicate Yes! for recommending" title="Yes" />
+					<img src="web/img/thumb-up.png" alt="Button to indicate Yes! for recommending" title="Yes" />
 					<span>${commentSourceObject.upvotes - commentSourceObject.downvotes}</span>
-					<img src="img/thumb-down.png" alt="Button to indicate No! for recommending" title="No" />
+					<img src="web/img/thumb-down.png" alt="Button to indicate No! for recommending" title="No" />
 					<div>Processing...</div>
 				</div>
 			</div>
@@ -33,12 +33,16 @@
 						<th>Name:</th>
 						<td>
 							<input type="text" id="inusername" /> &nbsp;
-							<input id="makenewpost" type="button" value="Post" />
 						</td>
 					</tr>
 					<tr>
 						<th>Thoughts:</th>
 						<td><textarea id="intext" rows="2" cols="50%"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center">
+							<input id="makenewpost" type="button" value="Post" />
+						</td>
 					</tr>
 				</table>
 			</div>
@@ -73,7 +77,7 @@
 				
 				<!-- don't show time if it's Bob's comment -->
 				<c:if test="${comment.bob ne 1}">
-					<div class="commentDate"><fmt:formatDate value="${comment.timestamp}" pattern="MMMM d yyyy hh:mm" /></div>
+					<div class="commentDate"><fmt:formatDate value="${comment.timestamp}" pattern="MMM d, yyyy hh:mma" /></div>
 				</c:if>
 				
 				<div style="clear:both"></div>

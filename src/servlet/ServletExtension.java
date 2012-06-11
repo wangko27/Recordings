@@ -35,7 +35,7 @@ abstract public class ServletExtension extends HttpServlet {
      * @return void
      */
     protected void loadJSP(HttpServletRequest request, HttpServletResponse response, String page) throws ServletException, java.io.IOException {
-        request.getRequestDispatcher(page).forward(request, response);
+        request.getRequestDispatcher("web/" + page).forward(request, response);
     }
     
     /**
@@ -115,9 +115,13 @@ abstract public class ServletExtension extends HttpServlet {
     private Collection<String> addToList(String rootDir, String fileSource, Collection<String> targetList)
     {
     	Collection<String> results = targetList; 
-    	if(results == null) results = new ArrayList<String>(); 
+    	if(results == null) {
+    		results = new ArrayList<String>(); 
+    	}
+    	
+    	String resourceToAdd = "web/" + rootDir + "/" + fileSource;
     		
-    	results.add(rootDir + "/" + fileSource); 
+    	results.add(resourceToAdd); 
     	
     	return results; 
     }

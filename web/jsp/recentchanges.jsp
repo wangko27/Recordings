@@ -4,10 +4,10 @@
 <%@ taglib uri="/recentchanges" prefix="rc"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-<link rel="stylesheet"  type="text/css" href="css/recentchanges.css"/>
-<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="js/jquery.serialScroll-1.2.2-min.js"></script>
-<script type="text/javascript" src="js/recentchanges.js"></script>  	
+<link rel="stylesheet"  type="text/css" href="web/css/recentchanges.css"/>
+<script type="text/javascript" src="web/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="web/js/jquery.serialScroll-1.2.2-min.js"></script>
+<script type="text/javascript" src="web/js/recentchanges.js"></script>  	
 
 <div id="recentchanges">
 	<p class="title">Recent Changes</p>	
@@ -23,7 +23,7 @@
 				<p class="summary common_panel">
 					<rc:recentChangesFormatter item="summary" summary="${item.summary}" summaryLength="145"/>   
 				</p>
-				<span class="info"><rc:recentChangesFormatter item="summary" summary="${item.author}" summaryLength="5"/> On <rc:recentChangesFormatter item="date" date="${item.publishDate }"/> </span>
+				<span class="info"><rc:recentChangesFormatter item="summary" summary="${item.author}" summaryLength="5"/> - <rc:recentChangesFormatter item="date" date="${item.publishDate }"/> </span>
 				<p class="link" style="display:none">${item.link}</p>
 			</div>	
 			</c:if>			

@@ -60,6 +60,7 @@
 .commentDate {
 	float:right;
 	padding:5px;	
+	font-size:90%;
 }
 
 .comment .error {

@@ -1,4 +1,4 @@
-<a href="home"><img id="eyeimg" src="img/eye.png" /></a>
+<a href="home"><img id="eyeimg" src="web/img/eye.png" /></a>
 <h1><a href="home">Jonathan Richman Recordings</a></h1>
 
 <noscript>

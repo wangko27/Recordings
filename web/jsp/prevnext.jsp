@@ -3,7 +3,7 @@
 <div class="prevnext">
 	<c:if test="${not empty nextId}">
 		<a href="individualRecording?id=${nextId}">
-			<img src="img/forward_enabled.jpg" class="arrowbutton" 
+			<img src="web/img/forward_enabled.jpg" class="arrowbutton" 
 				 alt="Next ${recordingType}" title="Next ${recordingType}" />
 		</a>
 		
@@ -13,7 +13,7 @@
 	<c:if test="${not empty previousId}">
 		<a href="individualRecording?id=${previousId}" class="prevlink">Previous ${recordingType}</a>
 		<a href="individualRecording?id=${previousId}">
-			<img src="img/back_enabled.jpg" class="arrowbutton"
+			<img src="web/img/back_enabled.jpg" class="arrowbutton"
 				 alt="Previous ${recordingType}" title="Previous ${recordingType}" />
 		</a>
 	</c:if>

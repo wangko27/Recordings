@@ -36,7 +36,7 @@
 	<li><a href="http://jojofiles.blogspot.com">jojoblog</a></li>
 	<li><a href="http://homepage.mac.com/ramonrempel/JoJo/index.html">Ramon's Lyrics &amp; Tabs</a></li>
 	<li><a href="http://www.highroadtouring.com/artists/jonathanrichman/">HighRoad Touring</a></li>
-	<li><a href="http://www.gbvdb.com/home.asp">gbvdb.com - <span style="font-size:70%;">very impressive Guided By Voices database</span></a></li>
+	<li><a href="http://www.gbvdb.com/home.asp">gbvdb.com</a></li>
 </ul>
 
 <c:if test="${not empty authenticated}">

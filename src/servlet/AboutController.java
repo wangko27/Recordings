@@ -29,7 +29,7 @@ public class AboutController extends ServletExtension {
 			this.setEmbeddedJs(req, embeddedJs);
 			
 			setEmbeddedPage(req, "about.jsp"); 
-			loadJSP(req, response, "/jsp/pageShell.jsp");
+			loadJSP(req, response, "jsp/pageShell.jsp");
 		}
 		catch( Exception e )
 		{

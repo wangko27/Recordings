@@ -11,18 +11,19 @@
 
 	<title>Jonathan Richman Recordings</title>
 	<c:forEach var="cssInclude" items="${embeddedCSS}">
-	<link rel="stylesheet"  type="text/css" href="${cssInclude}"/>  
+	<link rel="stylesheet" type="text/css" href="${cssInclude}" />  
 	</c:forEach>  
-	<link rel="stylesheet"  type="text/css" href="css/pageshell.css"/>
-	<link rel="stylesheet"  type="text/css" href="css/header.css"/>
-	<link rel="stylesheet"  type="text/css" href="css/admin.css"/>
-	<link rel="stylesheet"  type="text/css" href="css/common.css"/>	
+	
+	<link rel="stylesheet"  type="text/css" href="web/css/pageshell.css"/>
+	<link rel="stylesheet"  type="text/css" href="web/css/header.css"/>
+	<link rel="stylesheet"  type="text/css" href="web/css/admin.css"/>
+	<link rel="stylesheet"  type="text/css" href="web/css/common.css"/>	
 		
 	<c:forEach var="jsInclude" items="${embeddedJs}">
-		<script type="text/javascript" charset="utf-8" src="<c:out value="${jsInclude }"/>"> </script>  
+		<script type="text/javascript" charset="utf-8" src="<c:out value="${jsInclude}"/>"> </script>  
 	</c:forEach>
-	<script type="text/javascript" src="js/pageshell.js"></script>
-	<script type="text/javascript" src="js/admin.js"></script>		  	
+	<script type="text/javascript" src="web/js/pageshell.js"></script>
+	<script type="text/javascript" src="web/js/admin.js"></script>		  	
 	
 	<!--[if lt IE 9]>
 		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
@@ -60,7 +61,7 @@
 			<c:import url="leftNavigation.jsp" />
 			<c:import url="recentchanges.jsp"/> 
 			<div id="sidepics">
-				<img src="img/sidePic1.png" />
+				<img src="web/img/sidePic1.png" />
 			</div>
 		</div>
 	</div>
