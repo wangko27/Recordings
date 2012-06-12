@@ -9,8 +9,8 @@ import java.util.Map;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 import org.hibernate.criterion.Example;
+import org.hibernate.criterion.Order;
 
 import bean.Recording;
 import bean.RecordingSearchBean;
@@ -54,6 +54,10 @@ public class RecordingData extends BasicHibernateDataSource implements IRecordin
         	crit.createCriteria("quality").add(Example.create(recording.getQuality()));
         
         crit.add(recordingExample);
+        
+        crit.addOrder(Order.desc("year"))
+            .addOrder(Order.desc("month"))
+            .addOrder(Order.desc("date"));
         
         recordings = (List<Recording>) crit.list();
 		
