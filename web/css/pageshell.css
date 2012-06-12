@@ -26,6 +26,8 @@ h1 {
 	float:left;
 	font-family:Comic Sans MS,arial;
 	font-size:200%;
+	position:relative;
+	top:6px;
 }
 h1 a {
 	text-decoration:none;
@@ -188,7 +190,8 @@ img {
 	border-top:1px solid #000;
 }
 #footer p {
-	padding:10px;
+	padding:0px;
+	font-size:12px;
 	margin:0;
 	text-align:center;
 }
@@ -330,11 +333,6 @@ div#sidepics img {
 	margin-top:15px;
 	margin-bottom:0px;
 	border:1px solid silver;
-}
-
-div#footer p
-{
-	padding:0px; 
 }
 
 ul#adminlist li a {

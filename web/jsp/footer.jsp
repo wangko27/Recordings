@@ -1,4 +1,4 @@
-<p>The far majority of data on this site was originally compiled by <a href="http://www.bobsnerdywebpage.com">Bob</a>. Jonathan Richman is not affiliated in any way with this website. Please email with any data corrections: jonathandavidbrink at gmail dot com</p>
+<p>Original data compiled by <a href="http://www.bobsnerdywebpage.com">Bob</a>. Jonathan Richman is not affiliated in any way with this website. Email with data corrections: jonathandavidbrink at gmail dot com</p>
 
 <!-- Start of StatCounter Code -->
 <script type="text/javascript">
