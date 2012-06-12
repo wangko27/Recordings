@@ -59,7 +59,7 @@ public class IndividualRecordingController extends ServletExtension
 			this.addErrorMessage(req, new RecordingException(e)); 
 			Collection<String> embeddedJs = this.addJQuery("jquery-1.5.2.min.js", null);
 			this.setEmbeddedJs(req, embeddedJs);
-			setEmbeddedPage(req, "/jsp/error.jsp");
+			setEmbeddedPage(req, "error.jsp");
 			
 			loadJSP(req, response, "/jsp/pageShell.jsp"); 
 		}

@@ -1,0 +1,1 @@
+lftp -e "set ftp:ssl-allow true;set ftp:ssl-force true;set ftp:ssl-protect-data true;set ftp:ssl-protect-list true;set ssl:verify-certificate no;connect jrrecordings.com; user jrrecord jrsi1970; ls"

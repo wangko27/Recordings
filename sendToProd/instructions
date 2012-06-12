@@ -1,0 +1,6 @@
+1. Stop tomcat server: https://hostsn5.cheap-jsp-hosting.com/webapps/TomCon
+2. lftp in, and remove ROOT.war
+3. Remove ROOT: https://hostsn5.cheap-jsp-hosting.com/webapps/DeleteDirectory
+4. sudo ant war
+5. sudo go.sh
+6. Start tomcat server

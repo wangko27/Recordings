@@ -13,6 +13,9 @@
 <sam:getParam var="defaultRecordingType" val="${sessionScope.recordingSearchBean.recording.recordingType.value}" samVal="s_rf_recordingType" pref="${param.pref}" />
 <sam:getParam var="defaultQuality" val="${sessionScope.recordingSearchBean.recording.quality.value}" samVal="s_rf_quality" pref="${param.pref}" />
 
+<jsp:useBean id="currentDate" class="java.util.Date" />
+<fmt:formatDate var="currentYear" value="${currentDate}" pattern="yyyy" />
+
 <div class="filterform">
 	<div class="buttonwrapper searchbutton" style="top:25px;">
 		<a class="ovalbutton"><span>Search</span></a>
@@ -26,7 +29,7 @@
 			 <span class="formw">
 				<select name="year">
 					<option value="">All</option>
-					<c:forEach var="year" begin="1970" end="2011">
+					<c:forEach var="year" begin="1970" end="${currentYear}">
 						<option value="${year}" <c:if test="${year eq defaultYear}">selected</c:if>>
 							${year}
 						</option>

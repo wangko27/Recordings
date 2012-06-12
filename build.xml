@@ -49,6 +49,12 @@
 			<fileset dir="src/mappings" />
 		</copy>
 	</target>
+
+	<target name="war" depends="clean,package">
+		<war destfile="sendToProd/Recordings.war">
+			<fileset dir="dist/Recordings" />
+		</war>
+	</target>
 	
 	<target name="deploy_lcl" depends="clean,package">
 		<echo>deploying...</echo>
