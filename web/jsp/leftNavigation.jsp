@@ -34,7 +34,7 @@
 	<li><a href="http://icecoldnugrape.com">icecoldnugrape.com</a></li>
 	<li><a href="http://www.bobsnerdywebpage.com" title="Bob's site is the inspiration for this site! Put a message on his message board...go to his '2000s to current' page">Bob's Site</a></li>
 	<li><a href="http://jojofiles.blogspot.com">jojoblog</a></li>
-	<li><a href="http://homepage.mac.com/ramonrempel/JoJo/index.html">Ramon's Lyrics &amp; Tabs</a></li>
+	<li><a href="http://www.jojochords.com/index.html">Ramon's Lyrics &amp; Tabs</a></li>
 	<li><a href="http://www.highroadtouring.com/artists/jonathanrichman/">HighRoad Touring</a></li>
 	<li><a href="http://www.gbvdb.com/home.asp">gbvdb.com</a></li>
 </ul>
