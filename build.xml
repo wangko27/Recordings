@@ -84,8 +84,6 @@
 			<fileset dir="web" />
 		</copy>
 
-		<!--
-		<copy file="jrrecordings.htmlJON" todir="${appserver_home}/${project_name}" />
-		-->
+		<copy file="jrrecordings.html" todir="${appserver_home}/webapps/${project_name}" />
 	</target>
 </project>

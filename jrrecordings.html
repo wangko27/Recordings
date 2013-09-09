@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>jrrecordings</title>
-    <link rel="stylesheet" type="text/css" href="src/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" type="text/css" href="web/jrrecordings/dijit/themes/claro/claro.css">
     <script>
         dojoConfig = {
-            baseUrl: './src', 
+            baseUrl: './web', 
             isDebug: true,
             packages:[
                 {
@@ -46,16 +46,16 @@
         };
     </script>
 
-    <script type="text/javascript" src="src/dojo/dojo.js" data-dojo-config="isDebug:true"></script>
+    <script type="text/javascript" src="web/jrrecordings/dojo/dojo.js" data-dojo-config="isDebug:true"></script>
     <!--
-    <script type="text/javascript" src="src/dojo/DApp.js" data-dojo-config="isDebug:true"></script>
+    <script type="text/javascript" src="web/jrrecordings/dojo/DApp.js" data-dojo-config="isDebug:true"></script>
     -->
 </head>
 <body class="corporate">
     <div id="outsidecontainer"></div>
     <script>
         require([
-            'jrrecordings/jrrecordings',
+            'jrrecordings/Jrrecordings.js',
             'dojo/domReady!'
         ], function( Jrrecordings ) {
               var jrrecordings = new Jrrecordings({

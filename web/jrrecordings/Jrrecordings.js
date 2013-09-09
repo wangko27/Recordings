@@ -9,4 +9,5 @@ define([
     return declare([BorderContainer, TemplatedMixin, WidgetsInTemplateMixin], {
         templateString: template,
         baseClass: 'jrrecordings'
+    });
 });
