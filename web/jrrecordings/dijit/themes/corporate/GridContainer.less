@@ -1,0 +1,154 @@
+
+@import "variables";
+
+/**********************************oaf.base.dnd************************************/
+.dragNode{
+	z-index:10000;
+	cursor:move;
+}
+
+.dragHandle{
+	cursor:move;
+}
+
+.dropIndicator{
+	position:relative;
+	height:50px;
+	border: @gridcontainer-border;
+}
+
+.dropIndicator > div{
+	position:absolute;
+	left:0;top:0;right:0;bottom:0;	
+	background-color: @gridcontainer-background-color;
+	opacity:0.17; 
+	filter:alpha(opacity=17); 
+	-khtml-opacity:0.17; 
+	-moz-opacity:0.17;
+}
+
+
+.dndCover {
+	background-image: url(@image-pixel);
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:1000px;
+	z-index:9999;
+	cursor:move;
+}
+
+.dndCover2{
+	z-index: 10001;
+}
+
+.dragNode{
+	z-index:10000;
+	cursor:move;
+}
+
+.dragHandle{
+	cursor:move;
+}
+
+.dropIndicator{
+	position:relative;
+	height:50px;
+	border: @gridcontainer-border;
+}
+
+.dropIndicator > div{
+	position:absolute;
+	left:0;top:0;right:0;bottom:0;	
+	background-color: @gridcontainer-background-color;
+	opacity:0.17; 
+	filter:alpha(opacity=17); 
+	-khtml-opacity:0.17; 
+	-moz-opacity:0.17;
+}
+
+.dndCover{
+	background-image:url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D);
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:1000px;
+	z-index:9999;
+	cursor:move;
+}
+
+.dj_ie7 .orange .dndCover{
+	background-image:url(@image-pixel);
+}
+
+.orange .dndCover2{
+	z-index: 10001;
+}
+
+
+.gridContainer{
+	display:block;	
+	position:relative;
+	background-color: @container-background-color;
+	margin:0;	
+	width:100%;
+	/*height:1%;*/ /*Bug focus with IE6/7)*/
+	height:auto;
+	overflow-y:auto;
+	overflow-x:hidden !important;
+}
+	
+.gridContainerTable{
+	width:100%;
+	border: @gridcontainer-table-border;
+}
+
+.gridContainerTable tbody, .gridContainerTable tr{
+	height:100%;
+}
+
+.gridContainerZone{
+	vertical-align:top;	
+	background-color: @gridcontainer-zone-background-color;
+	height:100%;
+}
+
+.gridContainerZone .serviceWidgetTitleText h2{
+	position:relative;
+}
+
+.gridContainerGrip{
+	cursor:default;
+	position:absolute;
+	top:0;	
+	width:10px;	
+	padding:0;	
+	margin:0;
+	background-image:url(@image-pixel);
+	height:100%;
+}
+	
+.gridContainerGripShow{
+	cursor:e-resize;	
+	position:absolute;	
+	top:0;
+	width:10px;	
+	padding:0;	
+	margin:0;	
+	background-image:url(@image-gridcontainer_grip);
+	height:100%;
+}
+
+.dropIndicator{
+	border: @gridcontainer-border;
+	}
+
+.dropIndicator > div{
+	background-color: @gridcontainer-background-color;
+}
+
+.gridContainerZone > *{
+	margin: 10px !important;
+}

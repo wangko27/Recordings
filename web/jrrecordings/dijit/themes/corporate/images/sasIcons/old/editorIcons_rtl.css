@@ -1,0 +1,24 @@
+/* Dijit Editor RTL icons*/
+
+/*editorIcons_rtl.css is located in dijit/images 
+
+editorIcons_rtl.css contains references to the dijit editor widget icons. There are 46 icons used to map to the related editor funtionality in the editor's toolbar.
+
+*/
+
+
+/* Editor */
+.dijitEditorRtl .dijitEditorIcon {
+background-image: url('missing.png');
+}
+
+.dijitEditorRtlDisabled .dijitEditorIcon {
+background-image: url('missing.png');
+}
+
+/* Toolbar */
+.dijitToolbarRtl .dijitToolbarSeparator {
+	background-image: url('images/editorIconsEnabled_rtl.png');
+}
+
+/* took this information above from editorRtl.css - good or bad? */

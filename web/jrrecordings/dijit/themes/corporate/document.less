@@ -1,0 +1,266 @@
+/* ======= Styling for the document itself (reset.css sets global) ======== */
+
+@import "variables";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow:hidden;
+}
+
+body {
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+/* font-family: Arial, sans-serif; */
+font-size: .8125em;
+font-weight: 400;
+font-style:normal;
+font-variant:normal;
+-webkit-font-smoothing: antialiased;
+color: @document-text-color;
+background-color: @container-background-color;
+height: 100%;
+width: 100%;
+margin: 0 auto;
+}
+
+
+/***** HEADINGS  ************************************************************************/
+
+h1, h2, h3, h4, h5, h6 { 
+font-style:normal;
+font-variant:normal;
+/* letter-spacing: 1px; */
+}
+
+h1 {
+margin-bottom:0.727em;
+text-shadow: @text-shadow-dark;
+}
+
+h2 { 
+/* line-height: 1.455em;  */
+margin-top:1em; 
+margin-bottom:0.60em;
+}
+
+
+h3, h4, h5, h6 {
+}
+
+
+/***** MISCELLANEOUS  ************************************************************************/
+
+hr {
+/* color: @base-background-color; */
+/*
+background-color: #FFFFFF;
+color: #FFFFFF;
+border-bottom: 1px solid #c6cad0;
+border-top: 1px dashed #c6cad0;
+height: 4px;
+*/
+color: #eeeeee;
+width: 80%;
+}
+
+/***** LINKS  ************************************************************************/
+
+a:link {
+color: @alink;
+}
+
+a:visited {
+color: @avisited;
+/* text-decoration: none; */
+}
+
+a:focus {
+color: @afocus;
+}
+
+a:hover {
+color: @ahover;
+}
+
+a:active {
+color: @aactive;
+}
+
+
+
+/***** PARAGRAPHS, QUOTES AND LISTS  ************************************************************************/
+
+p { 
+	/* line-height: 1.3em; */
+	/*
+	margin-top: 1.5em; 
+	margin-bottom: 1.5em; 
+	line-height: 1.5em;
+	*/
+}
+
+blockquote { 
+	margin-top: 3.272em; 
+	margin-bottom: 3.272em; 
+	/* line-height: 1.636em;  */
+	padding: 1.636em; 
+	border-top: 1px solid @base-border-color; 
+	border-bottom: 1px solid @base-border-color;
+}
+
+ol li, ul li { 
+	/* line-height: 1.5em;  */
+	margin: 0;
+}
+
+
+
+/***** PRE AND CODE  ************************************************************************/
+/* pre and code */
+pre, code { 
+	background-color: @document-shadedsection-background-color; 
+	border: 1px solid @document-border-color;	
+	font-family: Courier, "Courier New"; 
+}
+
+
+pre { 
+	border-width: 1px 0; 
+	padding: 1.5em;
+}
+
+/***** TABLES  ************************************************************************/
+
+table { }
+
+
+
+/***** HEADER AREA ************/
+header { 
+color: @header-text-color;
+background-color: @header-background-color;
+padding: 0 0 0 0;
+margin: 0;
+z-index: 199999;
+}
+
+
+
+/***** FOOTER AREA  ************************************************************************/
+footer { 
+color: @text-color-light;
+background-color: transparent;
+width:100%;
+min-height: 26px;
+text-align: right;
+border-top: 1px solid #5d6065;
+}
+
+footer:before, footer:after {
+clear: both;
+}
+
+footer h5 { 
+color: @text-color-light;
+margin: 1em 0 0 0;
+}
+
+footer p {
+margin: 0;
+}
+
+
+footer span {   
+margin-bottom: 0;
+}
+
+footer img {
+max-width: 50px;
+background-color: transparent;
+padding-top: 2px;
+padding-right: 4px;	
+}
+
+#footer {
+padding: 0;
+background-color: transparent;
+
+}
+
+
+/***** IMG ************************************************************************/
+img::selection {
+	background: transparent;
+}
+img::-moz-selection {
+	background: transparent;
+}
+img {  
+margin:0px !important; 
+/* padding:0px !important; */
+}
+
+/* needed to over-ride the body background for the dijit text editor */
+#dijitEditorBody {
+background-image: none;
+background-color: @container-background-color;
+}
+
+
+
+/***** MISCELLANEOUS I NEED TO PROBABLY MOVE ************************************************************************/
+.dojoTabular { 
+border-collapse: collapse; 
+border-spacing: 0; 
+border: 1px solid @base-border-color; 
+margin: 0 1.5em;
+}
+
+.dojoTabular th { 
+	text-align: center; 
+	font-weight: 700;
+}
+
+.dojoTabular thead,
+.dojoTabular tfoot { 
+background-color: @document-shadedsection-background-color; 
+border: 1px solid @base-border-color; 
+}
+
+.dojoTabular th,
+.dojoTabular td { 
+padding: 0.25em 0.5em;
+}
+
+
+/***** SPLASH  ************************************************************************/
+
+#splash {
+    background: url(@image-splash) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index:100;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+/***** WAS ON WEBDMS  ************************************************************************/
+
+.wrapper {
+width: 100%;
+height: 98%;
+padding: 0;
+position:relative;
+}
+
+
+
+

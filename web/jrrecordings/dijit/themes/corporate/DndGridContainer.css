@@ -1,0 +1,116 @@
+/* @text-color-dark: #353535; */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/**********************************dojox.layout.dnd************************************/
+/* item-specific settings */
+.dojoDndItemOver {
+  background-color: #f0f1f2 !important;
+}
+.dojoDndItemSelected {
+  background-color: #d1dfeb;
+  color: #353535;
+}
+.dojoDndItemBefore {
+  border-top: 1px solid #5d6065;
+}
+.dojoDndItemAfter {
+  border-bottom: 1px solid #5d6065;
+}
+.dojoDndItemAnchor {
+  background-color: #e0e2e5;
+  color: #353535;
+}
+.dojoDndItemOver.dojoDndItemSelected {
+  background-color: #d1dfeb;
+}
+.dojoDndItemOver.dojoDndItemAnchor {
+  background-color: #e0e2e5 !important;
+}
+/* avatar-specific settings */
+/*.dojoDndAvatarHeader	{display:none;} move to gridContainer */
+.dojoDndAvatarItem {
+  background-color: #e0e2e5;
+}
+.dndDropIndicator {
+  border: 1px dashed #ff6600;
+  cursor: default;
+}

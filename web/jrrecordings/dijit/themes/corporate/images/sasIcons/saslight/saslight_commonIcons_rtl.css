@@ -1,0 +1,30 @@
+/* ************************************ HELP BUTTON ************************************ */
+.sasHelpButtonIconRTL_lt {
+background: transparent url('16_png/HelpButton_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIconRTL_lt  {
+background: transparent url('16_png/HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HELP BUTTON 20 ************************************ */
+.sasHelpButtonIconRTL_lt_20 {
+background: transparent url('20_png/HelpButton_rtl.png') center center no-repeat;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIconRTL_lt_20  {
+background: transparent url('20_png/HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+

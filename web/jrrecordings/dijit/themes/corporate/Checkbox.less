@@ -1,0 +1,126 @@
+/* CheckBox
+ * 
+ * Styling CheckBox mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitCheckBox|.dijitCheckBoxIcon - for border, padding, width|height and background image
+ * 
+ * 2. CheckBox within ToggleButton
+ * 		.dijitToggleButton|.dijitToggleButtonChecked .* - for background image
+ * 
+ * 3. Checked state
+ * 		.dijitCheckBoxChecked - for checked background-color|image
+ * 		.dijitToggleButtonChecked - for border, background-color|image, display and width|height
+ * 
+ * 4. Hover state
+ * 		.dijitCheckBoxHover|.dijitCheckBoxCheckedHover - for background image
+ * 
+ * 5. Disabled state
+ * 		.dijitCheckBoxDisabled|.dijitCheckBoxCheckedDisabled - for background image
+ */
+
+
+@import "variables";
+
+.corporate .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url(@image-checkmark);
+}
+
+.corporate .dijitCheckBox,
+.corporate .dijitCheckBoxIcon		/* inside a toggle button */	{
+background: url(@image-form-checkbox_unchecked) center center no-repeat;
+width: 16px;
+height: 16px;
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+.corporate .dijitCheckBox,
+.corporate .dijitToggleButton .dijitCheckBoxIcon {
+/* unchecked */
+background: url(@image-form-checkbox_unchecked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxChecked,
+.corporate .dijitToggleButtonChecked .dijitCheckBoxIcon {
+background: url(@image-form-checkbox_checked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxDisabled {
+/* disabled */
+background: url(@image-form-checkbox_disabled_unchecked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxCheckedDisabled {
+background: url(@image-form-checkbox_disabled_checked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxHover {
+/* hovering over an unchecked enabled checkbox */
+background: url(@image-form-checkbox_unchecked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxCheckedHover {
+/* hovering over an checked enabled checkbox */
+background: url(@image-form-checkbox_checked) center center no-repeat;
+}
+
+
+
+
+/************ *********** ADDING IN RTL BUT SHOULD BE MOVE TO ONW CSS ******************* */
+
+
+
+.corporate .dijitRtlChecked {
+}
+
+
+.corporate .dijitCheckBoxRtl {
+background: url(@image-form-checkbox_unchecked) center center no-repeat;
+width: 16px;
+height: 16px;
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+.corporate .dijitCheckBoxRtlChecked {
+background: url(@image-form-checkbox_checked) center center no-repeat;
+}
+
+
+.corporate .dijitCheckBoxDisabled {
+/* disabled */
+background: url(@image-form-checkbox_disabled_unchecked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxRtlCheckedDisabled {
+background: url(@image-form-checkbox_disabled_checked) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxRtlHover {
+/* hovering over an unchecked enabled checkbox */
+background: url(@image-form-checkbox_unchecked_hover) center center no-repeat;
+}
+
+.corporate .dijitCheckBoxRtlCheckedHover {
+/* hovering over an checked enabled checkbox */
+background: url(@image-form-checkbox_checked_hover) center center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

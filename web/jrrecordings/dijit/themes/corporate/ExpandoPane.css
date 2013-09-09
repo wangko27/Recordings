@@ -1,0 +1,197 @@
+/* @text-color-dark: #353535; */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/* dojox.layout.ExpandoPane */
+.corporate .dojoxExpandoPane {
+  overflow: hidden;
+  z-index: 440 !important;
+}
+.corporate .dojoxExpandoPane .dojoxExpandoWrapper {
+  overflow: hidden;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoTitleNode {
+  display: none;
+}
+/* hide all layout children scrollbars when closed */
+.corporate .dojoxExpandoClosed .dojoxExpandoWrapper * {
+  overflow: hidden !important;
+}
+.corporate .dojoxExpandoTitleNode {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.corporate .dojoxExpandoIcon .a11yNode {
+  display: none;
+  visibility: hidden;
+}
+.corporate .dojoxExpandoBottom .dojoxExpandoIcon,
+.corporate .dojoxExpandoTop .dojoxExpandoIcon,
+.corporate .dojoxExpandoLeft .dojoxExpandoIcon {
+  float: right;
+  margin-right: 2px;
+}
+.corporate .dojoxExpandoRight .dojoxExpandoIcon {
+  float: left;
+  margin-left: 2px;
+}
+.corporate .dojoxExpandoIcon {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  background: url("@image-missing") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIcon {
+  background: url("@image-missing") center center no-repeat;
+  margin: 0 auto;
+}
+.corporate .dijitBorderContainer-dijitExpandoPane {
+  border: none !important;
+}
+.corporate .dojoxExpandoTitle {
+  font-weight: bold;
+  color: #353535;
+  border: 1px solid #769dc0;
+  border-bottom: none;
+  background-color: #e0e2e5;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  padding: 5px 7px 2px 7px;
+  min-height: 17px;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle {
+  background-color: #e0e2e5;
+  border: none;
+  padding: 3px;
+}
+.corporate .dojoxExpandoClosed {
+  background: none;
+  background-color: #e0e2e5;
+  border: 1px solid #769dc0 !important;
+}
+.corporate .dojoxExpandoRight .dojoxExpandoTitle,
+.corporate .dojoxExpandoLeft .dojoxExpandoTitle,
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle {
+  background-color: #e0e2e5;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle {
+  background-position: 0 0;
+}
+.corporate .dojoxExpandoIcon {
+  background: url("images/spriteRoundIconSmallUp.png") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIconLeft,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconRight,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconTop,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconBottom {
+  margin-top: 3px;
+}
+/* open/closed states */
+.corporate .dojoxExpandoClosed .dojoxExpandoIcon {
+  margin-right: 4px;
+}
+.corporate .dojoxExpandoIconLeft {
+  background: url("images/spriteRoundIconSmallLeft.png") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIconLeft {
+  background: url("images/spriteRoundIconSmallX.png") center center no-repeat;
+  margin-right: 4px;
+}
+.corporate .dojoxExpandoIconRight {
+  background: url("images/spriteRoundIconSmallRight.png") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIconRight {
+  background: url("images/spriteRoundIconSmallX.png") center center no-repeat;
+  margin-left: 4px;
+}
+.corporate .dojoxExpandoIconBottom {
+  background: url("images/spriteRoundIconSmallDown.png") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIconBottom {
+  background: url("images/spriteRoundIconSmallX.png") center center no-repeat;
+  margin-top: 1px;
+}
+.corporate .dojoxExpandoIconTop {
+  background: url("images/spriteRoundIconSmallUp.png") center center no-repeat;
+}
+.corporate .dojoxExpandoClosed .dojoxExpandoIconTop {
+  background: url("images/spriteRoundIconSmallX.png") center center no-repeat;
+}

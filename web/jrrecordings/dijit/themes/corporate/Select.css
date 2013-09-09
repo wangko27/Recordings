@@ -1,0 +1,163 @@
+/* @text-color-dark: #353535; */
+/* Select
+ * 
+ * Styling Select mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitSelect - for border, background-color
+ * 		.dijitButtonContents - for border
+ *
+ * 2. Arrow
+ * 		.dijitArrowButton - for border, padding and background-color|image
+ * 		.dijitArrowButtonInner - for border, background-color|image, display and width|height
+ * 
+ * 3. Menu
+ * 		.dijitSelectMenu .* - for border, padding
+ * 
+ * 4. Various states
+ * 		.dijitSelectHover|.dijitSelectFocused|.dijitSelectDisabled .* - for border, padding and background-color|image 
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/* normal status */
+.corporate .dijitSelect .dijitArrowButtonContainer {
+  border: 0px solid #5d6065;
+}
+.corporate .dijitSelect .dijitArrowButton {
+  padding: 0;
+  background: none;
+  background-color: transparent;
+}
+.corporate .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+  height: 16px;
+}
+/* hover status */
+.corporate .dijitSelectHover {
+  background-color: #ffffff;
+  background-repeat: repeat-x;
+}
+.corporate .dijitSelectFocused,
+.corporate .dijitSelectHover {
+  border-color: #134570;
+}
+.corporate .dijitSelectHover .dijitArrowButton {
+  background-color: #f0f1f2;
+}
+.corporate .dijitSelectHover .dijitArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+}
+/* focused status */
+.corporate .dijitSelectFocused .dijitArrowButton {
+  background-color: #d1dfeb;
+}
+.corporate .dijitSelectFocused .dijitArrowButton {
+  border: none;
+  padding: 1px;
+}
+.corporate .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+}
+/* disable status */
+.corporate .dijitSelectDisabled {
+  border-color: #d1d5db;
+  background-color: #d1d5db;
+  background-image: none;
+  color: #d1d5db;
+}
+.corporate .dijitSelectDisabled .dijitArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+}
+/* Dropdown menu style for select */
+.corporate .dijitSelectMenu td.dijitMenuItemIconCell,
+.corporate .dijitSelectMenu td.dijitMenuArrowCell {
+  /* so that arrow and icon cells from MenuItem are not displayed */
+
+  display: none;
+}
+.corporate .dijitSelectMenu td.dijitMenuItemLabel {
+  /* line up menu text with text in select box (in LTR and RTL modes) */
+
+  padding: 2px;
+}
+.corporate .dijitSelectMenu .dijitMenuSeparatorTop {
+  border-bottom: 1px solid #6d91b0;
+}

@@ -1,0 +1,218 @@
+/* @text-color-dark: #353535; */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/**********************************oaf.base.dnd************************************/
+.dragNode {
+  z-index: 10000;
+  cursor: move;
+}
+.dragHandle {
+  cursor: move;
+}
+.dropIndicator {
+  position: relative;
+  height: 50px;
+  border: 1px dashed #5d6065;
+}
+.dropIndicator > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0e2e5;
+  opacity: 0.17;
+  filter: alpha(opacity=17);
+  -khtml-opacity: 0.17;
+  -moz-opacity: 0.17;
+}
+.dndCover {
+  background-image: url("images/pixel.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  z-index: 9999;
+  cursor: move;
+}
+.dndCover2 {
+  z-index: 10001;
+}
+.dragNode {
+  z-index: 10000;
+  cursor: move;
+}
+.dragHandle {
+  cursor: move;
+}
+.dropIndicator {
+  position: relative;
+  height: 50px;
+  border: 1px dashed #5d6065;
+}
+.dropIndicator > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0e2e5;
+  opacity: 0.17;
+  filter: alpha(opacity=17);
+  -khtml-opacity: 0.17;
+  -moz-opacity: 0.17;
+}
+.dndCover {
+  background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  z-index: 9999;
+  cursor: move;
+}
+.dj_ie7 .orange .dndCover {
+  background-image: url("images/pixel.png");
+}
+.orange .dndCover2 {
+  z-index: 10001;
+}
+.gridContainer {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0;
+  width: 100%;
+  /*height:1%;*/
+  /*Bug focus with IE6/7)*/
+
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+}
+.gridContainerTable {
+  width: 100%;
+  border: 1px solid #5d6065;
+}
+.gridContainerTable tbody,
+.gridContainerTable tr {
+  height: 100%;
+}
+.gridContainerZone {
+  vertical-align: top;
+  background-color: #e0e2e5;
+  height: 100%;
+}
+.gridContainerZone .serviceWidgetTitleText h2 {
+  position: relative;
+}
+.gridContainerGrip {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/pixel.png");
+  height: 100%;
+}
+.gridContainerGripShow {
+  cursor: e-resize;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/gridcontainer_grip.gif");
+  height: 100%;
+}
+.dropIndicator {
+  border: 1px dashed #5d6065;
+}
+.dropIndicator > div {
+  background-color: #e0e2e5;
+}
+.gridContainerZone > * {
+  margin: 10px !important;
+}

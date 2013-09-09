@@ -1,0 +1,1276 @@
+
+/* ********** These were originally dojo provided icons that used one big file and sprite positioning. 
+We have to overwrite this to point to SAS created icons that will additionally work on a theme by theme basis 
+This page has two sets of icons - what Dojo called common and editor. There is a separate page for the rtl
+******************* */
+
+
+
+/* ****************** THE FOLLOWING ARE THE DOJO COMMON ICONS FOR RTL  ******************************************************************************* */
+
+
+/* ************************************ Application ************************************ */
+.dijitIconApplication {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconApplication {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ BackColor ************************************ */
+.dijitEditorIconBackColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconBackColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ Bookmark ************************************ */
+.dijitIconBookmark {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconBookmark {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Chart ************************************ */
+.dijitIconChart {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconChart {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Clear ************************************ */
+.dijitIconClear {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconClear {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Configure ************************************ */
+
+
+.dijitIconConfigure {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconConfigure {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Connector************************************ */
+
+.dijitIconConnector {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconConnector {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Copy ************************************ */
+.dijitIconCopy {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconCopy {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Cut ************************************ */
+
+.dijitIconCut {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconCut {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Database ************************************ */
+
+.dijitIconDatabase {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconDatabase {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Documents ************************************ */
+.dijitIconDocuments {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconDocuments {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Delete ************************************ */
+.dijitIconDelete {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconDelete {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Edit ************************************ */
+.dijitIconEdit {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+
+.dijitDisabled .dijitIconEdit {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ EditProperty ************************************ */
+.dijitIconEditProperty {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconEditProperty {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ EditTask ************************************ */
+.dijitIconEditTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconEditTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Error ************************************ */
+.dijitIconError {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconError {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ File ************************************ */
+.dijitIconFile {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconFile {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Filter ************************************ */
+.dijitIconFilter {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconFilter {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Folder Closed ************************************ */
+.dijitIconFolderClosed {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconFolderClosed {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ Folder Open ************************************ */
+.dijitIconFolderOpen {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconFolderOpen {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Folder Opened ************************************ */
+.dijitFolderOpened {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitFolderOpened {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Function ************************************ */
+.dijitIconFunction {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconFunction {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HiliteColor ************************************ */
+.dijitEditorIconHiliteColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconHiliteColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ Key ************************************ */
+
+.dijitIconKey {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconKey {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Loading ************************************ */
+.dijitIconLoading {
+/*loadingAnimation_rtl.gif */
+background: transparent url('16_png/missing.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .dijitIconLoading {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Mail ************************************ */
+
+.dijitIconMail {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconMail {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ New Task ************************************ */
+.dijitIconNewTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconNewTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Package ************************************ */
+
+.dijitIconPackage {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconPackage {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Print ************************************ */
+
+.dijitIconPrint {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconPrint {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ Sample ************************************ */
+
+.dijitIconSample {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconSample {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Save ************************************ */
+.dijitIconSave {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconSave {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Search ************************************ */
+
+.dijitIconSearch {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconSearch {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Table ************************************ */
+.dijitIconTable {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconTable {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Task ************************************ */
+.dijitIconTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+
+.dijitDisabled .dijitIconTask {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Undo ************************************ */
+.dijitIconUndo {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitIconUndo {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Users ************************************ */
+.dijitIconUsers {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+
+.dijitDisabled .dijitIconUsers {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Leaf ************************************ */
+.dijitLeaf {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitLeaf {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Folder Closed ************************************ */
+.dijitFolderClosed {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitFolderClosed {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ****************** THE FOLLOWING ARE THE EDITOR ICONS  ******************************************************************************* */
+
+
+/* ************************************ FullScreen ************************************ */
+.dijitEditorIconFullScreen { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconFullScreen { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ Bold ************************************ */
+.dijitEditorIconBold { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconBold { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ Cancel ************************************ */
+.dijitEditorIconCancel { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconCancel { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Copy ************************************ */
+.dijitEditorIconCopy { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconCopy { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CreateLink ************************************ */
+.dijitEditorIconCreateLink { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconCreateLink { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Cut ************************************ */
+.dijitEditorIconCut { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconCut { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Delete ************************************ */
+.dijitEditorIconDelete { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconDelete { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ForeColor ************************************ */
+.dijitEditorIconForeColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconForeColor { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ IconSpace ************************************ */
+.dijitEditorIconSpace { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSpace { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Indent ************************************ */
+.dijitEditorIconIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ InsertHorizontalRule ************************************ */
+.dijitEditorIconInsertHorizontalRule { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconInsertHorizontalRule { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ InsertImage ************************************ */
+.dijitEditorIconInsertImage { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconInsertImage { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ InsertOrderedList ************************************ */
+.dijitEditorIconInsertOrderedList { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconInsertOrderedList { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ InsertTable ************************************ */
+.dijitEditorIconInsertTable { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconInsertTable { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ InsertUnorderedList ************************************ */
+.dijitEditorIconInsertUnorderedList { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconInsertUnorderedList { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+/* ************************************ Italic ************************************ */
+.dijitEditorIconItalic {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconItalic {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Justify Center ************************************ */
+.dijitEditorIconJustifyCenter { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconJustifyCenter { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Justify Full ************************************ */
+.dijitEditorIconJustifyFull {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconJustifyFull {
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Justify Left ************************************ */
+.dijitEditorIconJustifyLeft { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconJustifyLeft { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Justify Right ************************************ */
+.dijitEditorIconJustifyRight { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconJustifyRight { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ LeftToRight ************************************ */
+.dijitEditorIconLeftToRight { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconLeftToRight { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ListBulletIndent ************************************ */
+.dijitEditorIconListBulletIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconListBulletIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ListBulletOutdent ************************************ */
+.dijitEditorIconListBulletOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconListBulletOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ListNumIndent ************************************ */
+.dijitEditorIconListNumIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconListNumIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ListNumOutdent ************************************ */
+.dijitEditorIconListNumOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconListNumOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ NewPage ************************************ */
+.dijitEditorIconNewPage { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconNewPage { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ Outdent ************************************ */
+.dijitEditorIconOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconOutdent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Paste ************************************ */
+.dijitEditorIconPaste { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconPaste { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Print ************************************ */
+.dijitEditorIconPrint { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconPrint { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Redo ************************************ */
+.dijitEditorIconRedo { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconRedo { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ RemoveFormat ************************************ */
+.dijitEditorIconRemoveFormat { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconRemoveFormat { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ RightToLeft ************************************ */
+.dijitEditorIconRightToLeft, .dijitEditorIconToggleDir { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconRightToLeft, .dijitEditorIconToggleDir { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Save ************************************ */
+.dijitEditorIconSave { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSave { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Select All ************************************ */
+.dijitEditorIconSelectAll { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSelectAll { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ Sep ************************************ */
+.dijitEditorIconSep { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSep { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ StrikeThrough ************************************ */
+.dijitEditorIconStrikethrough { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconStrikethrough { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SuperScript ************************************ */
+.dijitEditorIconSuperscript { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSuperscript { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SubScript ************************************ */
+.dijitEditorIconSubscript { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconSubscript { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ TabIndent ************************************ */
+.dijitEditorIconTabIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconTabIndent { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Underline ************************************ */
+.dijitEditorIconUnderline { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconUnderline { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Undo ************************************ */
+.dijitEditorIconUndo { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconUndo { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Unlink ************************************ */
+.dijitEditorIconUnlink { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconUnlink { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ViewSource ************************************ */
+.dijitEditorIconViewSource { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconViewSource { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ Wikiword ************************************ */
+.dijitEditorIconWikiword { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .dijitEditorIconWikiword { 
+	background: transparent url('16_png/missing.png') center center no-repeat;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

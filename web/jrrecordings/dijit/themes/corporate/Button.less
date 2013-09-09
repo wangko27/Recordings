@@ -1,0 +1,574 @@
+/* Button | DropDownButton | ComboButton | ToggleButton
+ * 
+ * Styling Buttons mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitButton
+ * 		.dijitDropDownButton
+ * 		.dijitComboButton
+ * 		.dijitButtonNode - common button/arrow wrapper shared across all three button types 
+ *
+ * 2. Button text
+ * 		.dijitButtonText
+ * 
+ * 3. Arrows - only for DropDownButton and ComboButton
+ * 	     There are total four directions arrows - down, left, right, up:
+ * 		.dijitArrowButtonInner - down arrow by default
+ *      .dijitLeftArrowButton .dijitArrowButtonInner - left arrow
+ *      .dijitRightArrowButton .dijitArrowButtonInner - right arrow
+ *      .dijitUpArrowButton .dijitArrowButtonInner - up arrow
+ * 
+ * 4. States - Hover, Active, Disabled, e.g.
+ * 		.dijitButtonHover .dijitButtonNode
+ * 		.dijitButtonActive .dijitButtonNode
+ * 		.dijitButtonDisabled .dijitButtonNode
+ *      
+ *      .dijitDisabled .dijitArrowButtonInner  - disabled arrow states 
+ */
+
+@import "variables";
+
+
+.corporate .dijitButtonText {
+/* font-weight: @default-button-font-weight; */
+
+}
+
+.corporate .dijitButtonNode .dijitButtonText {
+font-weight: bold;
+}
+
+
+/* **************************** HEADER BUTTON TEXT ********************** */
+
+/* this applies to the header only */
+.corporate header .dijitButtonText {
+text-align: center;
+font-weight: @header-button-font-weight;
+/* text-shadow: @default-button-text-shadow; */
+/* text-shadow: 0 0 0 #000000; */
+}
+
+.corporate header .dijitButtonText {
+padding: 2px;
+font-weight: @header-button-font-weight;
+/* text-shadow: @header-button-text-shadow;
+text-align: left;
+*/
+}
+
+/* ************** HEADER BUTTON DEFAULT APPEARANCE ******************* */
+
+/* ************** Default state of all Button appearance including disabled *** */
+.corporate header .dijitButtonNode { 
+background-color: @header-button-background-color;
+background-image: none;
+border: @header-button-border;
+color: @header-button-text-color;
+padding-left: 4px;
+padding-right: 4px;
+.transition-property(background-color);
+.transition-duration(.3s);
+}
+
+/* ************** HEADER BUTTON HOVER APPEARANCE ******************* */
+
+.corporate header .dijitButtonHover .dijitButtonNode {
+color: @header-button-hover-text-color;
+background-color: @header-button-hover-background-color;
+border: @header-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate header .dijitDropDownButtonHover .dijitButtonNode {
+color: @header-button-hover-text-color;
+background-color: @header-button-hover-background-color;
+border: @header-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate header .dijitComboButton .dijitButtonNodeHover {
+color: @header-button-hover-text-color;
+background-color: @header-button-hover-background-color;
+border: @header-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate header .dijitComboButton .dijitDownArrowButtonHover {
+color: @header-button-hover-text-color;
+background-color: @header-button-hover-background-color;
+border: @header-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate header .dijitToggleButtonHover .dijitButtonNode {
+color: @header-button-hover-text-color;
+background-color: @header-button-hover-background-color;
+border: @header-button-hover-border;
+.transition-duration(.2s);
+}
+
+
+
+
+/* ************** HEADER BUTTON ACTIVE AND CHECKED GENERAL APPEARANCE ******************* */
+
+.corporate header .dijitButtonActive .dijitButtonNode, 
+.corporate header .dijitDropDownButtonActive .dijitButtonNode,
+.corporate header .dijitComboButtonActive .dijitButtonNode,
+.corporate header .dijitToggleButtonActive .dijitButtonNode {
+color: @header-button-active-text-color;
+background-color: @header-button-active-background-color;
+.transition-duration(.1s);
+border: @header-button-active-border!important;
+}
+
+.corporate .dijitToggleButtonChecked .dijitButtonNode {
+}
+
+
+/* ************** HEADER BUTTON DISABLED ******************* */
+
+.corporate header .dijitDisabled * {
+/*
+text-shadow: @header-button-disabled-text-shadow;
+background-color: @header-button-disabled-background-color;
+color: @disabled-color;
+*/
+}
+
+
+.corporate header .dijitButton .dijitButtonDisabled {
+}
+
+
+.corporate header .dijitButtonDisabled,
+.corporate header .dijitDropDownButtonDisabled,
+.corporate header .dijitComboButtonDisabled,
+.corporate header .dijitToggleButtonDisabled {
+}
+
+.corporate header .dijitButtonDisabled .dijitButtonNode,
+.corporate header .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate header .dijitComboButtonDisabled .dijitButtonNode,
+.corporate header .dijitToggleButtonDisabled .dijitButtonNode {
+color: @header-button-disabled-text-color;
+background-color: @header-button-disabled-background-color;
+border: @header-button-disabled-border;
+outline: none;
+opacity: 0.4;
+font-weight: 400;
+}
+
+
+/* ************** DEFAULT BUTTON DEFAULT APPEARANCE ******************* */
+
+.corporate .dijitButtonText {
+text-align: center;
+}
+
+/* ************** Default state of all Button appearance including disabled *** */
+.corporate .dijitButtonNode { 
+background-color: @default-button-background-color;
+background: @default-button-background;
+border:	@default-button-border;
+color: 	@default-button-text-color;
+cursor: pointer;
+padding: 2px;
+.transition-property(background-color);
+.transition-duration(.3s);
+}
+
+.corporate #searchPane .dijitButtonNode,
+.corporate #searchFilterButtonMobile .dijitButtonNode {
+background-color: transparent;
+border: 1px solid #f0f1f2;
+}
+
+.corporate #newFolder {
+background-color: transparent;
+}
+
+
+
+.corporate .nameValue .dijitButtonNode,
+.corporate .nameValue .dijitButtonHover .dijitButtonNode,
+.corporate .nameValue .dijitButtonActive .dijitButtonNode {
+border-width: 0;
+background-color: transparent;
+}
+
+
+
+/* ************** Inherits from ButtonNode but only applies unique features for Button *** */
+.corporate .dijitButton {
+}
+
+
+/* ************** Inherits from ButtonNode but only applies unique features for DropDown *** */
+.corporate .dijitDropDownButton {
+}
+
+/* ************** Inherits from ButtonNode but only applies unique features for ComboButton *** */
+.corporate .dijitComboButton {
+}
+
+/* ************** Inherits from ButtonNode but only applies unique features for ToggleButton *** */
+.corporate .dijitToggleButton {
+}
+
+
+/* ************** DEFAULT BUTTON HOVER APPEARANCE ******************* */
+
+.corporate .dijitButtonHover .dijitButtonNode {
+color: @default-button-hover-text-color;
+background-color: @default-button-hover-background-color;
+border: @default-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate .dijitDropDownButtonHover .dijitButtonNode {
+color: @default-button-hover-text-color;
+background-color: @default-button-hover-background-color;
+border: @default-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate .dijitComboButton .dijitButtonNodeHover {
+color: @default-button-hover-text-color;
+background-color: @default-button-hover-background-color;
+border: @default-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate .dijitComboButton .dijitDownArrowButtonHover {
+color: @default-button-hover-text-color;
+background-color: @default-button-hover-background-color;
+border: @default-button-hover-border;
+.transition-duration(.2s);
+}
+
+.corporate .dijitToggleButtonHover .dijitButtonNode {
+color: @default-button-hover-text-color;
+background-color: @default-button-hover-background-color;
+border: @default-button-hover-border;
+.transition-duration(.2s);
+}
+
+
+
+
+
+
+/* ************** DEFAULT BUTTON ACTIVE AND CHECKED GENERAL APPEARANCE ******************* */
+
+.corporate .dijitButtonActive .dijitButtonNode, 
+.corporate .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .dijitComboButtonActive .dijitButtonNode,
+.corporate .dijitToggleButtonActive .dijitButtonNode {
+
+color: @default-button-active-text-color;
+background-color: @default-button-active-background-color;
+border: @default-button-active-border!important;
+.transition-duration(.1s);
+}
+
+.corporate .dijitToggleButtonChecked .dijitButtonNode {
+}
+
+
+/* ************** DEFAULT BUTTON DISABLED APPEARANCE ******************* */
+
+.corporate .dijitButton .dijitButtonDisabled {
+}
+
+
+
+.corporate .dijitButtonDisabled,
+.corporate .dijitDropDownButtonDisabled,
+.corporate .dijitComboButtonDisabled,
+.corporate .dijitToggleButtonDisabled {
+}
+
+
+
+
+.corporate .dijitButtonDisabled .dijitButtonNode,
+.corporate .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate .dijitComboButtonDisabled .dijitButtonNode,
+.corporate .dijitToggleButtonDisabled .dijitButtonNode {
+color: @default-button-disabled-text-color;
+background-color: @default-button-disabled-background-color;
+border: @default-button-disabled-border;
+outline: none;
+opacity: 1;
+}
+
+.corporate .dijitComboButtonDisabled .dijitArrowButton{ 
+	border-left-width: 0;
+}
+
+.corporate .dijitDisabled {
+background-color: @disabled-background-color;
+opacity: 0.4;
+font-weight: @toolbarbutton-disabled-font;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************** MISCELLEANEOUS STYLES ********************** */
+
+
+
+/* for ComboButton */
+.corporate table.dijitComboButton {
+	border-collapse: separate;	/* override dijit.css so that ComboBox rounded corners work */
+}
+
+.corporate .dijitComboButton .dijitStretch {
+}
+
+.corporate .dijitComboButton .dijitArrowButton {
+}
+
+
+.corporate .tooltipLink .dijitButtonNode,
+.corporate .tooltipLink .dijitButtonNode .dijitDropDownButtonHover,
+.corporate .buttonLink .dijitButtonNode,
+.corporate .buttonLink .dijitButtonHover .dijitButtonNode {
+/* background-color: pink; */
+}
+
+.corporate .dijitComboButton .dijitArrowButton {
+	border-left-width: 0;
+	padding: 4px 2px 4px 2px;	
+}
+
+.corporate .dijitStretch {
+}
+
+.corporate .dijitRight {
+}
+
+/* **************************** ARROW STYLES ********************** */
+
+.corporate header .dijitArrowButtonInner {
+border: 0 solid #C6CAD0;
+}
+
+
+.corporate .dijitArrowButtonInner {
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+	background-color: transparent;
+	background: url(@image-form-button-arrow_down) center center no-repeat;
+	/* u might need a border */
+	border: 0 solid #c6cad0;
+}
+
+
+.corporate .dijitInputField .dijitArrowButtonInner {
+border: 0 solid #c6cad0;
+}
+
+
+
+.corporate header .dijitArrowButtonInner {
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+	background-color: transparent;
+	background: url(@image-form-button-arrow_down_light) center center no-repeat;
+	border: 0 solid #c6cad0;
+}
+
+.corporate header .dijitToolBar .dijitArrowButtonInner {
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+	background-color: transparent;
+	background: url(@image-form-button-arrow_down) center center no-repeat!important;
+	border: 0 solid #c6cad0;
+}
+
+
+
+
+
+
+
+.corporate .dijitLeftArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_left) center center no-repeat;
+}
+.corporate .dijitRightArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_right) center center no-repeat;
+}
+.corporate .dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_up) center center no-repeat;
+}
+.corporate .dijitDisabled .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_down) center center no-repeat;
+	opacity: 0.4;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.corporate .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_left) center center no-repeat;
+	opacity: 0.4;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.corporate .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_right) center center no-repeat;
+	opacity: 0.4;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.corporate .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(@image-form-button-arrow_up) center center no-repeat;
+	opacity: 0.4;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************** TEXTBOX BUTTON DEFAULT APPEARANCE ******************* */
+
+/* ******* default ********* */
+.corporate .dijitTextBox .dijitButtonNode { 
+background-color: none;
+background: transparent;
+border-width: 0;
+border: 0;
+}
+
+
+/* ******* hover ********* */
+.corporate .dijitTextBox .dijitButtonHover .dijitButtonNode {
+background-color: none;
+background: transparent;
+border-width: 0;
+}
+
+.corporate .dijitTextBox .dijitDropDownButtonHover .dijitButtonNode {
+background-color: none;
+background: transparent;
+border-width: 0;
+}
+
+.corporate .dijitTextBox .dijitComboButton .dijitButtonNodeHover {
+background-color: none;
+background: transparent;
+border-width: 0;
+}
+
+.corporate .dijitTextBox .dijitComboButton .dijitDownArrowButtonHover {
+background-color: none;
+background: transparent;
+border-width: 0;
+}
+
+.corporate .dijitTextBox .dijitToggleButtonHover .dijitButtonNode {
+background-color: none;
+background: transparent;
+border-width: 0;
+}
+
+
+.corporate .dijitButtonActive .dijitButtonNode, 
+.corporate .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .dijitComboButtonActive .dijitButtonNode,
+.corporate .dijitToggleButtonActive .dijitButtonNode {
+/*
+background-color: none;
+background: transparent;
+*/
+background-color: @active-background-color;
+background-image: none;
+border-width: 0;
+}
+
+
+
+.corporate .dijitButtonDisabled,
+.corporate .dijitDropDownButtonDisabled,
+.corporate .dijitComboButtonDisabled,
+.corporate .dijitToggleButtonDisabled {
+/*
+background-color: none;
+background: transparent;
+border-width: 0;
+*/
+background-color: @default-button-disabled-background-color;
+
+
+}
+
+.corporate .dijitButtonDisabled .dijitButtonNode,
+.corporate .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate .dijitComboButtonDisabled .dijitButtonNode,
+.corporate .dijitToggleButtonDisabled .dijitButtonNode {
+/*background-color: none;
+background: transparent;
+*/
+border-width: 1px;
+
+background-color: @default-button-disabled-background-color;
+
+}
+
+
+
+
+/* testing only
+.corporate .dijitToggleButton {
+border: 1px solid red;
+}
+
+.corporate .dijitButton {
+border: 1px solid yellow;
+}
+
+.corporate .dijitDropDownButton {
+border: 1px solid pink;
+}
+
+.corporate .dijitComboButton {
+border: 1px solid green;
+}
+*/
+
+
+
+/* this gets buttons in dialogPaneAction to have a min width so toolbar buttons are not impacted - need better solution later */
+
+.corporate .dijitDialogPaneActionBar .dijitButtonNode {
+min-width: 80px;
+padding: 2px;
+}
+
+
+.corporate .dijitButton {
+/* border: 1px solid red; */
+}
+
+
+
+
+
+

@@ -1,0 +1,2234 @@
+ /*-----MAIn APP ----*/
+
+ /* Removes Chrome's orange outline on components */
+ *:focus {outline: none;}
+
+
+ .pageOverlay {
+     top: 0;
+     left: 0;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     z-index: 1001;
+     display: block;
+ }
+
+ #loadingOverlay {
+     background:  #efefef url('../images/spinner.gif') no-repeat 32px 32px;
+ }
+
+
+ .loadingMessage {
+     padding: 40px 100px;
+     color: #4c5a6d;
+ }
+
+ .sbBorderLayout{
+     width: 100%;
+     height: 100%;
+     min-width: 1em; min-height: 1px; z-index: 0;
+ }
+
+ .scenarioBldr_left {
+     width: 100%;
+     height: 100%;
+     min-width: 1em; min-height: 1px; z-index: 0;
+ }
+
+ .scenarioContainer  {
+
+     border: 2px;
+     border-radius: 4px;
+     width: 100%;
+     height: 100%;
+     /*margin-left: 3px;*/
+     /*margin-right: 3px;*/
+     overflow: hidden;
+     padding: 0px !important;
+ }
+
+
+ .dijitTitlePaneTextNode  {
+
+     font-size:1.2em;
+     vertical-align: middle;
+ }
+
+
+ .vsdBanner {
+     border: none;
+     /*   height: 40px; */
+     padding: 5px;
+
+ }
+
+ .vsdTitle {
+     vertical-align: middle;
+     letter-spacing: .8px;
+     margin-bottom: 0.727em;
+     margin-top: 0.5em;
+     text-shadow: 0 0 0 #000000;
+     font-size: 1.525em;
+     font-weight: 600!important;
+ }
+
+ .saslogo  {
+     background-image:url(../../themes/corporate/images/sas_logo/logo-banner1.png)  !important;
+     background-repeat: no-repeat;
+     width: 60px;
+     height: 55px;
+     float: right;
+     display: table-cell;
+     vertical-align: middle;
+
+ }
+
+ .vsdContainer {
+     top: 35px;
+     border: 2px groove #E0E2E5;
+     bottom:0px;
+     margin: 0;
+     padding: 0;
+     width:100%;
+     position:absolute;
+ }
+
+
+ .dijitAccordionContainer-child   {
+     height: 100%;  !important
+ width: 100%; !important
+ }
+
+ svg text {
+     font-size: .9em;
+ }
+
+ .dgrid-no-data,
+ .dgrid-loading {
+     color: #aaa;
+     font-size: 3em;
+     padding: 3em;
+     text-align: center;
+ }
+
+
+/* ActionColumnEditor */
+.actionGridEditor .actionEditorButtons {
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+/* Action Grid */
+.actionGridPanel {
+    width: 100%;
+    height: 100%;
+}
+
+.addBtn {
+    background-image:url(../images/Add.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.actionGrid {
+    height: auto;
+}
+.actionGrid .dgrid-scroller {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.actionGrid  .dgrid-row-odd {
+    background: transparent;
+}
+
+.actionGrid  .dgrid-row-even  {
+    background: transparent;
+}
+.actionGrid .field-actionVarName {
+    width: 40%;
+}
+
+.actionGrid .field-actionFlag {
+    width: 35px;
+    margin: 0 auto;
+}
+
+.actionGrid .field-actionType {
+    margin: 0 auto;
+    text-align: left;
+}
+.actionGrid .dgrid-content {
+    width: 100% !important;
+    height: inherit;
+}
+
+fieldset.sectionBorder {
+    border: 1px #CCC inset;
+    border-radius: 8px;
+    padding-left: 7px;
+    margin-bottom: 7px;
+}
+
+fieldset.sectionBorder.collapsed {
+    display: none;
+}
+
+.actionGridEditor {
+
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 1%;
+    height: 100%;
+}
+
+.actionGridEditor .actionColEditorTitle  {
+    font-weight: bold;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.actionGridEditor .actionEditorCol {
+    float: left;
+    margin-right: 20px;
+}
+.actionGridEditor .actionVarFormLine {
+    margin-bottom: 10px;
+}
+
+.actionEditorCol label, .actionEditorCol input {
+    display: block;
+    float: left;
+}
+.actionEditorCol label {
+    width: 80px;
+}
+.actionEditorCol input {
+    width: 80px;
+}
+
+.actionGridEditor .actionEditorButtons {
+    clear: left;
+}
+
+.borderNode {
+    margin: 2px;
+}
+
+.actionNode {
+    padding: 3px;
+}
+
+.actionNode label {
+    display: block;
+    float: left;
+}
+.actionNode label {
+    width: 150px;
+}
+
+.actionNode .tfCombo{
+    width: 80px;
+}
+
+.actionNode select{
+    width: 120px;
+}
+
+.actionNode div .dijitDateTextBox{
+    width: 80px;
+}
+
+.actionNode .actionTextInput {
+    width: 50%;
+}
+
+/*  AdjustCoumnBinsDialog */
+.adjustBinsDialog .dijitContentPane{
+    width: 600px !important;
+    height: 400px !important;
+}
+
+.adjBinGrid .dgrid-content{
+    width: 100% !important;
+    height: inherit;
+}
+
+.adjustBinsDialog  .dgrid-row-odd {
+    background: transparent;
+}
+
+.adjustBinsDialog .field-binNbr {
+    width: 10%;
+}
+.adjustBinsDialog .field-selector {
+    width: 10%;
+}
+
+
+/* Aggregate Builder */
+.aggrInfo {
+
+    border-style: solid !important;
+    border-width: thin !important;
+}
+
+.aggrInfo .nestEvent1 {
+
+    padding-left: 10px;
+    border-style: inset !important;
+    border-width: thin !important;
+}
+
+.aggrInfo .rowButtons .dijitButtonNode{
+    background: transparent;
+    border: none;
+}
+
+.aggrInfo .nestEvent2 {
+    padding-left: 25px;
+}
+.aggrInfo .plusIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Add.png) !important;
+    background-repeat:  no-repeat;
+    vertical-align: text-bottom;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.aggrInfo .minusIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Clear.png) !important;
+    background-repeat:  no-repeat;
+    vertical-align: text-bottom;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.aggrInfo .nestIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/NestRows.png) !important;
+    background-repeat:  no-repeat;
+    vertical-align: text-bottom;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.aggrInfo .hideLevel {
+    display: none;
+}
+
+.aggrInfo .showLevel {
+    display: block;
+}
+
+/*--- Breadcrumb ---*/
+
+.breadcrumb {
+    list-style: none;
+    overflow: hidden;
+}
+
+.breadcrumb li{
+    float:left;
+}
+
+.breadcrumb li .crumb{
+    color: #000000;
+    text-decoration: none;
+    padding: 1px 2px 1px 15px;
+    background: transparent;
+    /* border: 1px solid #787f86;*/
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.breadcrumb .crumb:hover{
+    color: #4f8cb6;
+}
+
+.breadcrumb li div:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 7px solid transparent;
+    border-left: 5px solid hsl(214, 18%, 27%);
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    left: 100%;
+    z-index: 2;
+}
+
+.breadcrumb li div:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 7px solid #c1cad4;
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+
+.breadcrumb li div:hover:before {
+
+    border-left: 8px solid #ffffff;
+}
+
+/*---- ColumnList ----*/
+.columnList {
+    background: transparent;
+    padding-left: 2px;
+}
+
+.columnList .dgrid {
+    position: relative;
+    overflow: hidden; /* This is needed by IE to prevent crazy scrollbar flashing! */
+    border: none;
+    height: 30em;
+    display: block;
+}
+.columnList .CHARACTERIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/CharacterType.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.columnList .NUMERICIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/Measure.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+-columnList .dgrid-cell {
+    border: none;
+}
+
+
+#columnList .dgrid-content {
+    width: 100% !important;
+    height: inherit;
+}
+
+
+.columnList  .field-cnt {
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 3px;
+}
+.columnList  .field-label {
+    width: 90%;
+    white-space: nowrap;
+}
+
+
+.columnList  .field-vartype {
+    margin: 0 auto;
+    text-align: center;
+    width: 18px;
+}
+
+.columnList  .dgrid-row {
+    padding: 2px 0;
+
+}
+
+.columnList  .dgrid-row-odd {
+    background: transparent;
+    padding: 2px 0;
+}
+
+.columnList .dgrid-cell {
+    border: none;
+}
+
+
+.columnList  .dgrid-row-even  {
+    background: transparent;
+}
+
+.columnList .dojoDndItemOver {
+    padding: 2px 0;
+    border: none;
+}
+
+/*--- Condition Expression ---*/
+
+
+.condtionExpression{
+    -webkit-padding-start: 5px;
+    margin-top: 0px;
+    list-style: none;
+
+}
+
+.condtionExpression li{
+    float: left;
+    margin: 5px 5px 0 1em;
+
+}
+
+.condtionExpression .condition{
+
+    /*  background: #6c7379;*/
+    padding: .1em 1em 0em;
+    float: left;
+    text-decoration: none;
+    color: #384352;
+    background-color: #bec7d1;
+    text-shadow: 0 1px 0 rgba(132, 134, 136, 0.47);
+    position: relative;
+}
+
+.condtionExpression .condition:hover{
+    /*  background: #848b93;*/
+}
+
+.condtionExpression .condition::before{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    margin-top: -.8em;
+    border-width: .8em 0 .8em 1em;
+    border-style: solid;
+    border-color: #bec7d1 #bec7d1 #bec7d1 transparent;
+    /*border-color: red;*/
+    left: -.9em;
+}
+
+.condtionExpression .condition:hover::before{
+    /* border-color: #848b93 transparent;*/
+}
+
+.condtionExpression .condition::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -.8em;
+    border-top: .8em solid transparent;
+    border-bottom: .8em solid transparent;
+    border-left: 1em solid #bec7d1;
+    right: -.9em;
+}
+
+.condtionExpression .condition:hover::after{
+    border-left-color: #bec7d1;
+}
+
+.condtionExpression .current,
+.condtionExpression .current:hover{
+    font-weight: bold;
+    background: none;
+}
+
+.condtionExpression .current::after,
+.condtionExpression .current::before{
+    content: normal;
+}
+
+.condtionExpression .deleteIconShow {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/CloseTab.png);
+    background-size: 85%;
+    background-repeat:  no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+    position: absolute;
+    top: 5px;
+    z-index: 30;
+}
+
+.condtionExpression .deleteIconHide{
+    display: none;
+
+}
+
+.condtionExpression .condition.obsoleteCondition {
+    color: #ff6152;
+    font-weight: bold;
+}
+
+
+/*--- Decision Tree ----*/
+.nodebox {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3.5px;
+}
+
+.nodeTitle {
+    font: 8px sans-serif;
+    font-weight: bold;
+}
+
+.nodeText {
+    font: 8px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 3.5px;
+}
+
+/*-------------------- New Deployment Dialog --------------------*/
+
+.newDeploymentCol {
+    padding: 5px;
+}
+.newDeploymentCol label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.newDeploymentCol input, {
+    display: inline-block;
+    vertical-align: middle;
+}
+.newDeploymentCol div .dijitDateTextBox{
+    width: 100px;
+}
+.newDeploymentCol .selectionGrid {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.selectionGrid .dgrid {
+    width: 500px;
+    height: 180px;
+}
+
+.selectionGrid th {
+    font-weight: bold;
+}
+
+.selectionGrid .field-checked {
+    width: 2em;
+}
+.newDeploymentCol .helpIcon {
+    background-image:url(../images/help2.png)  !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    display: inline-block;
+}
+
+/*---------------------------------------------------------------------*/
+.deploymentBorderLayout {
+    width: 100%;
+    height: 100%;
+    min-width: 1em; min-height: 1px; z-index: 0;
+}
+
+
+.deploymentDisableBtn {
+    padding: 0;
+}
+
+/*------------------------ Tabs ---------------------------------------*/
+
+.deploymentTabContainer {
+    height:100%;
+    width:100%;
+}
+
+.deploymentTab  {
+    border: 1px solid rgb(53, 89, 172);
+    overflow:auto;
+    width:100%;
+    height:100%;
+
+}
+
+/*.deploymentTab .dijitContentPane  .dijitTabPane  .dijitTabPaneWrapper
+.dijitStackContainer-child, .dijitAccordionContainer-child {
+    overflow: auto;
+}
+*/
+
+/*------------------------ WindowDiv ----------------------------------*/
+.deploymentWindowDiv{
+    padding: 10px 20px 5px 20px; /* top, right, bottom, left */
+    /*  width: 750px; */
+}
+
+.deploymentWindowDivTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.deploymentWindowOrgName {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.deploymentScDivTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.deploymentScTypeFilter {
+    padding-left: 50px;
+    vertical-align: middle;
+}
+
+.deploymentWindowDivContent {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.deploymentWindowDiv .dijitButton {
+    font-size: .9em;
+}
+
+/*------------------------ ConditionsDiv ----------------------------------*/
+.deploymentConditionsDiv {
+    background-color: #f0f1f2;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+
+    border-style: solid !important;
+    border-width: thin !important;
+    border-color: #848b93 !important;
+
+}
+
+.deploymentConditionsDivHeading {
+    background-color:/* #bec7d1;  */  #e0e2e5 ;
+    vertical-align: middle;
+    display: block;
+    /*height: 26px; */ /* Firefox does not like height property */
+    /*
+    border-style: outset;
+    border-width: thin;
+    border-color: #848b93;
+    */
+    border: none;
+    margin: 0;
+}
+.deploymentConditionsDivHeading label{
+    font-size: 1em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+div.deploymentConditionsDivContent {
+    padding: 0px;
+    border-style: inset;
+    margin: 0 0 0 1px;
+    border-left-style: solid;
+    border-width: thin;
+    border-color: #848b93;
+}
+
+/*------------------------ Condition (individual) ------------------------------*/
+.deploymentCondition {
+    padding-left: 25px;
+    padding: 3px;
+    margin: 0px;
+    min-width: 600px;
+    /* background-color: #51545B; */
+}
+
+.deploymentDisabled {
+    color: #ababab;
+}
+
+.deploymentConditionLhs{
+    width: 200px;
+    display: inline-block;
+}
+
+.deploymentConditionOperator {
+    width: 175px;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+.deploymentConditionAndOperator {
+    width: auto;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+.deploymentConditionRhs {
+    /* float: right; */
+}
+
+
+/*------------------------ NestedDiv ----------------------------------*/
+
+.deploymentNestedDiv {
+    padding: 5px 0px 0px 20px; /* top, right, bottom, left */
+}
+
+.deploymentNestedDiv label{
+    font-style: italic;
+}
+
+.deploymentNestedDivContent {
+    padding: 5px 0px 0px 10px;
+    margin: 5px 0px 10px 0px;
+
+    border-style: inset;
+    border-width: thin;
+    /*
+    border-color: #848b93;
+    */
+    border-left: 1px dotted #848b93;
+}
+
+/*------------------------ OrgList  ----------------------------------*/
+
+
+.deploymentOrgList {
+    background: #c3d5e5;
+    border: solid #c3d5e5;
+}
+
+.deploymentOrgList .dgrid {
+    height: 55em;
+    /*
+    width: 100% !important;
+    height: 100% !important;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        */
+}
+
+.deploymentOrgList .dijitTitlePaneTitle {
+    text-align: left;
+    vertical-align: middle;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.deploymentOrgList .dijitTitlePaneTextNode {
+    font-size:  1.2em;
+    font-weight: bold;
+}
+
+
+.deploymentOrgList .dgrid-cell {
+    border: none;
+}
+
+.deploymentOrgList .dgrid-row{
+    background: transparent;
+    padding: 1px 5px;
+    border: none;
+}
+
+.deploymentOrgList .dgrid-selected {
+    border: none;
+}
+
+.deployment input,
+.deployment .dijitTextBox,
+.deployment .dijitInputInner{
+    text-align: center;
+    border: none;
+    width: 98%;
+}
+
+.deploymentExpandBtn .dijitButtonNode,
+.deploymentExpandBtn .dijitButtonHover {
+    background: transparent;
+    border-color: transparent;
+}
+
+.deploymentExpandIcon {
+    background-image: url('../../themes/corporate/images/sasIcons/sasdark/16_png/Unfold.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    margin:0px auto;
+}
+.deploymentCollapseIcon {
+    background-image: url('../../themes/corporate/images/sasIcons/sasdark/16_png/Fold.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    margin:0px auto;
+}
+
+/*--- Entry Dialog ------*/
+
+.entryDialog .field-name {
+    width: 23em;
+}
+
+.entryDialog .objType-type {
+    width: 7em;
+}
+
+.entryDialog .field-lstupdtTimestamp {
+    width: 11em;
+}
+
+.entryDialog a:link,
+.entryDialog a:visited{
+    text-decoration: none;
+    font-size: .98em;
+}
+
+/*----- Filter Summary Div ----*/
+.scFilterHidden {
+    opacity:0;
+    z-index:-1;
+    position:absolute;
+}
+
+.scFilterVisible {
+    opacity: 1;
+    z-index: 1;
+    position:absolute;
+}
+
+div.scFilterSummary {
+    font: 1em sans-serif;
+    background-color: #454852;
+    border: 1px solid rgb(132, 139, 147);
+    border-radius: 4px;
+    color: #efefef;
+    overflow: auto;
+    padding: 15px;
+}
+
+.scFilterSummary h1{
+    font: 1.1em sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.scFilterSummaryLabel {
+    padding:  10px 10px 0px 10px;
+    font-weight: bold;
+}
+
+.scFilterNote {
+    padding: 10px;
+    font-style:italic;
+}
+.scFilterXBtn {
+    height: 16px;
+    width: 16px;
+    text-align:center;
+    vertical-align:middle;
+    /*background-image:url(../images/list_remove.png) !important;*/
+    background-image:url(../images/delete.png) !important;
+    background-size: 14px;
+    margin-top: 2px;
+    margin-left: 2px;
+    background-repeat:  no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.scFilterXBtn:hover {
+    height: 18px;
+    width: 18px;
+    margin: 0px;
+    background-size: 18px;
+}
+
+.scFilterXBtn:active {
+    background-color: #51545B;
+    border: 1px inset;
+}
+
+table.scFilterTable {
+    font: .9em sans-serif;
+    padding: 5px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/*
+.scFilterTable tr:nth-child(odd) {
+    background-color:  #454852;
+}
+.scFilterTable tr:nth-child(even) {
+    background-color:  #51545B;
+}
+*/
+
+.scFilterXCol {
+    width: 18px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.scFilterCondCol {
+    width: auto;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 15px;
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    word-break: break-all;
+    white-space: normal;
+}
+
+.scFilterPctVal {
+    text-align: right;
+    vertical-align: middle;
+    width: 35px;
+}
+
+.scPctScale {
+    width: 70px;
+    border-bottom: 2px inset #efefef;
+    border-left: 1px inset #efefef;
+}
+
+.scFilterPctCol {
+    width: 100px;
+    height: 100%;
+    vertical-align:middle;
+    white-space: nowrap;
+    border-left: 1px inset #efefef;
+}
+
+.filterPctBar {
+    height: 12px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    float: left;
+    vertical-align:middle;
+    background-image: -moz-linear-gradient(top, rgb(133, 150, 199) 0%, rgb(67, 95, 176) 33%, rgb(61, 90, 174) 66%, #040708 100%);
+    background-image: -webkit-linear-gradient(top, rgb(133, 150, 199) 0%, rgb(67, 95, 176) 33%, rgb(61, 90, 174) 66%, #040708 100%);
+    background-image: -o-linear-gradient(top, rgb(133, 150, 199) 0%, rgb(67, 95, 176) 33%, rgb(61, 90, 174) 66%, #040708 100%);
+    background-image: -ms-linear-gradient(top, rgb(133, 150, 199) 0%, rgb(67, 95, 176) 33%, rgb(61, 90, 174) 66%, #040708 100%);
+    background-image: linear-gradient(top, rgb(133, 150, 199) 0%, rgb(67, 95, 176) 33%, rgb(61, 90, 174) 66%, #040708 100%);
+    border: 0px solid rgba(17, 74, 86, 0.55);
+}
+
+
+/*----- Form Layout ---*/
+
+.vsdFormCntlCol {
+    float: left;
+    margin-right: 20px;
+}
+.vsdFormCntlFormLine {
+    margin-bottom: 10px;
+}
+
+.vsdFormCntlFormLine label,
+.vsdFormCntlFormLine input,
+.vsdFormCntlFormLine select{
+    display: block;
+    float: left;
+}
+
+.vsdFormCntl .vsdFormCntlFormButtons {
+    clear: left;
+}
+
+
+/*------ Grid Histogram and its ToolTips ------*/
+
+.histchart {
+    width:300px;
+    margin:0 auto;
+    height: 35px;
+}
+
+.histchart.hide {
+    display: none;
+}
+
+.toolTipBox .dijitButtonNode {
+    background: transparent;
+    border: none;
+}
+
+.sparkLoadingOverlay {
+    background:  transparent url('../../themes/corporate/images/loadingAnimation.gif') no-repeat;
+    height: 18px;
+    width: 18px;
+    margin:0 auto;
+}
+
+
+.sparkLoadingOverlay.hide {
+    display: none;
+}
+
+
+.distchart .bar {
+    fill: #6d91b0;
+    stroke: #134570;
+    /*  stroke: rgb(79, 140, 182);*/
+    opacity: .6;
+    cursor: pointer;
+}
+
+.distchart .barHighlighted {
+    fill: #E0E2E5;
+    stroke: #E0E2E5;
+    cursor: pointer;
+}
+
+
+.distchart rect.chartFrame {
+    fill: none;
+    stroke: #c3c3c3;
+    stroke-width: .08em;
+}
+
+.distchart .grid .tick {
+    stroke: #c3c3c3;
+    opacity: 0.3;
+}
+
+.distchart .grid path {
+    stroke-width: 0;
+}
+
+.distchart div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    border: 0px;
+    border-radius: 8px;
+}
+
+
+
+.chart rect {
+    fill: #6d91b0;
+
+}
+
+.rowHistogram   {
+    stroke: #134570;
+    fill: #6d91b0;
+    opacity: .6;
+
+}
+
+
+.cotchart .cotArea circle {
+    stroke: #134570;
+    fill: #6d91b0;
+}
+
+.axis {
+    shape-rendering: crispEdges;
+    fill: #000000;
+}
+
+.axis path, .axis line {
+    fill: none;
+}
+
+.x.axis path {
+    stroke: #134570;
+}
+
+.x.axis line {
+    stroke: #b2b6b2;
+    fill: #e9ebee;
+    stroke-opacity: .3;
+}
+
+.y.axis line {
+    stroke: #b2b6b2;
+    fill: #e9ebee;
+    stroke-opacity: .3;
+}
+
+.cotchart path.line {
+    fill: none;
+    stroke: #134570;
+    stroke-width: 2px;
+}
+
+.cotchart rect.chartFrame {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+    stroke: #c3c3c3;
+    stroke-width: .08em;
+}
+
+.cotchart .cotArea   {
+    stroke: #134570;
+    fill: #6d91b0;
+
+}
+
+.cotchart path.area {
+    fill: #6d91b0;
+    opacity: .5;
+}
+
+
+.sumStats line,
+.sumStats rect {
+    fill: #6d91b0;
+    stroke: #134570;
+    stroke-width: 1.5px;
+    opacity: .7;
+}
+
+.sumStats .median,
+.sumStats .mean {
+    fill: #4f8cb6;
+    stroke: #000000;
+    stroke-width: 1px;
+    opacity: 1;
+}
+
+.sumStats .whisker {
+    stroke: #000000;
+    fill: #4f8cb6;
+    stroke-width: .08em;
+}
+
+.sumStats .center {
+    stroke-dasharray: 3,3;
+}
+
+.sumStats text.boxTextEven ,
+.sumStats text.boxTextOdd,
+.sumStats .whiskerText{
+    fill: #000000;
+}
+
+
+.sumStats rect.chartFrame {
+    fill: none;
+    stroke: #c3c3c3;
+    stroke-width: .08em;
+}
+
+
+/*---- New WIndow -----*/
+
+.newWinCol {
+    padding: 5px;
+}
+.newWinCol label, .newWinCol input {
+    display: block;
+    float: left;
+}
+.newWinCol label {
+    width: 165px;
+}
+
+.newWinCol select{
+    width: 250px;
+}
+
+.newWinCol div .dijitDateTextBox{
+    width: 100px;
+}
+
+.newWinCol .dijitComboBox  {
+    width: 250px;
+}
+
+.newWinCol .helpIcon {
+    background-image:url(../images/help2.png)  !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    display: inline-block;
+}
+
+
+/*---- Open Dialog ----*/
+
+.refreshIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Refresh.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.searchIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Search.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.deleteIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Delete.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.openDialog .field-name {
+    width: 20em;
+}
+
+.openDialog .field-createUser {
+    width: 6em;
+}
+
+.openDialog .field-lstupdtUser {
+    width: 6em;
+}
+
+.openDialog .field-lstupdtTimestamp {
+    width: 10em;
+}
+
+.openDialog .dgrid-expando-icon {
+    background: none
+}
+
+.openDialog .ui-icon-triangle-1-e {
+    background-image: url("../../themes/corporate/images/treeExpandImagesclosed.png");
+}
+.openDialog .ui-icon-triangle-1-se {
+    background-image: url("../../themes/corporate/images/treeExpandImagesopen.png");
+}
+
+/* Needed for correct expand behavior */
+.openDialog .dgrid-tree-container {
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    overflow: hidden;
+}
+.openDialog .dgrid-tree-container.dgrid-tree-resetting {
+    -webkit-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -ms-transition-duration: 0;
+    -o-transition-duration: 0;
+    transition-duration: 0;
+}
+
+/*---- Partition Chart ----*/
+
+.tile {
+    shape-rendering: crispEdges;
+}
+/*
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #3D5598;
+    shape-rendering: crispEdges;
+}*/
+
+.brush .extent {
+    stroke: #c3c3c3;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
+
+text.headerText {
+    font-size: 13px;
+    margin-left: 15px;
+    fill: #000000;
+
+
+}
+
+.chart{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 11px;
+    color: #000000;
+}
+g.level {
+    color: #000000;
+}
+
+rect.parent {
+    cursor: pointer;
+    fill: #6d91b0;
+    stroke: #134570;
+}
+
+#pChart rect.parent {
+    cursor: pointer;
+    fill: #6d91b0;
+    stroke: #134570;
+}
+
+
+text.parentText {
+    font-size: 13px;
+    margin-left: 15px;
+    fill: #F2F2F2;
+
+}
+
+text.parentTextHighlighted {
+    font-size: 13px;
+    margin-left: 15px;
+    fill: #F2F2F2;
+    font-weight: bold;
+
+}
+
+.childText {
+    fill: #F2F2F2;
+
+}
+
+rect.parentSelectInclude {
+    cursor: pointer;
+    fill: #7da2bf !important;
+}
+
+rect.parentSelectExclude {
+    cursor: pointer;
+    fill: #F5A9A9 !important;
+}
+
+rect.headerRectExit {
+    cursor: pointer;
+    color: #042E88;
+    stroke: #434343;
+    fill: rgba(80, 199, 255, 0.45);
+    fill-opacity: .6;
+
+}
+
+rect.headerPartition {
+    cursor: pointer;
+    /* color: #042E88;  */
+    stroke: #a8b1ba;
+    fill: #bec7d1;
+    /*  fill:  -webkit-linear-gradient(top, #333366, #000000);
+    fill-opacity: .6; */
+
+}
+
+div.hoverMenu {
+    position: absolute;
+    visibility: visible;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    padding: 2px;
+    font: 12px sans-serif;
+    /* background: #4f5e6d;  */
+    background: #E0E2E5;
+    border: 0px;
+    border-radius: 8px;
+    /* pointer-events: none; */
+}
+
+.hoverMenuButton {
+    background-repeat:  no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.hoverMenuToggleInclusionFilter {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Add.png);
+}
+
+.hoverMenuToggleExclusionFilter {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Clear.png);
+}
+.hoverMenuRunEventFilter {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Approve.png);
+
+}
+
+.promptTextPane {
+    width:100%;
+    height: auto;
+    position:absolute !important;
+    top:50% !important;
+    overflow:hidden !important;
+}
+
+.pChartPromptText {
+    font-size: 12pt;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-image: url(../images/dropArea.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 92px 92px;
+}
+
+.pChartArea {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+}
+.navGaugePanel {
+    height: 50px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px !important;
+    opacity: 0;
+}
+.navArea {
+    float: left;
+    display: inline-block;
+    width: 65%;
+    /*height: 100%;*/
+    font-size: 10pt;
+}
+.gaugeArea {
+    float: right;
+    width: 35%;
+    height: 100%;
+    /*background-color: green;*/
+}
+.gaugeLabel {
+    width: 30%;
+    padding-right: 5px;
+    font-size: 10pt
+}
+.gaugeGraph {
+    width: 70%;
+}
+
+.gaugeBack {
+    fill: #E0E2E5;
+}
+
+.gaugePartLines {
+    stroke: #c0c1c4;
+    stroke-width: 1px;
+}
+
+.gaugePctTxt {
+    fill: #000000;
+    font-size: 10pt;
+}
+.gaugeBar {
+    fill: #6d91b0;
+    opacity: .8;
+}
+
+.conditionTagArea {
+    height: 50px;
+    background-color: orange;
+}
+
+
+/*--- Preview Grid ---*/
+.preview {
+    width: 100%;
+    height: 98%;
+    background: transparent;
+}
+
+.preview .dgrid-header-scroll {
+    display: none;
+}
+.preview .dgrid-header {
+    right: 0;
+}
+.preview .dgrid {
+    position: relative;
+    overflow: hidden; /* This is needed by IE to prevent crazy scrollbar flashing */
+    border: none;
+    height: 30em;
+    display: block;
+}
+
+.preview .dgrid-content {
+    width: 100% !important;
+    height: 100%;
+}
+
+/*-----Properties Dialog ----*/
+.propertiesDialog {
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 8px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.propertiesDialogShow > .propertiesDialog {
+    box-shadow: -5px 5px 5px #888888 !important;
+}
+
+.propertiesDialog label {
+    width: 150px;
+}
+.propertiesDialog input {
+    width: 150px;
+}
+
+.propertiesNameContainer {
+    border: 1px;
+    border-radius: 4px;
+    margin: 0px;
+    /*padding-left: 2px;*/
+    height: 25px;
+    width: 100%;
+}
+
+
+/*----- Scenario Builder ----*/
+
+fieldset.withTitleBorder {
+    border: 1px #CCC groove;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+textarea.globalFilter {
+    float: right;
+    width: 95%;
+}
+
+button.globalFilter {
+    float: left;
+    icon:  url(../images/Edit.png) !important;
+    background-repeat:  no-repeat;
+}
+
+.gotoParentWindowBtn {
+    background-image: url(../images/NavigateUp.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.scenarioLeftPanel {
+    width: 100% ;
+    height: 100%;
+}
+
+.scenarioLeftPanel .dijitAccordionContainer {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/*----- Scenario Edit Views ------*/
+.scenarioEditViewsWidget {
+    overflow-y: hidden !important;
+}
+.conditionEditHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#ruleGrid .dgrid-content  {
+    border: 1px #dedede;
+
+
+}
+
+#ruleGrid .dgrid-row-table{
+    vertical-align: middle;
+}
+
+#rulegrid .field-alert {
+    text-align: center ;
+}
+
+#rulegrid th.dgrid-cell  {
+    text-align: center ;
+}
+
+
+/*---- ToolBar ---*/
+
+
+/********** TOOLBAR *******************/
+
+.toolbarEditIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Edit.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarEventsGlobal {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Event.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarHistogram {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Charts.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarBinning {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Store.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarPartition {
+    background-image:url(../images/IciclePlot.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarProperties {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Properties.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarOpen {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/Open.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+
+.toolbarSave  {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Save.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarAddNewColumn {
+
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/AddColumn.png) !important;
+    background-repeat:  no-repeat;
+    width: 16px;
+    height: 16px;
+
+}
+
+.toolbarDeployment  {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Deploy.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarSaveDisabled  {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Save.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarNew {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/NewStarburst.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarNew {
+    background-image:url(../images/new_disabled.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarCopy {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Copy.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarCopyDisabled {
+    background-image:url(../images/Copy_disabled.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarPaste {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Paste.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarPasteDisabled {
+    background-image:url(../images/Paste_disabled.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarUndo {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Undo.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarUndoDisabled {
+    background-image:url(../images/Undo_disabled.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarRedo {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Redo.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarRedoDisabled {
+    background-image:url(../images/Undo_disabled.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarCluster {
+    background-image:url(../images/ViewCreateClusters.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarClusterDisabled {
+    background-image:url(../images/ViewCreateClusters.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarSuggestEvents {
+    background-image:url(../images/AllocationEvent.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarSuggestEventsDisabled {
+    background-image:url(../images/AllocationEvent.gif) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarRemoveScenarioColumns {
+    /*background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Delete.png) !important;*/
+    background-image: url(../images/columns_delete.gif);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarRemoveScenarioFilters {
+    /*background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Clear.png) !important;*/
+    background-image: url(../images/filter_delete.gif);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarNewEvent {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Event.png) !important;
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.toolbarPctDisplay {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Percentage.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.toolbarNbrDisplay {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/NumericType.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+
+.toolbarActivate {
+    background-image: url('../../themes/corporate/images/sasIcons/sasdark/16_png/Activate.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+.toolbarDeactivate {
+    background-image: url('../../themes/corporate/images/sasIcons/sasdark/16_png/Deactivate.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+/******* end - TOOLBAR ********************/
+
+.okBtn {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Approve.png)  !important;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.resetBtn {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/ClearSearch.png)  !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+}
+
+.editIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Edit.png) !important;
+    width: 18px;
+    height: 18px;
+}
+
+.EventsGlobal {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Event.png) !important;
+    width: 18px;
+    height: 18px;
+}
+.histogram {
+    background-image:url(../images/HistogramBarsOnly.gif) !important;
+    width: 18px;
+    height: 18px;
+}
+.binning {
+    background-image:url(../images/binning.gif) !important;
+    width: 18px;
+    height: 18px;
+}
+
+.partition {
+    background-image:url(../images/IciclePlot.gif) !important;
+    width: 18px;
+    height: 18px;
+}
+
+.properties {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Properties.png) !important;
+    width: 18px;
+    height: 18px;
+}
+
+.open {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Open.png) !important;
+    width: 18px;
+    height: 18px;
+}
+
+
+.new {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/NewFolder.png) !important;
+    width: 18px;
+    height: 18px;
+}
+
+
+.saveLasr  {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Save.png) !important;
+    width: 18px;
+    height: 18px;
+}
+
+/*==========================*/
+/*=== LASR Output Styles ====*/
+/*==========================*/
+
+.windowOutputGrid  .CHARACTERIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/CharacterType.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+.windowOutputGrid .NUMERICIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/Measure.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.windowOutputGrid .keyIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/Key.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.windowOutputGrid .categoryIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/Category.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+
+.windowOutputGrid .statNumIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/AggregatedMeasure.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.windowOutputGrid .statCatIcon {
+    background-image: url(../../themes/corporate/images/sasIcons/sasdark/16_png/AggregatedCategory.png);
+    background-repeat:  no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+
+.windowOutputGrid .expandRow {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Fold.png)  !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin:0px auto;
+
+}
+
+.windowOutputGrid .collapseRow {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Unfold.png)  !important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin:0px auto;
+}
+
+
+.windowOutputGrid .lockedRow {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/LockClosed.png)  !important;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    margin:0px auto;
+}
+
+.windowOutputGrid .datekeyIcon {
+    background-image:url(../../themes/corporate/images/sasIcons/sasdark/16_png/Date.png)  !important;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    margin:0px auto;
+}
+
+
+
+.windowOutputGrid .dgrid-content {
+    width: 100% !important;
+    height: inherit;
+}
+
+
+.windowOutputGrid .dgrid-row-table{
+
+    /*  background-color: #6d717a;    */
+    /*  height: 40px;   */
+    vertical-align: middle;
+}
+
+.windowOutputGrid .dgrid-cell dgrid-cell-padding dgrid-column-vartype field-vartype dgrid-focus dgrid-selected ui-state-active{
+    border-color: transparent;
+}
+
+
+.windowOutputGrid  .dgrid-cell
+{
+    /* text-align: left;*/
+    height: 40px;
+}
+
+
+.windowOutputGrid th .dgrid-cell {
+    height: 25px;
+    padding: 2px;
+}
+
+
+.windowOutputGrid .field-vartype {
+    /*  height: 40px;   */
+    margin: 0 auto;
+    text-align: center
+    /* padding: 0px 5px;  */
+}
+
+.windowOutputGrid .field-editType {
+    width: 30px;
+    margin-right: 5px;
+    margin: 0 auto;
+    vertical-align: middle;
+    /*width: 4% */
+
+}
+
+/*--- height of the headers  --------*/
+.windowOutputGrid table.dgrid-row-table th {
+    height: 25px;
+}
+
+.windowOutputGrid .field-colname {
+
+    width: 20%;
+    color: #efefef;
+}
+
+
+.windowOutputGrid .field-varLabel {
+    width: 24%;
+
+}
+
+.windowOutputGrid .field-vLookPeriod {
+    width: 8% ;
+    margin: 0px 15px;
+}
+
+.windowOutputGrid .dgrid-column-spark  {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.windowOutputGrid .dgrid-row-odd {
+    /*  background: #445164;
+      border-top: 1px solid #445164;
+      color: #efefef;*/
+    padding: 2px 0 ;
+    /* don't put in height contraints - messes up detail info */
+    /*  height: 40px;  */
+}
+
+.windowOutputGrid .dgrid-row-even {
+    /*  background: #4C5A6D;
+      border-top: 1px solid #4C5A6D;
+      color: #efefef;*/
+    padding: 2px 0;
+    /*   height: 40px;  */
+
+}
+
+
+/* Table view allows expanding/collapsing rows to show summary */
+
+.windowOutputGrid .expandoOdd {
+
+    padding-left: 40px;
+    /*  color: #000000; */
+    border-bottom:1px solid  !important;
+    padding:0.7em 1em 0.5em 3em;
+
+}
+
+.windowOutputGrid .expandoEven {
+
+    padding-left: 40px;
+    /*  color: #000000; */
+    border-bottom:1px solid !important;
+    padding:0.7em 1em 0.5em 3em;
+
+}
+
+.windowOutputGrid .collapsed .expandoEven {
+    display: none;
+}
+
+
+.windowOutputGrid .collapsed .expandoOdd {
+    display: none;
+}
+
+/* styles for details view */
+
+.windowOutputGrid .details .dgrid-row {
+    clear: both;
+    /*  min-height: 64px;  */
+    padding: 0.5em;
+}
+
+
+.windowOutputGrid .details .icon {
+    float: left;
+}
+
+.windowOutputGrid .details .name {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.windowOutputGrid .dgrid-selected {
+    background: transparent;
+}
+
+.windowOutputGrid .dgrid-cell .ui-state-active {
+    /* border-color: #848b93 !important;*/
+}
+
+/*=======TOOLTIP for Distrib charts =================*/
+
+.distribToolTip .dijitTabContainer     {
+    width: 700px !important;
+    height: 400px !important;
+}
+
+.closeXBtn {
+    background-image:  url(../../themes/corporate/images/sasIcons/sasdark/16_png/Clear.png)  !important;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+

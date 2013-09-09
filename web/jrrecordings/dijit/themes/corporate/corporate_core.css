@@ -1,0 +1,30 @@
+
+@import url("document.css");
+@import url("documentgrid.css");
+
+
+/* *************** ICONS ************************************** */
+
+/* by default dojo ships with a top level icons directory outside of the themes directory
+these files need to be included in this corporate theme so that our SAS icons can overwrite
+the dojo images with sas official icons. */
+
+/* this is the main listing of the dojo shipped icons that have been replaced with SAS icons */
+@import url("images/sasIcons/sasdark/dojo_commonIcons.css");
+@import url("images/sasIcons/sasdark/dojo_commonIcons_rtl.css");
+
+
+/* *********** CORPORATE THEME ICONS ***************** */
+/* this is the main listing of all available dark colored icons */
+@import url("images/sasIcons/sasdark/sasdark_commonIcons.css");
+@import url("images/sasIcons/sasdark/sasdark_commonIcons24.css");
+
+
+/* this is the main listing of all available dark colored icons unique to rtl */
+@import url("images/sasIcons/sasdark/sasdark_commonIcons_rtl.css");
+
+/* this is the main listing of all available light colored icons */
+@import url("images/sasIcons/saslight/saslight_commonIcons.css");
+
+/* this is the main listing of all available light colored icons unique to rtl */
+@import url("images/sasIcons/saslight/saslight_commonIcons_rtl.css");

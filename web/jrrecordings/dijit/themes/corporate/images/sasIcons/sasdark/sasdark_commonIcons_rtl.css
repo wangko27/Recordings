@@ -1,0 +1,164 @@
+/* ******* CRITICAL NOTES ********* */
+
+/* 
+On May 21, 2013, at 3:54 PM, Josh Lyna wrote:
+
+Lync seems to be crapping out on me. Here’s what I just sent, but it said the messages were not delivered:
+ 
+Josh Lyna 3:41 PM
+ok. i figured out what dojo is doing under the covers. it's totally not obvious just looking at the css.
+
+each widget has a javascript property called "baseClass". the css class assigned to this property serves as the "base" css class for that type of widget. widgets can also inherit base classes from their ancestor widgets up the chain. so in our example, Button, it's baseClass property = "dijit dijitButton". "dijit" is inherited from up the chain, "dijitButton" should make sense.
+
+now, the key part: each widget has some initialization code that goes through, checks the base classes, and if it finds certain things to be true (ie. we are in RTL mode, or the widget has disabled=true), it will add special versions of those classes to the object (ie. dijitButtonRtl, dijitButtonDisabled)
+ 
+so here's what i think this means for our RTL case: RTL icons are supposed to be targetted in the same way disabled icons are. so, just like there is, say:
+
+.dijitDisabled .sasHelpButtonIcon {<disabled styles>} to set the disabled icon, you would use .dijitButtonRtl .sasHelpButtonIcon {<RTL styles>} to set the RTL icon
+.dijitRtl would probably work too, but i think it's probably ok to be more specific and say we are always dealing with a button
+ 
+i tried adding styles like this in the stm css to test, and it worked:
+ 
+.dijitButtonRtl .sasHelpButtonIcon {
+background: transparent url('../dojo/dijit/themes/corporate/images/sasIcons/sasdark/16_png//HelpButton_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .dijitButtonRtl .sasHelpButtonIcon {
+background: transparent url('../dojo/dijit/themes/corporate/images/sasIcons/sasdark/16_png//HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); 
+}
+ 
+(of course my path to the images is different from the one needed in corporate)
+so just to be clear, i think what i have above is what should be in sasdark_commonIcons_rtl.css, but with the proper theme image paths
+
+
+*/
+
+
+/* ************************************ HELP BUTTON ************************************ */
+.dijitButtonRtl .sasHelpButtonIcon {
+background: transparent url('16_png//HelpButton_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .dijitButtonRtl .sasHelpButtonIcon {
+background: transparent url('16_png//HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********* THE FOLLOWING NEEDS TO BE REMOVED AS WE FIGURE OUT A BETTER STRATEGY FOR RTL *************** */
+
+/* ************************************ HELP BUTTON ************************************ */
+.sasHelpButtonIconRTL {
+background: transparent url('16_png/HelpButton_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIconRTL  {
+background: transparent url('16_png/HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HIERARCHY VIEW  ************************************ */
+.sasHierarchyViewIconRTL {
+background: transparent url('16_png/HierarchyView_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHierarchyViewIconRTL  {
+background: transparent url('16_png/HierarchyView_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ HELP BUTTON ************************************ */
+.sasHelpButtonIconRTL20 {
+background: transparent url('20_png/HelpButton_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIconRTL20  {
+background: transparent url('20_png/HelpButton_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HIERARCHY VIEW  ************************************ */
+.sasHierarchyViewIconRTL20 {
+background: transparent url('20_png/HierarchyView_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHierarchyViewIconRTL20  {
+background: transparent url('20_png/HierarchyView_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ LIST VIEW ************************************ */
+.sasListViewIconRTL24 {
+	background: transparent url('24_png/ListView_rtl.png') center
+		center no-repeat;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+}
+
+.dijitDisabled .sasListViewIconRTL24 {
+	background: transparent url('24_png/ListView_rtl.png') center
+		center no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ NUMERIC TYPE ************************************ */
+.sasNumericTypeIconRTL {
+background: transparent url('16_png/NumericType_rtl.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNumericTypeIconRTL   {
+background: transparent url('16_png/NumericType_rtl.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}

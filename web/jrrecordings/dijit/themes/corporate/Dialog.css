@@ -1,0 +1,268 @@
+/* @text-color-dark: #353535; */
+/* Dialog 
+ * 
+ * Styling Dialog includes two sections: Dialog and Tooltip & TooltipDialog
+ * 
+ * Dialog:
+ * 1. Dialog (default styling): 
+ * 		.dijitDialog - styles for dialog's bounding box
+ *
+ * 2. Dialog title 
+ * 		.dijitDialogTitleBar - styles for the title container at the top of dialog
+ * 		.dijitDialogTitle - the text container in dialog title
+ * 
+ * 3. Dialog content 
+ * 		.dijitDialogPaneContent - main container for content area and action bar
+ * 		.dijitDialogPaneContentArea - styles for content container
+ * 
+ * 4. Dialog action bar 
+ * 		.dijitDialogPaneActionBar - styles for action buttons lie at the bottom of dialog pane content
+ * 
+ * 5. Dialog underlay 
+ * 		.dijitDialogUnderlay - div under the dialog which used for separate dialog and page content
+ * 
+ * 
+ * Tooltip & TooltipDialog:
+ * 1. tooltip content container: 
+ * 		.dijitTooltipContainer - tooltip content container
+ *
+ * 2. tooltip connector: 
+ * 		.dijitTooltipConnector - tooltip anchor includes 4 direction(up, down, left, right)
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitDialog {
+  border: 1px solid #5d6065;
+}
+.corporate .dijitDialogPaneActionBar .dijitButtonDisabled {
+  background: #d1d5db;
+  opacity: 1;
+}
+.corporate .dijitDialog .dijitButtonDisabled {
+  background: #d1d5db;
+}
+/****************************  DIALOG PANE CONTENT AND CONTENT AREA  ********************************************/
+.corporate .dijitDialogPaneContent {
+  background-color: #f0f1f2;
+  border-top: 0 solid #5d6065;
+  padding: 0;
+  position: relative;
+}
+.corporate .dijitDialogPaneContentArea {
+  padding: 10px 8px;
+}
+/****************************  DIALOG PANE ACTION BAR  ********************************************/
+.corporate .dijitDialogPaneActionBar {
+  /* gray bar at bottom of dialog with OK/Cancel buttons */
+
+  background-color: #e0e2e5;
+  border-top: 1px solid #5d6065;
+  text-align: right;
+  padding: 4px 4px 4px 0;
+}
+.corporate .dijitTooltipDialog .dijitDialogPaneActionBar {
+  margin: 10px -10px -8px;
+}
+.corporate .dijitDialogPaneActionBar .dijitButton {
+  float: none;
+}
+/****************************  DIALOG TITLE BAR AND TITLE  ********************************************/
+.corporate .dijitDialogTitleBar {
+  background-color: #134570;
+  border: 0 solid #5d6065;
+  border-bottom: 1px solid #5d6065;
+  margin: 0;
+  /* padding: 0.25em; */
+
+  padding: 4px 0 4px 4px;
+  /* padding: 5px 7px 4px 7px; */
+
+}
+.corporate .dijitDialogTitle {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 0 0 0 4px;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #000000;
+}
+/****************************  DIALOG CLOSE ICON  ********************************************/
+.corporate .dijitDialogCloseIcon {
+  /* the default close icon for the dialog */
+
+  background: url("images/sasIcons/saslight/20_png/Close.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 5px;
+  height: 15px;
+  width: 21px;
+}
+/****************************  TOOLTIP AND TOOLTIP DIALOG  ********************************************/
+.corporate .dijitTooltip,
+.corporate .dijitTooltipDialog {
+  /* the outermost dom node, holding the connector and container */
+
+  background: transparent;
+  /* make the area on the sides of the arrow transparent */
+
+}
+.dijitTooltipBelow {
+  /* leave room for arrow above content */
+
+  padding-top: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.dijitTooltipAbove {
+  /* leave room for arrow below content */
+
+  padding-bottom: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.corporate .dijitTooltipContainer {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #5d6065;
+  color: #545454;
+}
+.corporate .dijitTooltipConnector {
+  /* the arrow piece */
+
+  border: 0;
+  z-index: 2;
+  background: url("images/tooltip_arrow_up.png") center center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+.corporate .dijitTooltipABRight .dijitTooltipConnector {
+  /* above or below tooltip, but the arrow appears on the right,
+		and the right edges of target and tooltip are aligned rather than the left */
+
+  left: auto !important;
+  right: 3px;
+}
+.corporate .dijitTooltipBelow .dijitTooltipConnector {
+  /* the arrow piece for tooltips below an element */
+
+  top: 0;
+  left: 3px;
+  background: url("images/tooltip_arrow_up.png") center center no-repeat;
+  width: 16px;
+  height: 14px;
+}
+.corporate .dijitTooltipAbove .dijitTooltipConnector {
+  /* the arrow piece for tooltips above an element */
+
+  bottom: 0;
+  left: 3px;
+  background: url("images/tooltip_arrow_down.png") center center no-repeat;
+  width: 16px;
+  height: 14px;
+}
+.dj_ie7 .corporate .dijitTooltipAbove .dijitTooltipConnector {
+  bottom: -1px;
+}
+.corporate .dijitTooltipLeft {
+  padding-right: 14px;
+}
+.corporate .dijitTooltipLeft .dijitTooltipConnector {
+  /* the arrow piece for tooltips to the left of an element, bottom borders aligned */
+
+  right: 0;
+  background: url("images/tooltip_arrow_right.png") center center no-repeat;
+  width: 16px;
+  height: 14px;
+}
+.corporate .dijitTooltipRight {
+  padding-left: 14px;
+}
+.corporate .dijitTooltipRight .dijitTooltipConnector {
+  /* the arrow piece for tooltips to the right of an element, bottom borders aligned */
+
+  left: 0;
+  background: url("images/tooltip_arrow_left.png") center center no-repeat;
+  width: 16px;
+  height: 14px;
+}
+.corporate .dijitDialogUnderlay {
+  background: #a4a6a6;
+}

@@ -1,0 +1,367 @@
+
+
+/* ****************** SOCIAL NETWORK ANALYSIS SUPPLEMENTAL STYLE SHEET  ************************ */
+/* UX designer is Lora Edwards. Developer contact is Christopher Folger */
+
+
+@import "../variables";
+
+header {
+  padding: 4px;
+}
+
+#bannercontentpane h1 {
+  float: left;
+  margin: 0;
+  padding: 0 0 0 4px;
+}
+
+
+#footer {
+  overflow: hidden;
+}
+
+#bannercontentpane aside {
+}
+
+
+
+
+.sideoverlay .sidewaysleft {
+  transform: rotate(-90deg);
+}
+.sideoverlay .sidewaysleft,
+.sideoverlay .sidewaysright {
+  display: block;
+  margin-top: 20px;
+  color: @text-color;
+  font-weight: 700 !important;
+}
+
+#bannercontentpane {
+color: @text-color-light;
+background-color: @base-background-color;
+padding: 0 0 0 0;
+margin: 0;
+z-index: 199999;
+}
+
+.alertsviewfacetsoverlay, .networkviewfacetoverlay, .sideoverlay {
+background: @base-background-color url(../images/stripe.png) top left repeat;
+}
+
+#alertsviewfacettitle > .title {
+  line-height: normal;
+color: @text-color;
+}
+
+
+/* ************* LEFT PANEL "FILTERS" TITLE BAR  ************************ */
+
+.collapsablecontentpaneheader {
+background-color: @base-background-color;
+border: @base-border;
+color: @text-color;
+margin-bottom: 4px;
+}
+
+/* ************* LEFT PANEL ARROW ASSOCIATED WITH FILTERS  ************************ */
+
+/* ******* default look ********* */
+.corporate .collapsablecontentpaneheader .dijitButton .dijitButtonNode {
+background-color: @base-background-color;
+border: 0 solid @base-border-color;
+-webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* ******* button text ********* */
+.corporate .collapsablecontentpaneheader .dijitButton .dijitButtonText {
+  color: @text-color;
+  padding: 4px;
+  display: none;
+}
+
+/* ******* hover ********* */
+.corporate .collapsablecontentpaneheader .dijitButtonHover .dijitButtonNode,
+.corporate .collapsablecontentpaneheader .dijitButton:hover .dijitButtonNode {
+  color: @text-color;
+  background-color: @hovered-background-color;
+  border: 0 solid @base-border-color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* ******* focused ********* */
+.corporate .collapsablecontentpaneheader .dijitButtonFocused .dijitButtonNode {
+  /* border: 2px inset yellow; */
+
+}
+/* ******* active/checked ********* */
+.corporate .collapsablecontentpaneheader .dijitButtonActive .dijitButtonNode {
+  color: @text-color;
+  background-color: @active-background-color;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ******* selected ********* */
+/* not applicable */
+/* ******* disabled ********* */
+/* inherits from default */
+
+
+
+
+/* ************* LEFT PANEL ARROW BUTTON EXPAND ASSOCIATED WITH FILTERS ************************ */
+
+/* ******* default look ********* */
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButton .dijitButtonNode {
+  background-color: @base-background-color;
+  border: 0 solid @base-border-color;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* ******* button text ********* */
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButton .dijitButtonText {
+  color: @text-color;
+  padding: 4px;
+  display: none;
+}
+/* ******* hover ********* */
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButtonHover .dijitButtonNode,
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButton:hover .dijitButtonNode {
+  color: @text-color;
+  background-color: @hovered-background-color;
+  border: 0 solid @base-border-color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* ******* focused ********* */
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButtonFocused .dijitButtonNode {
+  /* border: 2px inset yellow; */
+
+}
+/* ******* active/checked ********* */
+.corporate .collapsablecontentpaneheader .sideoverlay .dijitButtonActive .dijitButtonNode {
+  color: @text-color;
+  background-color: @active-background-color;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ******* selected ********* */
+/* not applicable */
+/* ******* disabled ********* */
+/* inherits from default */
+
+
+
+/* ************* LEFT PANEL ARROW BUTTON EXPAND ASSOCIATED WITH FILTERS COLLAPSED  ************************ */
+
+/* ******* default look ********* */
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButton .dijitButtonNode {
+  background-color: @base-background-color;
+  border: 0 solid @base-border-color;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+/* ******* button text ********* */
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButton .dijitButtonText {
+  color: @text-color;
+  padding: 4px;
+  display: none;
+}
+/* ******* hover ********* */
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButtonHover .dijitButtonNode,
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButton:hover .dijitButtonNode {
+  color: @text-color;
+  background-color: @hovered-background-color;
+  border: 0 solid @base-border-color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* ******* focused ********* */
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButtonFocused .dijitButtonNode {
+  /* border: 2px inset yellow; */
+
+}
+/* ******* active/checked ********* */
+.corporate .collapsablecontentpaneheader .ccp_leftbutton .dijitButtonActive .dijitButtonNode {
+  color: @text-color;
+  background-color: @active-background-color;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+
+/* ******* selected ********* */
+/* not applicable */
+/* ******* disabled ********* */
+/* inherits from default */
+
+
+
+/***** NODE BUTTONS ********** */
+
+/* ******* DEFAULT ********* */
+.corporate .colorchooserbutton .dijitButtonNode,
+.corporate .iconchooserbutton .dijitButtonNode,
+.corporate .snacedargrid .dijitButtonNode,
+.corporate .acmeButton .dijitButtonNode {
+	background-color: @default-button-background-color;
+    border: 1px solid @base-border-color;
+	padding: 2px !important;
+}
+
+/* ******* button text ********* */
+.corporate .colorchooserbutton .dijitButtonText,
+.corporate .iconchooserbutton .dijitButtonText,
+.corporate .snacedargrid .dijitButtonText,
+.corporate .acmeButton .dijitButtonText {
+  color: @text-color;
+  padding: 2px;
+}
+
+/* ******* HOVER ********* */
+.corporate .colorchooserbutton .dijitDropDownButtonHover .dijitButtonNode,
+.corporate .iconchooserbutton .dijitDropDownButtonHover .dijitButtonNode,
+.corporate .snacedargrid .dijitDropDownButtonHover .dijitButtonNode,
+.corporate .snacedargrid .dijitButtonHover .dijitButtonNode,
+.corporate .acmeButton .dijitDropDownButtonHover .dijitButtonNode {
+background-color: @default-button-hover-background-color!important;
+border: @base-border!important;
+}
+
+/* ******* FOCUSED ********* */
+.corporate .colorchooserbutton .dijitDropDownButtonFocused .dijitButtonNode,
+.corporate .iconchooserbutton .dijitDropDownButtonFocused .dijitButtonNode,
+.corporate .snacedargrid .dijitDropDownButtonFocused .dijitButtonNode,
+.corporate .snacedargrid .dijitButtonFocused .dijitButtonNode,
+.corporate .acmeButton .dijitDropDownButtonFocused .dijitButtonNode {
+    /* border: 2px inset yellow; */
+}
+
+/* ******* ACTIVE ********* */
+.corporate .colorchooserbutton .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .iconchooserbutton .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .snacedargrid .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .snacedargrid .dijitButtonActive .dijitButtonNode,
+.corporate .acmeButton .dijitDropDownButtonActive .dijitButtonNode {
+background-color: @default-button-active-background-color!important;
+border: @base-border!important;
+}
+
+
+
+/* *********** END NODE BUTTONS ****************** */
+
+
+
+
+
+/* *********** CONFIRMATION MESSAGES ****************** */
+
+/* should be green tint */
+.snaconfirmmessage {
+background-color: @green;
+border: 1px solid @base-border-color;
+padding: 0 2px 0 2px;
+}
+
+
+/* should be red tint */
+.snaerrormessage {
+background-color: @error-color;
+border: @base-border;
+padding: 0 2px 0 2px;	
+}
+
+.collapsablecontentpaneheader label {
+color: @text-color;
+}
+
+
+#switchdomainbutton, #helpDDBdiv {
+	min-height: 26px;
+}
+
+
+.sasSwapIcon_lt, .sasHelpButtonIcon_lt {
+	padding: 4px;
+}
+
+
+#globaltoolbarcontentpane {
+    padding-top: 4px;
+}
+
+
+.collapsibleContentPane .dijitButton .dijitButtonNode {
+    background-color: transparent;
+    background-image: none;
+}
+
+
+.dgrid-header .dgrid-cell-padding {
+	padding: 0;
+}
+
+#alertdetailsviewtabcontainer {
+background-color: @container-background-color;
+}
+
+
+
+/* ************************************ ARROW SMALL DOWN ************************************ */
+.ArrowSmallDownIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallDown.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .ArrowSmallDownIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallDown.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ARROW SMALL UP ************************************ */
+.ArrowSmallUpIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallUp.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .ArrowSmallUpIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallUp.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}

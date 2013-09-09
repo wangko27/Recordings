@@ -1,0 +1,121 @@
+/* ****************** ENVIRONMENT MANAGER SUPPLEMENTAL STYLE SHEET  ************************ */
+/* UX designer is Elizabeth Lynn. Developer contact is Connie Wu */
+
+
+@import "../variables";
+
+.sortIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/Filter.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+
+/* Style for dedicated view's StackController
+   buttons. We applied this style to the 
+   StackController's dijitButtonNodes only
+   using domClass.add() 
+ **/
+ 
+ 
+.dedicatedViewStackButton .dijitButtonNode{
+  width:100%;
+}
+
+.editorStackButton .dijitButtonNode{
+    width:100%;
+}
+
+
+/*Loading animation*/
+.corporate .dijitIconLoading {
+	background: transparent url(@image-progressIndicator-spinner) no-repeat;
+	height: 32px!important;
+	width: 32px!important;
+}
+
+
+/* ************************************ NEW STARBURST ************************************ */
+
+.createIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/NewStarburst.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+/* ************************************ REFRESH ************************************ */
+
+.refreshIcon {
+    background: transparent url('../images/sasIcons/sasdark/16_png/Refresh.png') center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+
+/* ************************************** New Styles ******************************* */
+.generalEditorName {
+    width: 100%;
+    height: 20px;
+    border: @base-border;
+}
+
+
+.generalEditorDesc {
+    width: 100%;
+    height: 100px;
+    border: @base-border;
+    resize: none;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 1em;
+
+}
+
+
+
+.editorTabStackContainer {
+    border: @base-border;
+    height: 100%;
+    width: 100%;
+}
+
+.generalEditorTable {
+    width: 100%;
+    cellspacing: 10px;
+    border-collapse: separate;
+    border-spacing: 15px
+}
+
+.editorTabButtonPanel {    
+    height: 100%; 
+    width: 20%;
+}
+
+.dedicatedViewPanel {
+    overflow:hidden;
+    padding:0px !important;
+}
+
+.contentPaneLessPading {
+border: @base-border;
+height: 100%;
+width: 100%;
+}
+
+
+.dedicatedViewStackButton .dijitButtonText {
+white-space: normal;
+word-wrap: normal;
+}
+
+.editorStackButton .dijitButtonText{
+white-space: normal;
+word-wrap: normal;
+}
+
+.dedicatedViewsFullSize {
+height: 100%;
+width: 100%;
+}

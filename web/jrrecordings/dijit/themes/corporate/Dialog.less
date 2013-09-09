@@ -1,0 +1,228 @@
+/* Dialog 
+ * 
+ * Styling Dialog includes two sections: Dialog and Tooltip & TooltipDialog
+ * 
+ * Dialog:
+ * 1. Dialog (default styling): 
+ * 		.dijitDialog - styles for dialog's bounding box
+ *
+ * 2. Dialog title 
+ * 		.dijitDialogTitleBar - styles for the title container at the top of dialog
+ * 		.dijitDialogTitle - the text container in dialog title
+ * 
+ * 3. Dialog content 
+ * 		.dijitDialogPaneContent - main container for content area and action bar
+ * 		.dijitDialogPaneContentArea - styles for content container
+ * 
+ * 4. Dialog action bar 
+ * 		.dijitDialogPaneActionBar - styles for action buttons lie at the bottom of dialog pane content
+ * 
+ * 5. Dialog underlay 
+ * 		.dijitDialogUnderlay - div under the dialog which used for separate dialog and page content
+ * 
+ * 
+ * Tooltip & TooltipDialog:
+ * 1. tooltip content container: 
+ * 		.dijitTooltipContainer - tooltip content container
+ *
+ * 2. tooltip connector: 
+ * 		.dijitTooltipConnector - tooltip anchor includes 4 direction(up, down, left, right)
+ */
+
+@import "variables";
+
+.corporate .dijitDialog {
+	border: @base-border;
+} 
+
+
+
+
+.corporate .dijitDialogPaneActionBar .dijitButtonDisabled {
+	 background: @disabled-background-color;
+	opacity: 1
+}
+
+.corporate .dijitDialog .dijitButtonDisabled {
+	 background: @disabled-background-color;
+}
+
+
+
+
+
+/****************************  DIALOG PANE CONTENT AND CONTENT AREA  ********************************************/
+
+
+.corporate .dijitDialogPaneContent {
+	background-color: @dialogcontentpane-background-color;
+	border-top: @dialogcontentpane-border;
+	padding: 0;
+	position: relative;
+}
+
+.corporate .dijitDialogPaneContentArea {
+	padding:10px 8px;
+}
+
+
+/****************************  DIALOG PANE ACTION BAR  ********************************************/
+
+.corporate .dijitDialogPaneActionBar {
+	/* gray bar at bottom of dialog with OK/Cancel buttons */
+	background-color: @dialogcontentpane-actionbar-background-color;
+	border-top: @dialogcontentpane-actionbar-border;
+	text-align: right;
+	padding: 4px 4px 4px 0;
+}
+
+.corporate .dijitTooltipDialog .dijitDialogPaneActionBar {
+  margin: 10px -10px -8px;
+}
+.corporate .dijitDialogPaneActionBar .dijitButton {
+	float: none;
+}
+
+
+
+
+
+
+/****************************  DIALOG TITLE BAR AND TITLE  ********************************************/
+
+
+.corporate .dijitDialogTitleBar {
+background-color: @dialog-titlebar-background-color;
+border: @dialog-titlebar-border;
+border-bottom: @dialog-titlebar-border-bottom;
+margin: 0;
+/* padding: 0.25em; */
+padding: 4px 0 4px 4px;
+/* padding: 5px 7px 4px 7px; */
+}
+
+.corporate .dijitDialogTitle {
+font-size: @dialog-titlebar-font-size;
+font-weight: @header-button-font-weight;
+padding: 0 0 0 4px;
+color: @dialog-titlebar-text-color;
+text-shadow: @dialog-titlebar-text-shadow;
+}
+
+/****************************  DIALOG CLOSE ICON  ********************************************/
+
+
+.corporate .dijitDialogCloseIcon {
+	/* the default close icon for the dialog */
+	background: url(@image-dialog-close);
+	background-repeat:no-repeat;
+	position: absolute;
+	right: 5px;
+	height: 15px;
+	width: 21px;
+}
+
+.corporate .dijitDialogCloseIconHover {
+}
+.corporate .dijitDialogCloseIconActive {
+}
+
+
+
+/****************************  TOOLTIP AND TOOLTIP DIALOG  ********************************************/
+
+
+.corporate .dijitTooltip,
+.corporate .dijitTooltipDialog {
+	/* the outermost dom node, holding the connector and container */
+	background: transparent;	/* make the area on the sides of the arrow transparent */
+}
+.dijitTooltipBelow {
+	/* leave room for arrow above content */
+	padding-top: 13px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.dijitTooltipAbove {
+	/* leave room for arrow below content */
+	padding-bottom: 13px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.corporate .dijitTooltipContainer {
+padding: 10px;
+background-color: @tooltip-background-color;
+border: @tooltip-border;
+color: @tooltip-color;
+}
+
+.corporate .dijitTooltipConnector {
+	/* the arrow piece */
+	border: 0;
+	z-index: 2;
+	background:url(@image-tooltip_up) center center no-repeat;
+	width:16px;
+	height:16px;
+}
+
+
+
+.corporate .dijitTooltipABRight .dijitTooltipConnector {
+	/* above or below tooltip, but the arrow appears on the right,
+		and the right edges of target and tooltip are aligned rather than the left */
+	left: auto !important;
+	right: 3px;
+}
+
+.corporate .dijitTooltipBelow .dijitTooltipConnector {
+	/* the arrow piece for tooltips below an element */
+	top: 0;
+	left: 3px;
+	background: url(@image-tooltip_up) center center no-repeat;
+	width:16px;
+	height:14px;
+}
+
+
+.corporate .dijitTooltipAbove .dijitTooltipConnector {
+	/* the arrow piece for tooltips above an element */
+	bottom: 0;
+	left: 3px;
+	background: url(@image-tooltip_down) center center no-repeat;
+	width:16px;
+	height:14px;
+}
+.dj_ie7 .corporate .dijitTooltipAbove .dijitTooltipConnector {
+	bottom: -1px;
+}
+
+.corporate .dijitTooltipLeft {
+	padding-right: 14px;
+}
+.corporate .dijitTooltipLeft .dijitTooltipConnector {
+	/* the arrow piece for tooltips to the left of an element, bottom borders aligned */
+	right: 0;
+	background: url(@image-tooltip_right) center center no-repeat;
+	width:16px;
+	height:14px;
+}
+
+.corporate .dijitTooltipRight {
+	padding-left: 14px;
+}
+.corporate .dijitTooltipRight .dijitTooltipConnector {
+	/* the arrow piece for tooltips to the right of an element, bottom borders aligned */
+	left: 0;
+	background: url(@image-tooltip_left) center center no-repeat;
+	width:16px;
+	height:14px;
+}
+
+.corporate .dijitDialogUnderlay {
+	background: @dialog-underlay-color;
+}
+
+ 
+

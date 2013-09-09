@@ -1,0 +1,218 @@
+.dijitIconSave {
+background: url('save.png') top right no-repeat;
+width: 16px;
+	height: 16px;
+}
+
+.dijitIconPrint {
+background: url('print.png') top right no-repeat;
+width: 16px;
+	height: 16px;
+}
+
+.dijitIconCut {
+background: url('missing.png') top right no-repeat;
+width: 16px;
+	height: 16px;
+}
+
+.dijitIconCopy {
+background: url('missing.png') top right no-repeat;
+width: 16px;
+	height: 16px;
+}
+
+.dijitIconClear {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconDelete {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconUndo {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconEdit {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconNewTask {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconEditTask {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconEditProperty {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconTask {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconFilter {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconConfigure {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconSearch {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconApplication {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconBookmark {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconChart {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconConnector {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconDatabase {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconDocuments {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconMail {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitLeaf {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconFile {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconFunction {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconKey {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconPackage {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconSample {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconTable {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconUsers {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitFolderClosed {
+background: url('tree_folder.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconFolderClosed {
+background: url('tree_folder.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitFolderOpened {
+background: url('tree_folderopen.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconFolderOpen {
+background: url('tree_folderopen.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.dijitIconError {
+background: url('missing.png') top right no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+
+/*Loading animation*/
+.dijitIconLoading {
+background: url('missing.png') top right no-repeat;
+	height: 20px;
+	width: 20px;
+}
+

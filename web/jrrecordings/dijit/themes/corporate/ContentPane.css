@@ -1,0 +1,138 @@
+/* @text-color-dark: #353535; */
+/* ContentPane 
+ *	
+ * .dijitContentPane
+ * 	set padding for basic content pane
+ * 	
+ * Nested layouts:
+ * 
+ * .dijitTabContainerTop-dijitContentPane,
+ * .dijitTabContainerLeft-dijitContentPane,
+ * .dijitTabContainerBottom-dijitContentPane,
+ * .dijitTabContainerRight-dijitContentPane
+ * 	set background-color and padding of ContentPanes nested within TabContainer (can do top, left, bottom, or right) or Accordion Container
+ *
+ * .dijitAccordionContainer-dijitContentPane
+ * 	set background-color and padding of ContentPane nested within Accordion
+ *
+ * .dijitSplitContainer-dijitContentPane, 
+ *	set background-color and padding of ContentPane nested within a SplitContainer 
+ *
+ * .dijitBorderContainer-dijitContentPane
+ *	set background-color and padding of ContentPane nested within a BorderContainer 
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitContentPane {
+  /* do not use border-radius */
+
+  padding: 0;
+  background-color: none;
+  color: #353535;
+  /* do I really need a border? */
+
+  /* border: @white-border; */
+
+  border: 0 solid #ffffff;
+}
+/* ******* styles for content panes nested inside accordion  ********* */
+.corporate .dijitAccordionContainer-dijitContentPane {
+  /*padding: 8px; */
+
+  background-color: #f0f1f2;
+}
+/* ******* styles for content panes nested inside tabs  ********* */
+.corporate .dijitTabContainerTop-dijitContentPane,
+.corporate .dijitTabContainerLeft-dijitContentPane,
+.corporate .dijitTabContainerBottom-dijitContentPane,
+.corporate .dijitTabContainerRight-dijitContentPane {
+  /* padding: 4px; */
+
+  background-color: #ffffff;
+  padding: 2px;
+}
+/* ******* styles for content panes nested inside border containers  ********* */
+/* ******* styles for content panes nested inside split containers  ********* */
+.corporate .dijitSplitContainer-dijitContentPane {
+  /* padding: 8px; */
+
+}

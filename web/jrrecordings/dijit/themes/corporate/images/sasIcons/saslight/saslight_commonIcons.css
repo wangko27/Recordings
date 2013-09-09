@@ -1,0 +1,156 @@
+
+/* ************************************ CLOSE Dialog ************************************ */
+.sasCloseDialogIcon_lt_20 {
+background: transparent url('20_png/Close.png') center center no-repeat;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+
+.dijitDisabled .sasCloseDialogIcon_lt_20   {
+background: transparent url('20_png/Close.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CONNECT BUTTON 20 ************************************ */
+.sasConnectIcon_lt_20 {
+background: transparent url('20_png/Connect.png') center center no-repeat;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+
+.dijitDisabled .sasConnectIcon_lt_20  {
+background: transparent url('20_png/Connect.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DISCONNECT BUTTON 20 ************************************ */
+.sasDisconnectIcon_lt_20 {
+background: transparent url('20_png/Disconnect.png') center center no-repeat;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+
+.dijitDisabled .sasDisconnectIcon_lt_20  {
+background: transparent url('20_png/Disconnect.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ HELP BUTTON ************************************ */
+.sasHelpButtonIcon_lt {
+background: transparent url('16_png/HelpButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIcon_lt  {
+background: transparent url('16_png/HelpButton.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HELP BUTTON 20 ************************************ */
+.sasHelpButtonIcon_lt_20 {
+background: transparent url('20_png/HelpButton.png') center center no-repeat;
+width: 20px;
+height: 20px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIcon_lt_20  {
+background: transparent url('20_png/HelpButton.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ MENU ARROW DOWN ************************************ */
+.sasMenuArrowDownIcon_lt {
+background: transparent url('16_png/MenuArrowDown.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMenuArrowDownIcon_lt   {
+background: transparent url('16_png/MenuArrowDown.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MORE ************************************ */
+.sasMoreIcon_lt {
+background: transparent url('16_png/More.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMoreIcon_lt   {
+background: transparent url('16_png/More.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ MORE 20 ************************************ */
+.sasMoreIcon_lt_20 {
+background: transparent url('20_png/More.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMoreIcon_lt_20   {
+background: transparent url('20_png/More.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SEARCH ************************************ */
+.sasSearchIcon_lt {
+background: transparent url('16_png/Search.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSearchIcon_lt   {
+background: transparent url('16_png/Search.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SWAP ************************************ */
+.sasSwapIcon_lt {
+background: transparent url('16_png/Swap.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSwapIcon_lt   {
+background: transparent url('16_png/Swap.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}

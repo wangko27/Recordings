@@ -1,0 +1,515 @@
+/* @text-color-dark: #353535; */
+/* Button | DropDownButton | ComboButton | ToggleButton
+ * 
+ * Styling Buttons mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitButton
+ * 		.dijitDropDownButton
+ * 		.dijitComboButton
+ * 		.dijitButtonNode - common button/arrow wrapper shared across all three button types 
+ *
+ * 2. Button text
+ * 		.dijitButtonText
+ * 
+ * 3. Arrows - only for DropDownButton and ComboButton
+ * 	     There are total four directions arrows - down, left, right, up:
+ * 		.dijitArrowButtonInner - down arrow by default
+ *      .dijitLeftArrowButton .dijitArrowButtonInner - left arrow
+ *      .dijitRightArrowButton .dijitArrowButtonInner - right arrow
+ *      .dijitUpArrowButton .dijitArrowButtonInner - up arrow
+ * 
+ * 4. States - Hover, Active, Disabled, e.g.
+ * 		.dijitButtonHover .dijitButtonNode
+ * 		.dijitButtonActive .dijitButtonNode
+ * 		.dijitButtonDisabled .dijitButtonNode
+ *      
+ *      .dijitDisabled .dijitArrowButtonInner  - disabled arrow states 
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitButtonText {
+  /* font-weight: @default-button-font-weight; */
+
+}
+.corporate .dijitButtonNode .dijitButtonText {
+  font-weight: bold;
+}
+/* **************************** HEADER BUTTON TEXT ********************** */
+/* this applies to the header only */
+.corporate header .dijitButtonText {
+  text-align: center;
+  font-weight: 700;
+  /* text-shadow: @default-button-text-shadow; */
+
+  /* text-shadow: 0 0 0 #000000; */
+
+}
+.corporate header .dijitButtonText {
+  padding: 2px;
+  font-weight: 700;
+  /* text-shadow: @header-button-text-shadow;
+text-align: left;
+*/
+
+}
+/* ************** HEADER BUTTON DEFAULT APPEARANCE ******************* */
+/* ************** Default state of all Button appearance including disabled *** */
+.corporate header .dijitButtonNode {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #1a609c;
+  color: #ffffff;
+  padding-left: 4px;
+  padding-right: 4px;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* ************** HEADER BUTTON HOVER APPEARANCE ******************* */
+.corporate header .dijitButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate header .dijitDropDownButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate header .dijitComboButton .dijitButtonNodeHover {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate header .dijitComboButton .dijitDownArrowButtonHover {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate header .dijitToggleButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* ************** HEADER BUTTON ACTIVE AND CHECKED GENERAL APPEARANCE ******************* */
+.corporate header .dijitButtonActive .dijitButtonNode,
+.corporate header .dijitDropDownButtonActive .dijitButtonNode,
+.corporate header .dijitComboButtonActive .dijitButtonNode,
+.corporate header .dijitToggleButtonActive .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  border: 1px solid #6c7c93 !important;
+}
+/* ************** HEADER BUTTON DISABLED ******************* */
+.corporate header .dijitDisabled * {
+  /*
+text-shadow: @header-button-disabled-text-shadow;
+background-color: @header-button-disabled-background-color;
+color: @disabled-color;
+*/
+
+}
+.corporate header .dijitButtonDisabled .dijitButtonNode,
+.corporate header .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate header .dijitComboButtonDisabled .dijitButtonNode,
+.corporate header .dijitToggleButtonDisabled .dijitButtonNode {
+  color: #cccccc;
+  background-color: #5d6065;
+  border: 0 solid #5d6065;
+  outline: none;
+  opacity: 0.4;
+  font-weight: 400;
+}
+/* ************** DEFAULT BUTTON DEFAULT APPEARANCE ******************* */
+.corporate .dijitButtonText {
+  text-align: center;
+}
+/* ************** Default state of all Button appearance including disabled *** */
+.corporate .dijitButtonNode {
+  background-color: #134570;
+  border: 1px solid #5d6065;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 2px;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.corporate #searchPane .dijitButtonNode,
+.corporate #searchFilterButtonMobile .dijitButtonNode {
+  background-color: transparent;
+  border: 1px solid #f0f1f2;
+}
+.corporate #newFolder {
+  background-color: transparent;
+}
+.corporate .nameValue .dijitButtonNode,
+.corporate .nameValue .dijitButtonHover .dijitButtonNode,
+.corporate .nameValue .dijitButtonActive .dijitButtonNode {
+  border-width: 0;
+  background-color: transparent;
+}
+/* ************** Inherits from ButtonNode but only applies unique features for Button *** */
+/* ************** Inherits from ButtonNode but only applies unique features for DropDown *** */
+/* ************** Inherits from ButtonNode but only applies unique features for ComboButton *** */
+/* ************** Inherits from ButtonNode but only applies unique features for ToggleButton *** */
+/* ************** DEFAULT BUTTON HOVER APPEARANCE ******************* */
+.corporate .dijitButtonHover .dijitButtonNode {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .dijitDropDownButtonHover .dijitButtonNode {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .dijitComboButton .dijitButtonNodeHover {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .dijitComboButton .dijitDownArrowButtonHover {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .dijitToggleButtonHover .dijitButtonNode {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* ************** DEFAULT BUTTON ACTIVE AND CHECKED GENERAL APPEARANCE ******************* */
+.corporate .dijitButtonActive .dijitButtonNode,
+.corporate .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .dijitComboButtonActive .dijitButtonNode,
+.corporate .dijitToggleButtonActive .dijitButtonNode {
+  color: #353535;
+  background-color: #d1dfeb;
+  border: 1px solid #d1dfeb !important;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ************** DEFAULT BUTTON DISABLED APPEARANCE ******************* */
+.corporate .dijitButtonDisabled .dijitButtonNode,
+.corporate .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate .dijitComboButtonDisabled .dijitButtonNode,
+.corporate .dijitToggleButtonDisabled .dijitButtonNode {
+  color: #98a1af;
+  background-color: #c3c8d0;
+  border: 1px solid #b4bbc5;
+  outline: none;
+  opacity: 1;
+}
+.corporate .dijitComboButtonDisabled .dijitArrowButton {
+  border-left-width: 0;
+}
+.corporate .dijitDisabled {
+  background-color: #d1d5db;
+  opacity: 0.4;
+  font-weight: normal;
+}
+/* **************************** MISCELLEANEOUS STYLES ********************** */
+/* for ComboButton */
+.corporate table.dijitComboButton {
+  border-collapse: separate;
+  /* override dijit.css so that ComboBox rounded corners work */
+
+}
+.corporate .tooltipLink .dijitButtonNode,
+.corporate .tooltipLink .dijitButtonNode .dijitDropDownButtonHover,
+.corporate .buttonLink .dijitButtonNode,
+.corporate .buttonLink .dijitButtonHover .dijitButtonNode {
+  /* background-color: pink; */
+
+}
+.corporate .dijitComboButton .dijitArrowButton {
+  border-left-width: 0;
+  padding: 4px 2px 4px 2px;
+}
+/* **************************** ARROW STYLES ********************** */
+.corporate header .dijitArrowButtonInner {
+  border: 0 solid #C6CAD0;
+}
+.corporate .dijitArrowButtonInner {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  background-color: transparent;
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+  /* u might need a border */
+
+  border: 0 solid #c6cad0;
+}
+.corporate .dijitInputField .dijitArrowButtonInner {
+  border: 0 solid #c6cad0;
+}
+.corporate header .dijitArrowButtonInner {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  background-color: transparent;
+  background: url("images/common_formarrow_down_light.png") center center no-repeat;
+  border: 0 solid #c6cad0;
+}
+.corporate header .dijitToolBar .dijitArrowButtonInner {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  background-color: transparent;
+  background: url("images/common_formarrow_down.png") center center no-repeat !important;
+  border: 0 solid #c6cad0;
+}
+.corporate .dijitLeftArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_left.png") center center no-repeat;
+}
+.corporate .dijitRightArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_right.png") center center no-repeat;
+}
+.corporate .dijitUpArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_up.png") center center no-repeat;
+}
+.corporate .dijitDisabled .dijitArrowButtonInner {
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+.corporate .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_left.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+.corporate .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_right.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+.corporate .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner {
+  background: url("images/common_formarrow_up.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+/* ************** TEXTBOX BUTTON DEFAULT APPEARANCE ******************* */
+/* ******* default ********* */
+.corporate .dijitTextBox .dijitButtonNode {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+  border: 0;
+}
+/* ******* hover ********* */
+.corporate .dijitTextBox .dijitButtonHover .dijitButtonNode {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+}
+.corporate .dijitTextBox .dijitDropDownButtonHover .dijitButtonNode {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+}
+.corporate .dijitTextBox .dijitComboButton .dijitButtonNodeHover {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+}
+.corporate .dijitTextBox .dijitComboButton .dijitDownArrowButtonHover {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+}
+.corporate .dijitTextBox .dijitToggleButtonHover .dijitButtonNode {
+  background-color: none;
+  background: transparent;
+  border-width: 0;
+}
+.corporate .dijitButtonActive .dijitButtonNode,
+.corporate .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .dijitComboButtonActive .dijitButtonNode,
+.corporate .dijitToggleButtonActive .dijitButtonNode {
+  /*
+background-color: none;
+background: transparent;
+*/
+
+  background-color: #d1dfeb;
+  background-image: none;
+  border-width: 0;
+}
+.corporate .dijitButtonDisabled,
+.corporate .dijitDropDownButtonDisabled,
+.corporate .dijitComboButtonDisabled,
+.corporate .dijitToggleButtonDisabled {
+  /*
+background-color: none;
+background: transparent;
+border-width: 0;
+*/
+
+  background-color: #c3c8d0;
+}
+.corporate .dijitButtonDisabled .dijitButtonNode,
+.corporate .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate .dijitComboButtonDisabled .dijitButtonNode,
+.corporate .dijitToggleButtonDisabled .dijitButtonNode {
+  /*background-color: none;
+background: transparent;
+*/
+
+  border-width: 1px;
+  background-color: #c3c8d0;
+}
+/* testing only
+.corporate .dijitToggleButton {
+border: 1px solid red;
+}
+
+.corporate .dijitButton {
+border: 1px solid yellow;
+}
+
+.corporate .dijitDropDownButton {
+border: 1px solid pink;
+}
+
+.corporate .dijitComboButton {
+border: 1px solid green;
+}
+*/
+/* this gets buttons in dialogPaneAction to have a min width so toolbar buttons are not impacted - need better solution later */
+.corporate .dijitDialogPaneActionBar .dijitButtonNode {
+  min-width: 80px;
+  padding: 2px;
+}
+.corporate .dijitButton {
+  /* border: 1px solid red; */
+
+}

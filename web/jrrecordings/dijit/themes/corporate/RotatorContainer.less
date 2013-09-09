@@ -1,0 +1,100 @@
+
+@import "variables";
+
+
+
+.dojoxRotatorContainer .dijitStackController,
+.dojoxRotatorPager {
+	position:absolute;
+	z-index:3;
+}
+
+.dojoxRotatorContent {
+	position:absolute;
+	z-index:1;
+}
+
+.dojoxRotatorContainer {
+	border: @base-border;
+}
+
+.dojoxRotatorContainer .dijitStackController {
+	right:5px;
+	top:5px;
+}
+
+.dojoxRotatorContainer .dijitStackController .dijitToggleButtonChecked .dijitButtonNode {
+
+	background-color: @base-background-color;
+	background-image:none;
+	color: @text-color;
+}
+
+.dojoxRotatorContainer .dojoxRotatorPager{
+bottom:5px;
+right:5px;
+}
+
+.rotatorIcons .dijitButton{margin:0;}
+.rotatorIcons .dijitButtonNode{background:none !important;border:0 !important;padding:0 !important;}
+.rotatorIcons .dijitButtonText{display:none;}
+.rotatorIcons .previous,
+.rotatorIcons .next,
+.rotatorIcons .playPause,
+.rotatorIcons .dijitToggleButtonChecked .playPause {
+
+background: url(@image-rotator_play) center center no-repeat;
+display:block;
+height:16px;
+width:16px;
+}
+
+
+.rotatorIcons .previous{
+background: url(@image-rotator_previous) center center no-repeat;
+}
+
+.rotatorIcons .dijitButtonHover .previous{
+background: url(@image-rotator_previous_hover) center center no-repeat;
+}
+
+.rotatorIcons .dijitButtonActive .previous{
+background: url(@image-rotator_previous_active) center center no-repeat;
+}
+
+.rotatorIcons .next{
+background: url(@image-rotator_next) center center no-repeat;
+}
+
+.rotatorIcons .dijitButtonHover .next{
+background: url(@image-rotator_next_hover) center center no-repeat;
+}
+
+.rotatorIcons .dijitButtonActive .next{
+background: url(@image-rotator_next_active) center center no-repeat;
+}
+
+.rotatorIcons .playPause{
+background: url(@image-rotator_play) center center no-repeat;
+}
+
+.rotatorIcons .dijitToggleButtonHover .playPause{
+background: url(@image-rotator_play_hover) center center no-repeat;
+}
+
+.rotatorIcons .dijitToggleButtonActive .playPause{
+background: url(@image-rotator_play_active) center center no-repeat;
+}
+
+.rotatorIcons .dijitToggleButtonChecked .playPause{
+background: url(@image-rotator_pause) center center no-repeat;
+}
+
+.rotatorIcons .dijitToggleButtonCheckedHover .playPause{
+background: url(@image-rotator_pause_hover) center center no-repeat;
+}
+
+.rotatorIcons .dijitToggleButtonCheckedActive .playPause{
+background: url(@image-rotator_pause_active) center center no-repeat;
+}
+

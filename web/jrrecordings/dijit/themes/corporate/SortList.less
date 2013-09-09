@@ -1,0 +1,69 @@
+@import "variables";
+
+
+
+.sortListBody { 
+margin:0; 
+padding:0; 
+background-color: @sortList-background-color;
+border-bottom: @sortListBody-border;
+padding:2px 2px 2px 5px;
+}
+
+
+.sortListTitle {
+	cursor:pointer; 
+	padding:4px 4px 3px 4px;
+}
+
+.sortList { 
+height:100%; 
+width:100%; 
+}
+
+/* for nested layout elements */
+.dijitBorderContainer .dojoxSortList { 
+width: auto; 
+height: auto;
+}
+
+.sortListBodyWrapper { 
+	border: @sortListBodyWrapper-border;
+	overflow:auto; 
+	height:100%; 
+	cursor:pointer;
+} 
+
+.sortListItemOdd { 
+background-color: @sortListItemOdd-background-color;
+}
+
+.sortListTitle {
+	background-color: @sortListTitle-background-color;
+	border: @sortListTitle-border;
+	border-bottom:0;
+}
+
+.sortListItemSelected { 
+background-color: @sortListItemSelected-background-color !important; 
+}
+
+.sortListItemHover { 
+background-color: @sortListItemHover-background-color !important;
+ }
+
+.sortListIcon { 
+	float:right;
+	background:url(@image-arrow-sprite_up) center center no-repeat;
+	width: 7px;
+}
+
+.sortListDesc .sortListIcon {
+background:url(@image-arrow-sprite_up) center center no-repeat;
+}
+
+.sortListAsc .sortListIcon {
+background:url(@image-arrow-sprite_left) center center no-repeat;
+}
+
+

@@ -1,0 +1,41 @@
+/* RTL files and this list gets appeneded on corporate.css because it imports this file */
+
+
+
+/* this is the main listing of all available dark colored icons uunique to rtl */
+@import url("images/sasIcons/sasdark/sasdark_commonIcons_rtl.css");
+
+/* this is the main listing of all available light colored icons unique to rtl */
+@import url("images/sasIcons/saslight/saslight_commonIcons_rtl.css");
+
+/* dojo icons that will need to be replaced */
+/* @import url("images/sasIcons/editorIcons_rtl.css"); */
+/* RTL sprite for editor icons to be used by all themes*/
+
+
+@import url("dijit_rtl.css");
+@import url("Common_rtl.css");
+@import url("Button_rtl.css");
+@import url("TabContainer_rtl.css");
+@import url("Slider_rtl.css");
+@import url("Dialog_rtl.css");
+@import url("Editor_rtl.css");
+@import url("TitlePane_rtl.css");
+@import url("Menu_rtl.css");
+@import url("Calendar_rtl.css");
+@import url("TimePicker_rtl.css");
+@import url("Toolbar_rtl.css");
+@import url("Pagination_rtl.css");
+@import url("Grid_rtl.css");
+@import url("Pagination_rtl.css");
+
+
+
+
+
+
+
+
+
+
+

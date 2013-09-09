@@ -1,0 +1,353 @@
+/* Dijit Editor icons*/
+
+/*editorIcons.css  is located in dijit/images 
+
+editorIcons.css contains references to the dijit editor widget icons. There are 46 icons used to map to the related editor funtionality in the editor's toolbar.
+
+*/
+
+
+.dijitEditorIcon {
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+	text-align: center;
+}
+.dijitDisabled .dijitEditorIcon {
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+}
+
+
+.dijitEditorIconSep { 
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+	}
+	
+.dijitEditorIconSave { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconPrint { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconCut { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconCopy { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconPaste {
+	
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+	 }
+	 
+.dijitEditorIconDelete { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconCancel { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconUndo { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconRedo { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconSelectAll { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconBold { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconItalic { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconUnderline { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconStrikethrough { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconSuperscript { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconSubscript { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconJustifyCenter { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconJustifyFull { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconJustifyLeft { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	 }
+	 
+.dijitEditorIconJustifyRight { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconIndent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconOutdent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconListBulletIndent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconListBulletOutdent {
+	
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+	 }
+	 
+.dijitEditorIconListNumIndent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconListNumOutdent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconTabIndent { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+}
+
+.dijitEditorIconLeftToRight { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconRightToLeft, .dijitEditorIconToggleDir { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconBackColor { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconForeColor { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconHiliteColor { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconNewPage { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconInsertImage { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconInsertTable { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconSpace { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconInsertHorizontalRule { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconInsertOrderedList { 
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconInsertUnorderedList {
+	
+background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+	}
+	
+.dijitEditorIconCreateLink { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconUnlink { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconViewSource { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconRemoveFormat { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+.dijitEditorIconFullScreen { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	 }
+	 
+.dijitEditorIconWikiword { 
+	background: url('missing.png') top left no-repeat;
+width: 18px;
+height: 18px;
+
+	}
+	
+/* .dijitEditorIconToggleDir { background-position: -540px; ;} - 03172010: This icon was not in dijit.editor but is in dojox.editor. */
+
+/* no longer in the editor toolbar:  .dijitEditorIconToggleDir { background-position: -540px;  padding: 0; margin: 0; color:#555555;
+									font-family:verdana,arial,sans-serif; font-weight: 800; font-size: 70%; */
+
+
+
+
+
+
+

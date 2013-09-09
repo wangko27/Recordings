@@ -1,0 +1,297 @@
+/* ======= Styling for the document itself (reset.css sets global) ======== */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+/* ======= Styling for the document itself (reset.css sets global) ======== */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  /* font-family: Arial, sans-serif; */
+
+  font-size: .8125em;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  color: #353535;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+/***** HEADINGS  ************************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-variant: normal;
+  /* letter-spacing: 1px; */
+
+}
+h1 {
+  margin-bottom: 0.727em;
+  text-shadow: 0 0 0 #000000;
+}
+h2 {
+  /* line-height: 1.455em;  */
+
+  margin-top: 1em;
+  margin-bottom: 0.60em;
+}
+/***** MISCELLANEOUS  ************************************************************************/
+hr {
+  /* color: @base-background-color; */
+
+  /*
+background-color: #FFFFFF;
+color: #FFFFFF;
+border-bottom: 1px solid #c6cad0;
+border-top: 1px dashed #c6cad0;
+height: 4px;
+*/
+
+  color: #eeeeee;
+  width: 80%;
+}
+/***** LINKS  ************************************************************************/
+a:link {
+  color: #134570;
+}
+a:visited {
+  color: #353535;
+  /* text-decoration: none; */
+
+}
+a:focus {
+  color: #353535;
+}
+a:hover {
+  color: #353535;
+}
+a:active {
+  color: #353535;
+}
+/***** PARAGRAPHS, QUOTES AND LISTS  ************************************************************************/
+p {
+  /* line-height: 1.3em; */
+
+  /*
+	margin-top: 1.5em; 
+	margin-bottom: 1.5em; 
+	line-height: 1.5em;
+	*/
+
+}
+blockquote {
+  margin-top: 3.272em;
+  margin-bottom: 3.272em;
+  /* line-height: 1.636em;  */
+
+  padding: 1.636em;
+  border-top: 1px solid #5d6065;
+  border-bottom: 1px solid #5d6065;
+}
+ol li,
+ul li {
+  /* line-height: 1.5em;  */
+
+  margin: 0;
+}
+/***** PRE AND CODE  ************************************************************************/
+/* pre and code */
+pre,
+code {
+  background-color: #e0e2e5;
+  border: 1px solid #5d6065;
+  font-family: Courier, "Courier New";
+}
+pre {
+  border-width: 1px 0;
+  padding: 1.5em;
+}
+/***** TABLES  ************************************************************************/
+/***** HEADER AREA ************/
+header {
+  color: #ffffff;
+  background-color: #134570;
+  padding: 0 0 0 0;
+  margin: 0;
+  z-index: 199999;
+}
+/***** FOOTER AREA  ************************************************************************/
+footer {
+  color: #ffffff;
+  background-color: transparent;
+  width: 100%;
+  min-height: 26px;
+  text-align: right;
+  border-top: 1px solid #5d6065;
+}
+footer:before,
+footer:after {
+  clear: both;
+}
+footer h5 {
+  color: #ffffff;
+  margin: 1em 0 0 0;
+}
+footer p {
+  margin: 0;
+}
+footer span {
+  margin-bottom: 0;
+}
+footer img {
+  max-width: 50px;
+  background-color: transparent;
+  padding-top: 2px;
+  padding-right: 4px;
+}
+#footer {
+  padding: 0;
+  background-color: transparent;
+}
+/***** IMG ************************************************************************/
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+img {
+  margin: 0px !important;
+  /* padding:0px !important; */
+
+}
+/* needed to over-ride the body background for the dijit text editor */
+#dijitEditorBody {
+  background-image: none;
+  background-color: #ffffff;
+}
+/***** MISCELLANEOUS I NEED TO PROBABLY MOVE ************************************************************************/
+.dojoTabular {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #5d6065;
+  margin: 0 1.5em;
+}
+.dojoTabular th {
+  text-align: center;
+  font-weight: 700;
+}
+.dojoTabular thead,
+.dojoTabular tfoot {
+  background-color: #e0e2e5;
+  border: 1px solid #5d6065;
+}
+.dojoTabular th,
+.dojoTabular td {
+  padding: 0.25em 0.5em;
+}
+/***** SPLASH  ************************************************************************/
+#splash {
+  background: url("images/backgrounds/splashScreen.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+/***** WAS ON WEBDMS  ************************************************************************/
+.wrapper {
+  width: 100%;
+  height: 98%;
+  padding: 0;
+  position: relative;
+}

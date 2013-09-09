@@ -1,0 +1,122 @@
+/* @text-color-dark: #353535; */
+/* ColorPalette
+ * 
+ * Styling of the ColorPalette consists of the following:
+ * 
+ * 1. the whole color palette
+ *		.dijitColorPalette - for outline, border, and background color of the whole color palette
+ *		Note: outline does not work for IE
+ *
+ * 2. the color swatch 
+ *		.dijitColorPalette .dijitPaletteImg
+ *		transparent (but clickable) <img> node inside of each <td>, overlaying the color swatch.
+ *		displays border around a color swatch
+ *
+ * 3. hovered swatch
+ * 		.dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg
+ *		the hovered state of the color swatch - adds border
+ * 	
+ * 4. active and selected swatch
+ * 		.dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg
+ *		.dijitColorPalette .dijitPaletteCellSelected .dijitPaletteImg
+ *		adds border for active or selected state
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitColorPalette {
+  border: 1px solid #919bab;
+  background-color: #ffffff;
+}
+.corporate .dijitColorPalette .dijitPaletteImg {
+  /* transparent (but clickable) <img> node inside of each <td>, overlaying the color swatch.
+	 * displays border around a color swatch
+	 * overrides border color in dijit.css */
+
+  border: 1px solid #919bab;
+}
+.corporate .dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg {
+  border: 1px solid #d1dfeb;
+}
+.corporate .dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg,
+.corporate .dijitColorPalette .dijitPaletteTable .dijitPaletteCellSelected .dijitPaletteImg {
+  border: 2px solid #d1dfeb;
+}

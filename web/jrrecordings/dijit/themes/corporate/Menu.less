@@ -1,0 +1,215 @@
+/* Menu 
+
+There are three areas of styling for the Menu:  
+ 
+ 1. The menu 
+ 	There are three types of menus:
+ 	i) Context Menu
+ 	ii) Drop down Menu
+ 	iii) Navigation Menu
+ 	All three types of menus are affected by the .dijitMenu class in which you can set the background-color, padding and border
+ 	.dijitMenu affects the drop down menu in TimeTextBox, Calendar, ComboBox and FilteringSelect
+  .dijitMenuTable - for padding - also affects Select widget 	
+  	
+ 2. The menu bar
+ 	.dijitMenuBar - for border, margins, padding, background-color of the menu bar
+ 	.dijitMenuBar .dijitMenuItem - for padding, text color of menu items in the menu bar (overrides .dijitMenuItem) 
+ 	
+ 3. Menu items - items in the menu.  
+ 	.dijitMenuItem - for color
+ 	.dijitMenuItemHover, .dijitMenuItemSelected - for background-color, border, text color, padding of a menu item or menubar item that has been hovered over or selected	
+ 	.dijitMenuItemActive - for background-color of an active (mousedown) menu item
+	td.dijitMenuItemIconCell - for padding around a  menu item's icon
+	td.dijitMenuItemLabel - for padding around a menu item's label	
+	.dijitMenuSeparatorTop - for border, top border, of the separator
+	.dijitMenuSeparatorBottom - for bottom margin of the separator
+	
+	Styles specific to ComboBox and FilteringSelect widgets: 
+	.dijitComboBoxMenu .dijitMenuItem - for padding and border of a menu item in a ComboBox or FilteringSelect widget's menu
+	.dijitComboBoxMenu .dijitMenuItemSelected- for text color, background-color and border of a menu item in a ComboBox or FilteringSelect widget's menu
+
+*/
+
+
+@import "variables";
+
+
+/****************************  MENUBAR CONTAINER APPEARANCE ALONG WITH LABEL & SEPARATOR  ********************************************/
+
+/* ******* default ********* */
+.corporate .dijitMenuBar {
+background-color: @menubar-background-color;
+border: @menubar-border;
+padding: @menubar-padding;
+margin: 0;
+padding: 0;
+}
+
+
+
+/* ******* default ********* */
+.corporate .dijitMenu {
+/* so adjoining borders of MenuBar/ComboBox and Menu overlap, avoiding double border */
+margin: -1px 0;
+border: @menu-border;
+background-color: @menu-background-color;
+}
+
+.corporate .dijitMenuItem {
+color: @menuitem-text-color;
+}
+
+.corporate .dijitMenuBar .dijitMenuItem {  
+padding: 6px 10px 7px;
+margin:-1px;
+}
+
+
+/* ******  hover state of MenuBar Item ****************** */
+.corporate .dijitMenuBar .dijitMenuItemHover {
+// on hover or selection of MenuBar item, add border and reduce padding to compensate
+background-color: @menuitem-hover-background-color;
+border: @menuitem-hover-border;
+padding: 5px 9px 6px;
+}
+
+/* ******  selected state of MenuBar Item ****************** */
+.corporate .dijitMenuBar .dijitMenuItemSelected {
+border: @menuitem-selected-border;
+background-color: @menuitem-selected-background-color;
+padding: 5px 9px 6px;
+}
+
+/* this prevents jiggling upon hover of a menu item */
+.corporate .dijitMenuTable {
+	border-collapse:separate;
+	border-spacing:0 0;
+	padding:0;
+	border: @base-border;
+	background-color: @menu-background-color;
+	
+}
+.corporate .dijitMenuItem td{
+	padding:1px;
+}
+
+
+/* ******  hover over a MenuItem or MenuBarItem  of MenuBar Item ****************** */
+.corporate .dijitSelectMenu .dijitMenuItemHover td,
+.corporate .dijitSelectMenu .dijitMenuItemSelected td,
+.corporate .dijitMenuItemHover,
+.corporate .dijitMenuItemSelected {
+background-color: @menuitem-selected-background-color;
+color: @menuitem-selected-text-color;
+border-width: 1px 0;
+border-color: @menuitem-selected-border-color;
+}
+
+
+/* ******  active Menu Item ****************** */
+.corporate .dijitMenuItemActive {
+// todo: seems like the selected MenuItem should come here
+
+background-color: @menuitem-active-background-color;
+color: @menuitem-active-text-color;
+}
+
+.corporate td.dijitMenuItemIconCell {
+	padding: 2px;
+	margin: 0 0 0 4px;
+}
+.corporate td.dijitMenuItemLabel {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.corporate .dijitMenuExpand {
+	width: 7px;
+	height: 7px;
+	background: url(@image-arrow-sprite_down) center center no-repeat;
+	margin-right:3px;
+}
+
+.corporate .dijitMenuItemDisabled .dijitMenuItemIconCell {
+	opacity:1;
+}
+
+.corporate .dijitMenuSeparatorTop {
+	height: auto;
+	margin-top:1px; /* prevents spacing above/below separator */
+	border-bottom: 1px solid @separator-border-light-color;
+}
+
+.corporate .dijitMenuSeparatorBottom{
+	height: auto;
+	margin-bottom:1px;
+}
+
+// **************************** CHECKED ITEM AND ICON  ************************************ //
+
+/* ******  checked item ****************** */
+.corporate .dijitCheckedMenuItemIconChar {
+	display: none;
+}
+
+.corporate .dijitCheckedMenuItemIcon {
+background: url(@image-form-checkbox_unchecked) center center no-repeat;
+width:16px;
+height:16px;
+}
+
+.corporate .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon {
+background: url(@image-form-checkbox_checked) center center no-repeat;
+}
+
+// **************************** COMBOBOX MENU ************************************ //
+
+/* ******* default look ********* */
+.corporate .dijitComboBoxMenu {
+	margin-left:0;
+	background-image: none;
+}
+
+.corporate .dijitSelectMenu .dijitMenuItem td,
+.corporate .dijitComboBoxMenu .dijitMenuItem {
+	padding: @textbox-padding;	// Make drop down menu text line up with text in <input>.
+	border-width:1px 0 1px 0;
+	border-style:solid;
+	border-color: @select-dropdownitem-background-color;
+}
+
+
+/* ******* selected look ********* */
+.corporate .dijitSelectMenu .dijitMenuItemSelected td,
+.corporate .dijitComboBoxMenu .dijitMenuItemSelected {
+color: @menuitem-selected-text-color;
+border-color: @menuitem-selected-border-color;
+background-color:@menuitem-selected-background-color;
+font-weight: @menuitem-selected-font-weight;
+}
+
+
+/* ******* hover look ********* */
+.corporate .dijitSelectMenu .dijitMenuItemHover td,
+.corporate .dijitComboBoxMenu .dijitMenuItemHover {
+color: @menuitem-hover-text-color;
+border-color: @menuitem-hover-border-color;
+background-color:@menuitem-hover-background-color;
+font-weight: @menuitem-hover-font-weight;
+}
+
+.corporate .dijitComboBoxMenuActive .dijitMenuItemSelected {
+background-color: @menuitem-hover-background-color;
+}
+
+
+.corporate .dijitMenuPreviousButton, .corporate .dijitMenuNextButton {
+	font-style: italic;
+}
+
+
+
+
+
+
+

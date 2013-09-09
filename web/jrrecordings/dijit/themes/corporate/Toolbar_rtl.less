@@ -1,0 +1,30 @@
+/* Toolbar RTL */
+
+@import "variables";
+
+/* Repeated rules from Toolbar.css to override rule from Button_rtl.css, which is loaded after Toolbar.css */
+.corporate .dijitToolbar .dijitComboButtonRtl .dijitButtonNode {
+	border-width: 0;
+	padding: 2px;
+}
+.corporate .dijitToolbar .dijitComboButtonRtlHover .dijitButtonNode,
+.corporate .dijitToolbar .dijitComboButtonRtlActive .dijitButtonNode {
+	border-width: 1px;
+	padding: 1px;
+}
+
+.corporate .dijitToolbar .dijitComboButtonRtl .dijitStretch {
+	/* no rounded border on side adjacent to arrow */
+}
+.corporate .dijitToolbar .dijitComboButtonRtl .dijitArrowButton {
+	/* no rounded border on side adjacent to button */
+}
+
+.corporate .dijitToolbar .dijitComboButtonRtlHover .dijitArrowButton,
+.corporate .dijitToolbar .dijitComboButtonRtlActive .dijitArrowButton {
+	/* border between button and arrow */
+	border-left-width: 1px;
+	border-right-width: 0;
+	padding-left: 1px;
+	padding-right: 2px;
+}

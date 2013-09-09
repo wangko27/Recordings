@@ -1,0 +1,149 @@
+@import "variables";
+
+
+
+/* dojox.layout.ExpandoPane */
+
+.corporate .dojoxExpandoPane {
+overflow:hidden;
+z-index:440 !important;
+}
+	
+.corporate .dojoxExpandoPane .dojoxExpandoWrapper {
+overflow:hidden;
+}
+
+.corporate .dojoxExpandoClosed .dojoxExpandoTitleNode {
+display:none;
+}
+
+/* hide all layout children scrollbars when closed */
+.corporate .dojoxExpandoClosed .dojoxExpandoWrapper * {
+overflow:hidden !important;
+}
+
+.corporate .dojoxExpandoTitleNode {
+padding-right:6px; 
+padding-left:6px;
+}
+
+.corporate .dojoxExpandoIcon .a11yNode {
+display:none;
+visibility:hidden;
+}
+
+.corporate .dojoxExpandoBottom .dojoxExpandoIcon,
+.corporate .dojoxExpandoTop .dojoxExpandoIcon,
+.corporate .dojoxExpandoLeft .dojoxExpandoIcon {
+float:right;
+margin-right:2px;
+}
+
+.corporate .dojoxExpandoRight .dojoxExpandoIcon {
+float:left;
+margin-left:2px;
+}
+
+.corporate .dojoxExpandoIcon {
+width:14px;
+height:14px;
+cursor:pointer;
+background: url("@image-missing") center center no-repeat;
+}
+
+.corporate .dojoxExpandoClosed .dojoxExpandoIcon {
+background: url("@image-missing") center center no-repeat;
+margin:0 auto;
+}
+	
+.corporate .dijitBorderContainer-dijitExpandoPane {
+border: none !important; 
+}
+
+.corporate .dojoxExpandoTitle {
+font-weight: bold;
+color: @text-color;
+border: @dojoxExpandoTitle-border;
+border-bottom: none;
+background-color: @dojoxExpandoTitle-background-color;
+background-position:0px 0px;
+background-repeat:repeat-x;
+padding: 5px 7px 2px 7px;
+min-height:17px;
+}
+		
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle {
+background-color: @dojoxExpandoTitle-background-color;
+border: none;
+padding:3px;
+}
+	
+.corporate .dojoxExpandoClosed {
+background: none;
+background-color: @dojoxExpandoTitle-background-color;
+border: @dojoxExpandoTitle-border!important;
+}
+
+.corporate .dojoxExpandoRight .dojoxExpandoTitle,
+.corporate .dojoxExpandoLeft .dojoxExpandoTitle,
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle{
+background-color: @dojoxExpandoTitle-background-color;
+}
+
+.corporate .dojoxExpandoClosed .dojoxExpandoTitle{
+background-position:0 0;
+}
+	
+
+
+.corporate .dojoxExpandoIcon {
+background: url(@image-sprite-rounded-small_up) center center no-repeat;
+}
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIconLeft,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconRight,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconTop,
+.corporate .dojoxExpandoClosed .dojoxExpandoIconBottom {
+margin-top: 3px;
+}
+	
+/* open/closed states */
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIcon {
+margin-right:4px;
+}
+	
+.corporate .dojoxExpandoIconLeft {
+background: url(@image-sprite-rounded-small_left) center center no-repeat;
+}
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIconLeft {
+background: url(@image-sprite-rounded-small_x) center center no-repeat;
+margin-right: 4px;
+}
+	
+.corporate .dojoxExpandoIconRight {
+background: url(@image-sprite-rounded-small_right) center center no-repeat;
+}
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIconRight {
+background: url(@image-sprite-rounded-small_x) center center no-repeat;
+margin-left: 4px;
+}
+	
+.corporate .dojoxExpandoIconBottom {
+background: url(@image-sprite-rounded-small_down) center center no-repeat;
+}
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIconBottom {
+background: url(@image-sprite-rounded-small_x) center center no-repeat;
+margin-top:1px;
+}
+	
+.corporate .dojoxExpandoIconTop {
+background: url(@image-sprite-rounded-small_up) center center no-repeat;
+}
+	
+.corporate .dojoxExpandoClosed .dojoxExpandoIconTop {
+background: url(@image-sprite-rounded-small_x) center center no-repeat;
+}

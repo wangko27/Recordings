@@ -1,0 +1,178 @@
+/* @text-color-dark: #353535; */
+/* Time Picker 
+ *
+ * Styling the Time Picker consists of the following: 
+ *
+ * 1. minor time values
+ * 		.dijitTimePickerTick - set text color, size, background color of minor values
+ * 		.dijitTimePickerTickHover - set hover style of minor time values
+ * 		dijitTimePickerTickSelected - set selected style of minor time values
+ *
+ * 2. major time values - 1:00, 2:00, times on the hour 
+ * 		set text color, size, background color, left/right margins for "zoom" affect
+ * 		.dijitTimePickerMarkerHover - to set hover style of major time values
+ * 		.dijitTimePickerMarkerSelected - set selected style of major time values
+ * 
+ * 3. up and down arrow buttons
+ * 		.dijitTimePicker .dijitButtonNode - background-color, border
+ * 		.dijitTimePicker .dijitUpArrowHover, .dijitTimePicker .dijitDownArrowHover - set background-color for hover state
+ *
+ *	Other classes provide the fundamental structure of the TimePicker and should not be modified. 
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/* override Button.css */
+.corporate .dijitTimePicker .dijitButtonNode {
+  padding: 0 0;
+}
+.corporate .dijitTimePicker {
+  border: 1px solid #5d6065;
+  border-top: none;
+  border-bottom: none;
+  background-color: #ffffff;
+}
+.corporate .dijitTimePickerItem {
+  /* dijitTimePickerItem refers to both Tick's (minor values like 2:15, 2:30, 2:45) and Marker's (major values like 2PM, 3PM) */
+
+  /* background: @timepicker-background; */
+
+  background-color: pink;
+  border-top: 1px solid #5d6065;
+  border-bottom: 1px solid #5d6065;
+  margin-right: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+.corporate .dijitTimePickerTick {
+  /* minor value */
+
+  color: #515151;
+  background-color: #eaeaeb;
+}
+.corporate .dijitTimePickerMarker {
+  /* major value - 1:00, 2:00, times on the hour */
+
+  background-color: #e3e8ed;
+  white-space: nowrap;
+}
+.corporate .dijitTimePickerTickHover,
+.corporate .dijitTimePickerMarkerHover,
+.corporate .dijitTimePickerMarkerSelected,
+.corporate .dijitTimePickerTickSelected {
+  background-color: #f0f1f2;
+  /* background-color: red; */
+
+  border: 1px solid #5d6065;
+  margin-left: -7px;
+  margin-right: -7px;
+  color: #ffffff;
+}
+.corporate .dijitTimePickerTick .dijitTimePickerItemInner {
+  padding: 1px;
+  margin: 0;
+}
+.corporate .dijitTimePicker .dijitButtonNode {
+  border-left: none;
+  border-right: none;
+  border-color: #5d6065;
+  background-color: #134570;
+}
+.corporate .dijitTimePicker .dijitArrowButtonInner {
+  height: 100%;
+  /* hack corporate.button.css */
+
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+}
+.corporate .dijitTimePicker .dijitDownArrowButton .dijitArrowButtonInner {
+  background-image: url("images/common_formarrow_down.png");
+}
+/* hover */
+.corporate .dijitTimePicker .dijitUpArrowHover,
+.corporate .dijitTimePicker .dijitDownArrowHover {
+  background-color: #949ead;
+}
+.corporate .dijitTimePicker .dijitUpArrowHover .dijitArrowButtonInner {
+  background-image: url("images/common_formarrow_up.png");
+}
+.corporate .dijitTimePicker .dijitDownArrowHover .dijitArrowButtonInner {
+  background-image: url("images/common_formarrow_down.png");
+}

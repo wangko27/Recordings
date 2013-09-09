@@ -1,0 +1,394 @@
+@import "variables";
+
+
+/* Corporate styles for DataGrid */
+/* @import url("Grid.css"); */
+
+
+
+.dojoxGridHeader .dojoxGridCell {
+background-image: none!important;
+}
+
+.dojoxGridRowbar {
+background-image: none!important;
+}
+
+.dojoxGridDndAvatarItem td {
+background-image: none!important;
+}
+
+
+
+.corporate .dojoxGrid {
+	margin:0px;
+	padding:0px;
+	border-collapse:collapse;	
+	background-color: @dojoxGrid-background-color;
+	border: @dojoxGrid-default-border;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	
+}
+
+/*  messages */
+
+.corporate .gMasterMessages {
+background-color: @dojoxGrid-background-color;
+}
+
+.corporate .dojoxGridMasterMessages {
+	background-color: @dojoxGrid-background-color;
+}
+
+.corporate .dojoxGridLoading, 
+.corporate .dojoxGridError {
+	background-position:left center;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+.corporate .dojoxGridLoading {
+	background-image:url(@image-progressIndicator-spinner);
+}
+
+.corporate .dojoxGridError {
+/* a background image icon is missing here */
+	background-image:url(@image-form-error) top left no-repeat;
+	width: 16px;
+	height: 16px;
+	background-color: @error-color;
+	color: #ffffff;
+	font-weight: 700;
+	
+	
+}
+
+/* header */
+.corporate .dojoxGridHeader {
+background-color: @dojoxGridHeader-background-color;
+}
+
+.corporate .dojoxGridHeader .dojoxGridCell {
+background: transparent;
+border: @dojoxg-gridcell-border-color;
+}
+
+
+.corporate .dojoxGridHeader .dojoxGridCellOver {
+/* background: @dojoxGridCellOver-background-color; */
+}
+
+/* header sorting arrow */
+.corporate .dojoxGridSortNode {
+	text-decoration:none;
+	display:block;
+	white-space: normal;
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 1em;
+}
+
+.corporate .dojoxGridCellOver .dojoxGridSortNode {
+/* background-color: @hovered-background-color; */
+}
+
+.corporate .dojoxGridArrowButtonChar {
+	display:none;
+	float:right;
+}
+
+.corporate .dojoxGridArrowButtonNode {
+background: url(@image-arrow-sprite_down) center center no-repeat;
+margin:2px 4px 0 5px;
+height:1em;
+width:7px;
+top:0;
+left:0;
+display:block;
+}
+
+.corporate .dojoxGridSortUp .dojoxGridArrowButtonNode {
+background: url(@image-arrow-sprite_up) center center no-repeat;
+top:0;
+left:0;
+}
+
+
+/* **************************************** header rows */
+
+.corporate .dojoxGridMasterHeader {
+background-color: @dojoxGridMasterHeader-background-color;
+border: @dojoxGridMasterHeader-border;
+}
+
+.corporate .dojoxGridMasterHeader .dojoxGridRowTable {
+border-left: @dojoxGridRowTable-border;
+border-right: @dojoxGridMasterHeader-border;
+background-color: transparent;
+}
+
+.dj_ie .corporate .dojoxGridHeader .dojoxGridRowTable {
+	border-collapse:separate;
+}
+
+.dj_ie7 .corporate .dojoxGridHeader .dojoxGridRowTable {
+	border-collapse:collapse;
+	border-right: 0;	
+}
+
+.corporate .dojoxGridHeader .dojoxGridRowTable tr {
+	background: none;
+}
+
+.corporate .dojoxGridHeader tr:first-child .dojoxGridCell {
+	border: 1px solid transparent;
+}
+
+.corporate .dojoxGridHeader:first-child .dojoxGridRowTable {
+	border-left-width: 0;
+}
+
+.corporate .dojoxGridHeader:first-child {
+	margin-left: -1px;
+}
+
+/* **************************************** Grid view content */
+
+
+/* **************************************** content */
+
+
+/* rowbar - row headers */
+.corporate .dojoxGridRowbar { 
+background-color: @dojoxGridRowbar-background;
+border:none;
+border-right: @dojoxGridRowbar-border;
+}
+
+.corporate .dojoxGridRowbarTable { 
+	background-color:transparent;
+}
+
+.corporate .dojoxGridRowbarInner {
+	border:none;
+	border-bottom: @dojoxGridRowbar-border;
+}
+
+.corporate .dojoxGridRowbarOver .dojoxGridRowbarTable {
+background-color: @dojoxGridRowbarOver-background-color;
+}
+
+.corporate .dojoxGridRowbarSelected {
+background-color: @dojoxGridRowbarSelected-background-color;
+border-right: @dojoxGridRowbar-border-selected;
+}
+
+
+
+/* **************************************** rows */
+.corporate .dojoxGridRow {
+	border:none;
+	background-color: @dojoxGridRowbar-background;
+}
+
+.corporate .dojoxGridRowOdd {
+background-color: @dojoxg-gridrow-odd-background-color!important;
+}
+
+.corporate .dojoxGridRowSelected {
+/* background-color: @dojoxg-gridrow-selected-background-color; */
+background-color: @dojoxg-gridrow-even-background-color;
+}
+
+
+
+.dj_ie .corporate .dojoxGridMasterView .dojoxGridRowTable {
+	border-collapse:separate;/*IE, separate is must to show the border of tr and td*/
+}
+
+.dj_ie7 .corporate .dojoxGridMasterView .dojoxGridRowTable {
+	border-collapse: collapse;
+}
+
+.corporate .dojoxGridRowTable tr {
+background-color: @dojoxGridRowbar-background;
+}
+
+.corporate .dojoxGridRowOdd .dojoxGridRowTable tr {
+	background-color: @dojoxg-gridrow-odd-background-color;
+}
+
+.corporate .dojoxGridRowSelected .dojoxGridRowTable tr {
+background-color: @dojoxg-gridrow-selected-background-color;
+}
+
+/* **************************************** cells */
+
+.corporate .dojoxGrid .dojoxGridCell {
+	outline: none;
+	padding: 3px 5px;
+	word-wrap: break-word;
+	/*
+	border: 0 solid transparent;
+	border-color: @dojoxg-gridcell-border-color;
+	*/
+}
+
+.dj_ie7 .corporate .dojoxGridCell,
+.dj_ie7 .corporate .dojoxGridHeader .dojoxGridCell {
+	border-left: 0px;
+}
+
+.corporate .dojoxGridRowSelected .dojoxGridCell {
+border-top: @dojoxGrid-border-selected;
+border-bottom: @dojoxGrid-border-selected;
+}
+
+.corporate .dojoxGridCellFocus {
+	outline: none;
+	/* border:1px dashed darkblue !important; */
+	border: @gridrow-border!important;
+}
+
+/*  Single Affordance Hover Effect */
+
+.corporate .dojoxGridRowOver .dojoxGridCell {
+/* background-color: @dojoxg-gridrow-sa-over-background-color; */
+backgrouond-color: yellow;
+border-top: @dojoxGrid-border-over;
+border-bottom: @dojoxGrid-border-over;
+}
+
+.dj_ie7 .corporate .dojoxGridRowOver .dojoxGridCell {
+border-right: @dojoxGrid-border-over;
+}
+
+.corporate .dojoxGridRowActive .dojoxGridCell {
+background-color: @dojoxg-gridrow-sa-active-background-color;
+}
+
+.dj_ie7 .corporate .dojoxGridRowActive .dojoxGridCell {
+	border-left: @dojoxGrid-border-active;
+	border-right: @dojoxGrid-border-active;
+
+}
+
+
+/*  Double Affordance Hover Effect */
+.corporate .dojoxGridDoubleAffordance .dojoxGridRowOver .dojoxGridCellOver {
+border: @dojoxGrid-border-over;
+background-color: @dojoxg-gridrow-da-over-background-color;
+	border-collapse:separate;/*FF*/
+}
+.corporate .dojoxGridDoubleAffordance .dojoxGridRowActive .dojoxGridCell{	
+background-color: @dojoxg-gridrow-da-active-background-color;
+}
+.corporate .dojoxGridDoubleAffordance .dojoxGridRowActive .dojoxGridCellActive {	
+background-color: @dojoxg-gridrow-da-active-background-color;
+
+}
+	
+
+/* editing */
+.corporate .dojoxGridRowEditing td {
+background-color: @dojox-gridrow-editing;
+	/* padding: 0px 3px 0px 3px; */
+}
+.corporate .dojoxGridRow-inserting td {
+background-color: @dojox-gridrow-inserting;
+}
+.corporate .dojoxGridRow-inflight td {
+background-color: @dojox-gridrow-inflight;
+}
+.corporate .dojoxGridRow-error td {
+background-color: @error-color;
+}
+
+/* Drag and Drop */
+.corporate .dojoxGrid .dojoDndItemBefore {
+border-left-color: @dojoxGrid-default-border-color;
+}
+.corporate .dojoxGrid .dojoDndItemAfter {
+border-right-color: @dojoxGrid-default-border-color;
+}
+
+
+/* Tree Grid */
+.corporate .dojoxGridExpando {
+	float: left;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+	margin-top: -3px;
+}
+
+.dijitRtl .corporate .dojoxGridExpando {
+	float: right;
+}
+
+.corporate .dojoxGridExpandoCell {
+	padding-top: 5px;
+	background-position: left top !important;
+}
+
+.corporate .dojoxGridExpandoNode {
+	background-image: url(@image-tree-expand3) center center no-repeat;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+/* for closed state */
+}
+
+
+
+.corporate .dojoxGridRowOver .dojoxGridExpandoNode {
+background-image: url(@image-tree-expand3) center center no-repeat;
+
+}
+.corporate .dojoxGridExpandoOpened .dojoxGridExpandoNode {
+background-image: url(@image-tree-expand3) center center no-repeat;
+
+}
+.corporate .dojoxGridRowOver .dojoxGridExpandoOpened .dojoxGridExpandoNode {
+background-image: url(@image-tree-expand3) center center no-repeat;
+
+}
+
+
+.corporate .dojoxGridExpandoLoading .dojoxGridExpandoNode {
+background-image: url(@image-progressIndicator-spinner) center center no-repeat;
+}
+
+
+.corporate .dojoxGridTreeModel .dojoxGridNoChildren .dojoxGridExpando {
+	visibility: visible !important;
+	width: 18px !important;
+}
+
+
+.corporate .dojoxGridTreeModel .dojoxGridNoChildren .dojoxGridExpandoNode {
+	background-image:none;
+}
+
+
+.corporate .dojoxGridExpandoNodeInner {
+	visibility: hidden;
+}
+
+
+.corporate .dojoxGridSummaryRow .dojoxGridCell {
+	border:1px solid transparent;
+}
+
+.corporate tr.dojoxGridSubRowAlt {
+background-color: @dojoxg-gridrow-even-background-color;
+}
+
+.corporate .dojoxGridRowOdd tr.dojoxGridSubRowAlt {
+background-color: @dojoxg-gridrow-odd-background-color;
+}
+
+.corporate .dojoxGridRow .dojoxGridRowTable tr.dojoxGridRowSelected {
+background-color: @dojoxg-gridrow-selected-background-color;
+}

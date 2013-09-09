@@ -1,0 +1,150 @@
+/* @text-color-dark: #353535; */
+/* RadioButton
+ * 
+ * Styling RadioButton mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitRadio|.dijitRadioIcon - for border, padding, width|height and background image
+ * 
+ * 2. RadioButton within ToggleButton
+ * 		.dijitToggleButton|.dijitToggleButtonChecked .* - for background image
+ * 
+ * 3. Checked state
+ * 		.dijitRadioChecked - for checked background-color|image
+ * 		.dijitToggleButtonChecked - for border, background-color|image, display and width|height
+ * 
+ * 4. Hover state
+ * 		.dijitRadioHover|.dijitRadioCheckedHover - for background image
+ * 
+ * 5. Disabled state
+ * 		.dijitRadioDisabled|.dijitRadioCheckedDisabled - for background image
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitToggleButton .dijitRadio,
+.corporate .dijitToggleButton .dijitRadioIcon {
+  background: url("images/image-form-radio_unselected.png") center center no-repeat;
+}
+.corporate .dijitRadio,
+.corporate .dijitRadioIcon {
+  /* inside a toggle button */
+
+  background: url("images/image-form-radio_unselected.png") center center no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px 0 0;
+  padding: 0;
+}
+.corporate .dijitRadio {
+  /* unselected */
+
+  background: url("images/image-form-radio_unselected.png") center center no-repeat;
+}
+.corporate .dijitToggleButton .dijitRadioIcon {
+  /* unselected */
+
+  background: url("images/image-form-radio_unselected.png") center center no-repeat;
+}
+.corporate .dijitRadioDisabled {
+  /* unselected and disabled */
+
+  background: url("images/image-form-radio_disabled_unselected.png") center center no-repeat;
+}
+.corporate .dijitRadioHover {
+  /* hovering over an unselected enabled radio button */
+
+  background: url("images/image-form-radio_unselected_hover.png") center center no-repeat;
+}
+.corporate .dijitRadioChecked {
+  background: url("images/image-form-radio_selected.png") center center no-repeat;
+}
+.corporate .dijitToggleButtonChecked .dijitRadioIcon {
+  background: url("images/image-form-radio_selected.png") center center no-repeat;
+}
+.corporate .dijitRadioCheckedHover {
+  background: url("images/image-form-radio_selected_hover.png") center center no-repeat;
+}
+.corporate .dijitRadioCheckedDisabled {
+  /* selected but disabled */
+
+  background: url("images/image-form-radio_disabled_selected.png") center center no-repeat;
+}

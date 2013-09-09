@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+* {
+	/* transform: scale(1) translateZ(0); */
+}
+	
+/* This file is critical for introducing responsive design layouts for those 
+products that do not use dijit layouts. It also enables retina. In theory
+this file should be integrated into corporate.css with the important statements
+corresponding especially for the inclusion of icons. Right now the only thing
+that should be added to this file are exceptions with all the other css files 
+delivering the baseline appearance 
+
+Do not convert this file to a less file for right now.
+
+*/
+
+/* *************************  Non-Retina ************************************ */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+
+
+
+}
+
+/* ************************ Retina ******************* */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* *********************** iPhone Portrait ************************* */
+@media screen and (max-width: 480px) and (orientation:portrait) {
+	
+
+
+} 
+
+/* *********************** iPhone Landscape ********************** */
+@media screen and (max-width: 480px) and (orientation:landscape) {
+
+	
+}
+
+
+/* *********************** iphone 5  ***************************  */
+@media screen and (device-height: 568px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+
+/* *********************** iPad Portrait ************************* */
+@media screen and (min-width: 481px) and (orientation:portrait) {
+
+}
+
+/* ************************ iPad Landscape ************************ */
+@media screen and (min-width: 481px) and (orientation:landscape) {
+	
+} 
+
+
+
+
+/* ************************ Widescreen ************************** */
+@media screen and (min-width: 960px) {
+	
+}
+
+/* ************************ Super Widescreen ********************* */
+@media screen and (min-width: 1200px) {
+
+}

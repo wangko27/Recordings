@@ -1,0 +1,280 @@
+/* Menu 
+
+There are three areas of styling for the Menu:  
+ 
+ 1. The menu 
+ 	There are three types of menus:
+ 	i) Context Menu
+ 	ii) Drop down Menu
+ 	iii) Navigation Menu
+ 	All three types of menus are affected by the .dijitMenu class in which you can set the background-color, padding and border
+ 	.dijitMenu affects the drop down menu in TimeTextBox, Calendar, ComboBox and FilteringSelect
+  .dijitMenuTable - for padding - also affects Select widget 	
+  	
+ 2. The menu bar
+ 	.dijitMenuBar - for border, margins, padding, background-color of the menu bar
+ 	.dijitMenuBar .dijitMenuItem - for padding, text color of menu items in the menu bar (overrides .dijitMenuItem) 
+ 	
+ 3. Menu items - items in the menu.  
+ 	.dijitMenuItem - for color
+ 	.dijitMenuItemHover, .dijitMenuItemSelected - for background-color, border, text color, padding of a menu item or menubar item that has been hovered over or selected	
+ 	.dijitMenuItemActive - for background-color of an active (mousedown) menu item
+	td.dijitMenuItemIconCell - for padding around a  menu item's icon
+	td.dijitMenuItemLabel - for padding around a menu item's label	
+	.dijitMenuSeparatorTop - for border, top border, of the separator
+	.dijitMenuSeparatorBottom - for bottom margin of the separator
+	
+	Styles specific to ComboBox and FilteringSelect widgets: 
+	.dijitComboBoxMenu .dijitMenuItem - for padding and border of a menu item in a ComboBox or FilteringSelect widget's menu
+	.dijitComboBoxMenu .dijitMenuItemSelected- for text color, background-color and border of a menu item in a ComboBox or FilteringSelect widget's menu
+
+*/
+/* Menu 
+
+There are three areas of styling for the Menu:  
+ 
+ 1. The menu 
+ 	There are three types of menus:
+ 	i) Context Menu
+ 	ii) Drop down Menu
+ 	iii) Navigation Menu
+ 	All three types of menus are affected by the .dijitMenu class in which you can set the background-color, padding and border
+ 	.dijitMenu affects the drop down menu in TimeTextBox, Calendar, ComboBox and FilteringSelect
+  .dijitMenuTable - for padding - also affects Select widget 	
+  	
+ 2. The menu bar
+ 	.dijitMenuBar - for border, margins, padding, background-color of the menu bar
+ 	.dijitMenuBar .dijitMenuItem - for padding, text color of menu items in the menu bar (overrides .dijitMenuItem) 
+ 	
+ 3. Menu items - items in the menu.  
+ 	.dijitMenuItem - for color
+ 	.dijitMenuItemHover, .dijitMenuItemSelected - for background-color, border, text color, padding of a menu item or menubar item that has been hovered over or selected	
+ 	.dijitMenuItemActive - for background-color of an active (mousedown) menu item
+	td.dijitMenuItemIconCell - for padding around a  menu item's icon
+	td.dijitMenuItemLabel - for padding around a menu item's label	
+	.dijitMenuSeparatorTop - for border, top border, of the separator
+	.dijitMenuSeparatorBottom - for bottom margin of the separator
+	
+	Styles specific to ComboBox and FilteringSelect widgets: 
+	.dijitComboBoxMenu .dijitMenuItem - for padding and border of a menu item in a ComboBox or FilteringSelect widget's menu
+	.dijitComboBoxMenu .dijitMenuItemSelected- for text color, background-color and border of a menu item in a ComboBox or FilteringSelect widget's menu
+
+*/
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/****************************  MENUBAR CONTAINER APPEARANCE ALONG WITH LABEL & SEPARATOR  ********************************************/
+/* ******* default ********* */
+.corporate .dijitMenuBar {
+  background-color: #f0f1f2;
+  border: 1px solid #5d6065;
+  padding: 0 2px 0 2px;
+  margin: 0;
+  padding: 0;
+}
+/* ******* default ********* */
+.corporate .dijitMenu {
+  /* so adjoining borders of MenuBar/ComboBox and Menu overlap, avoiding double border */
+
+  margin: -1px 0;
+  border: 1px solid #5d6065;
+  background-color: #f0f1f2;
+}
+.corporate .dijitMenuItem {
+  color: #353535;
+}
+.corporate .dijitMenuBar .dijitMenuItem {
+  padding: 6px 10px 7px;
+  margin: -1px;
+}
+/* ******  hover state of MenuBar Item ****************** */
+.corporate .dijitMenuBar .dijitMenuItemHover {
+  background-color: #f0f1f2;
+  border: 1px solid #d1dfeb;
+  padding: 5px 9px 6px;
+}
+/* ******  selected state of MenuBar Item ****************** */
+.corporate .dijitMenuBar .dijitMenuItemSelected {
+  border: 1px solid #d1dfeb;
+  background-color: #d1dfeb;
+  padding: 5px 9px 6px;
+}
+/* this prevents jiggling upon hover of a menu item */
+.corporate .dijitMenuTable {
+  border-collapse: separate;
+  border-spacing: 0 0;
+  padding: 0;
+  border: 1px solid #5d6065;
+  background-color: #f0f1f2;
+}
+.corporate .dijitMenuItem td {
+  padding: 1px;
+}
+/* ******  hover over a MenuItem or MenuBarItem  of MenuBar Item ****************** */
+.corporate .dijitSelectMenu .dijitMenuItemHover td,
+.corporate .dijitSelectMenu .dijitMenuItemSelected td,
+.corporate .dijitMenuItemHover,
+.corporate .dijitMenuItemSelected {
+  background-color: #d1dfeb;
+  color: #233d55;
+  border-width: 1px 0;
+  border-color: #d1dfeb;
+}
+/* ******  active Menu Item ****************** */
+.corporate .dijitMenuItemActive {
+  background-color: #d1dfeb;
+  color: #353535;
+}
+.corporate td.dijitMenuItemIconCell {
+  padding: 2px;
+  margin: 0 0 0 4px;
+}
+.corporate td.dijitMenuItemLabel {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.corporate .dijitMenuExpand {
+  width: 7px;
+  height: 7px;
+  background: url("images/sprite_arrow_down.png") center center no-repeat;
+  margin-right: 3px;
+}
+.corporate .dijitMenuItemDisabled .dijitMenuItemIconCell {
+  opacity: 1;
+}
+.corporate .dijitMenuSeparatorTop {
+  height: auto;
+  margin-top: 1px;
+  /* prevents spacing above/below separator */
+
+  border-bottom: 1px solid #cccccc;
+}
+.corporate .dijitMenuSeparatorBottom {
+  height: auto;
+  margin-bottom: 1px;
+}
+/* ******  checked item ****************** */
+.corporate .dijitCheckedMenuItemIconChar {
+  display: none;
+}
+.corporate .dijitCheckedMenuItemIcon {
+  background: url("images/image-form-checkbox_unchecked.png") center center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+.corporate .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon {
+  background: url("images/image-form-checkbox_checked.png") center center no-repeat;
+}
+/* ******* default look ********* */
+.corporate .dijitComboBoxMenu {
+  margin-left: 0;
+  background-image: none;
+}
+.corporate .dijitSelectMenu .dijitMenuItem td,
+.corporate .dijitComboBoxMenu .dijitMenuItem {
+  padding: 2px;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #ffffff;
+}
+/* ******* selected look ********* */
+.corporate .dijitSelectMenu .dijitMenuItemSelected td,
+.corporate .dijitComboBoxMenu .dijitMenuItemSelected {
+  color: #233d55;
+  border-color: #d1dfeb;
+  background-color: #d1dfeb;
+  font-weight: 700;
+}
+/* ******* hover look ********* */
+.corporate .dijitSelectMenu .dijitMenuItemHover td,
+.corporate .dijitComboBoxMenu .dijitMenuItemHover {
+  color: #353535;
+  border-color: #d1dfeb;
+  background-color: #f0f1f2;
+  font-weight: 400;
+}
+.corporate .dijitComboBoxMenuActive .dijitMenuItemSelected {
+  background-color: #f0f1f2;
+}
+.corporate .dijitMenuPreviousButton,
+.corporate .dijitMenuNextButton {
+  font-style: italic;
+}

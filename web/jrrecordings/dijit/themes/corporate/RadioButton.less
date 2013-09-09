@@ -1,0 +1,77 @@
+/* RadioButton
+ * 
+ * Styling RadioButton mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitRadio|.dijitRadioIcon - for border, padding, width|height and background image
+ * 
+ * 2. RadioButton within ToggleButton
+ * 		.dijitToggleButton|.dijitToggleButtonChecked .* - for background image
+ * 
+ * 3. Checked state
+ * 		.dijitRadioChecked - for checked background-color|image
+ * 		.dijitToggleButtonChecked - for border, background-color|image, display and width|height
+ * 
+ * 4. Hover state
+ * 		.dijitRadioHover|.dijitRadioCheckedHover - for background image
+ * 
+ * 5. Disabled state
+ * 		.dijitRadioDisabled|.dijitRadioCheckedDisabled - for background image
+ */
+
+@import "variables";
+
+
+
+.corporate .dijitToggleButton .dijitRadio,
+.corporate .dijitToggleButton .dijitRadioIcon {
+background: url(@image-form-radio_unselected) center center no-repeat;
+}
+
+
+.corporate .dijitRadio,
+.corporate .dijitRadioIcon	{		
+/* inside a toggle button */
+background: url(@image-form-radio_unselected) center center no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0 2px 0 0;
+	padding: 0;
+}
+
+.corporate .dijitRadio{
+/* unselected */
+background: url(@image-form-radio_unselected) center center no-repeat;
+}
+
+.corporate .dijitToggleButton .dijitRadioIcon {
+/* unselected */
+background: url(@image-form-radio_unselected) center center no-repeat;
+}
+
+.corporate .dijitRadioDisabled {
+/* unselected and disabled */
+background: url(@image-form-radio_disabled_unselected) center center no-repeat;
+}
+
+.corporate .dijitRadioHover {
+/* hovering over an unselected enabled radio button */
+background: url(@image-form-radio_unselected_hover) center center no-repeat;
+}
+
+.corporate .dijitRadioChecked{
+background: url(@image-form-radio_selected) center center no-repeat;
+}
+
+.corporate .dijitToggleButtonChecked .dijitRadioIcon {
+background: url(@image-form-radio_selected) center center no-repeat;
+}
+
+.corporate .dijitRadioCheckedHover{
+background: url(@image-form-radio_selected_hover) center center no-repeat;
+}
+
+.corporate .dijitRadioCheckedDisabled {
+	/* selected but disabled */
+background: url(@image-form-radio_disabled_selected) center center no-repeat;
+}

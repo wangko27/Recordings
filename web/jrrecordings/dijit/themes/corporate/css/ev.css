@@ -1,0 +1,171 @@
+/* UX designer is Elizabeth Lynn. Developer contact is Connie Wu */
+/* ****************** ENVIRONMENT MANAGER SUPPLEMENTAL STYLE SHEET  ************************ */
+/* UX designer is Elizabeth Lynn. Developer contact is Connie Wu */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.sortIcon {
+  background: transparent url('../images/sasIcons/sasdark/16_png/Filter.png') center center no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+/* Style for dedicated view's StackController
+   buttons. We applied this style to the 
+   StackController's dijitButtonNodes only
+   using domClass.add() 
+ **/
+.dedicatedViewStackButton .dijitButtonNode {
+  width: 100%;
+}
+.editorStackButton .dijitButtonNode {
+  width: 100%;
+}
+/*Loading animation*/
+.corporate .dijitIconLoading {
+  background: transparent url("images/sasIcons/sasdark/other_png/ProgressIndicatorSpinner.gif") no-repeat;
+  height: 32px!important;
+  width: 32px!important;
+}
+/* ************************************ NEW STARBURST ************************************ */
+.createIcon {
+  background: transparent url('../images/sasIcons/sasdark/16_png/NewStarburst.png') center center no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+/* ************************************ REFRESH ************************************ */
+.refreshIcon {
+  background: transparent url('../images/sasIcons/sasdark/16_png/Refresh.png') center center no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+/* ************************************** New Styles ******************************* */
+.generalEditorName {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #5d6065;
+}
+.generalEditorDesc {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #5d6065;
+  resize: none;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.editorTabStackContainer {
+  border: 1px solid #5d6065;
+  height: 100%;
+  width: 100%;
+}
+.generalEditorTable {
+  width: 100%;
+  cellspacing: 10px;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+.editorTabButtonPanel {
+  height: 100%;
+  width: 20%;
+}
+.dedicatedViewPanel {
+  overflow: hidden;
+  padding: 0px !important;
+}
+.contentPaneLessPading {
+  border: 1px solid #5d6065;
+  height: 100%;
+  width: 100%;
+}
+.dedicatedViewStackButton .dijitButtonText {
+  white-space: normal;
+  word-wrap: normal;
+}
+.editorStackButton .dijitButtonText {
+  white-space: normal;
+  word-wrap: normal;
+}
+.dedicatedViewsFullSize {
+  height: 100%;
+  width: 100%;
+}

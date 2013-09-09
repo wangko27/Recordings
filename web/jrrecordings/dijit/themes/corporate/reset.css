@@ -1,0 +1,58 @@
+/*
+	THIS IS A RESET TO GET ALL BROWSERS BASELINE
+	IT SHIPPED WITH DOJO
+*/
+
+/*****************************************************************************************/
+
+/*
+	The below are borrowed from YUI's reset style sheets for pages and fonts.
+	We've verified w/ the YUI development team that these are entirely
+	copyright Yahoo, written entirely by Nate Koechley and Matt Sweeney without
+	external contributions.
+
+	Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+	Code licensed under the BSD License:
+	http://developer.yahoo.net/yui/license.txt
+	version: 2.2.1
+*/
+
+
+
+/*
+body, div, dl, dt, dd, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	
+} */
+
+
+
+th, td {
+	vertical-align: top;
+}
+
+
+fieldset, img {
+	border: 0 none;
+}
+
+address, caption, cite, code, dfn, th, var {
+	font-style: normal; 
+	font-weight: 400;
+}
+
+caption, th {
+	text-align: left;
+}
+
+q:before, q:after {
+	content:"";
+}
+
+abbr, acronym {
+	border:0;
+}
+/* End YUI imported code. */
+

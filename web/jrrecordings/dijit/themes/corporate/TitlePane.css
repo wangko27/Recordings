@@ -1,0 +1,182 @@
+/* @text-color-dark: #353535; */
+/* TitlePane 
+ * 
+ * Styling TitlePane means styling the TitlePane title and its content container  (dijitTitlePane)
+ * 
+ * TitlePane title:
+ * 1. TitlePane title (default styling): 
+ * 		.dijitTitlePaneTitle - TitlePane's title div style: background-color, border
+ *
+ * 2. hovered TitlePane title (ie, mouse hover on a title bar)
+ * 		.dijitTitlePaneTitleHover - styles when mouse hover on the title div
+ * 
+ * 3. active TitlePane title (ie, mouse down on a title bar)
+ * 		.dijitTitlePaneTitleActive - styles when mouse down on the title div
+ * 
+ * 
+ * TitlePane Content Container:
+ * 1. outer/inner container: 
+ * 		.dijitTitlePaneContentOuter / dijitTitlePaneContentInner - styles for the content outer div
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/* ******* default look ********* */
+.corporate .dijitTitlePaneTitle {
+  color: #ffffff;
+  border: 0 solid #5d6065;
+  border-bottom: 0 solid #5d6065;
+  background-color: #134570;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+  /*
+min-height:17px;
+*/
+
+  padding: 5px 7px 2px 7px;
+}
+/* ******* text ********* */
+.corporate .dijitTitlePaneTextNode {
+  margin-left: 4px;
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+.corporate .dijitTitlePane .dijitTitlePaneTextNode {
+  /* color: @titlepane-text-color; */
+
+  background-color: transparent;
+  /* pick up color from dijitAccordionInnerContainer */
+
+  min-height: 17px;
+  font-weight: 700;
+  font-size: 1.10em;
+}
+/* ******* hover ********* */
+.corporate .dijitTitlePaneTitleHover {
+  color: #233d55;
+  border: 0 solid #d1dfeb;
+  background-color: #d1dfeb;
+}
+/* ******* active/checked ********* */
+.corporate .dijitTitlePaneTitleActive {
+  border: 0 solid #d1dfeb;
+  background-color: #d1dfeb;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ******* focus ********* */
+.corporate .dijitTitlePaneTitleFocus {
+  margin-top: 3px;
+  padding-bottom: 2px;
+}
+/* ******* icon ********* */
+.corporate .dijitTitlePane .dijitArrowNode {
+  background: url("images/sprite_arrow_down_light.png") center center no-repeat;
+  height: 7px;
+  width: 7px;
+}
+.corporate .dijitTitlePane .dijitOpen .dijitArrowNode {
+  background: url("images/sprite_arrow_down_light.png") center center no-repeat;
+}
+.corporate .dijitTitlePane .dijitClosed .dijitArrowNode {
+  background: url("images/sprite_arrow_down_light.png") center center no-repeat;
+}
+.corporate .dijitTitlePaneContentOuter {
+  background-color: #e3e3e4;
+  border: 0 solid #5d6065;
+  border-top: none;
+  margin-top: 0;
+}
+.corporate .dijitTitlePaneContentInner {
+  padding: 4px;
+  background-color: #f0f1f2;
+}
+.corporate .dijitTitlePaneContentInner p {
+  margin-top: 0;
+}

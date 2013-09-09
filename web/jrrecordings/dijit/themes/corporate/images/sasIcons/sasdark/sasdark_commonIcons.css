@@ -1,0 +1,5015 @@
+/* ************************************ ACCESS CONTROL TEMPLATE ************************************ */
+.sasAccessControlTemplateIcon {
+background: transparent url('16_png/AccessControlTemplate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAccessControlTemplateIcon   {
+background: transparent url('16_png/AccessControlTemplate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ ACTION ************************************ */
+.sasActionIcon {
+background: transparent url('16_png/Action.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasActionIcon   {
+background: transparent url('16_png/Action.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ACTIVATE ************************************ */
+.sasActivateIcon {
+background: transparent url('16_png/Activate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasActivateIcon   {
+background: transparent url('16_png/Activate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ADD ************************************ */
+.sasAddIcon {
+background: transparent url('16_png/Add.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAddIcon   {
+background: transparent url('16_png/Add.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ADD COLUMN ************************************ */
+.sasAddColumnIcon {
+background: transparent url('16_png/AddColumn.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAddColumnIcon   {
+background: transparent url('16_png/AddColumn.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ AGGREGATED CATEGORY ************************************ */
+.sasAggregatedCategoryIcon {
+background: transparent url('16_png/AggregatedCategory.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAggregatedCategoryIcon   {
+background: transparent url('16_png/AggregatedCategory.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ AGGREGATED MEASURE ************************************ */
+.sasAggregatedMeasureIcon {
+background: transparent url('16_png/AggregatedMeasure.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAggregatedMeasureIcon   {
+background: transparent url('16_png/AggregatedMeasure.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ ALLOCATION RULE ************************************ */
+.sasAllocationRuleIcon {
+background: transparent url('16_png/AllocationRule.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAllocationRuleIcon   {
+background: transparent url('16_png/AllocationRule.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ANALYSIS BY GRAPH ************************************ */
+.sasAnalysisByGraphIcon {
+background: transparent url('16_png/AnalysisByGraph.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAnalysisByGraphIcon   {
+background: transparent url('16_png/AnalysisByGraph.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ APPLICATION  ************************************ */
+.sasApplicationIcon {
+background: transparent url('16_png/Application.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasApplicationIcon   {
+background: transparent url('16_png/Application.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ APPLICATION SERVER ************************************ */
+.sasApplicationServerIcon {
+background: transparent url('16_png/ApplicationServer.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasApplicationServerIcon   {
+background: transparent url('16_png/ApplicationServer.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ APPROVE ************************************ */
+.sasApproveIcon {
+background: transparent url('16_png/Approve.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasApproveIcon   {
+background: transparent url('16_png/Approve.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ARROW SMALL DOWN ************************************ */
+.sasArrowSmallDownIcon {
+background: transparent url('16_png/ArrowSmallDown.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasArrowSmallDownIcon   {
+background: transparent url('16_png/ArrowSmallDown.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ARROW SMALL LEFT ************************************ */
+.sasArrowSmallLeftIcon {
+background: transparent url('16_png/ArrowSmallLeft.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasArrowSmallLeftIcon   {
+background: transparent url('16_png/ArrowSmallLeft.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ARROW SMALL RIGHT ************************************ */
+.sasArrowSmallRightIcon {
+background: transparent url('16_png/ArrowSmallRight.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasArrowSmallRightIcon   {
+background: transparent url('16_png/ArrowSmallRight.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ ARROW SMALL UP ************************************ */
+.sasArrowSmallUpIcon {
+background: transparent url('16_png/ArrowSmallUp.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasArrowSmallUpIcon   {
+background: transparent url('16_png/ArrowSmallUp.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ATTACH ************************************ */
+.sasAttachIcon {
+background: transparent url('16_png/Attach.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAttachIcon   {
+background: transparent url('16_png/Attach.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ATTRIBUTES ************************************ */
+.sasAttributesIcon {
+background: transparent url('16_png/Attributes.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAttributesIcon   {
+background: transparent url('16_png/Attributes.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ AUTHENTICATION DOMAIN ************************************ */
+.sasAuthenticationDomainIcon {
+background: transparent url('16_png/AuthenticationDomain.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAuthenticationDomainIcon   {
+background: transparent url('16_png/AuthenticationDomain.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ AUTO LAYOUT ************************************ */
+.sasAutoLayoutIcon {
+background: transparent url('16_png/AutoLayout.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasAutoLayoutIcon   {
+background: transparent url('16_png/AutoLayout.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ BI REPORT GALLERY ************************************ */
+.sasBIReportGalleryIcon {
+background: transparent url('16_png/BIReportGallery.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBIReportGalleryIcon   {
+background: transparent url('16_png/BIReportGallery.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ BOOKMARK ************************************ */
+.sasBookmarkIcon {
+background: transparent url('16_png/Bookmark.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBookmarkIcon   {
+background: transparent url('16_png/Bookmark.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ BROADCAST ************************************ */
+.sasBroadcastIcon {
+background: transparent url('16_png/Broadcast.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBroadcastIcon   {
+background: transparent url('16_png/Broadcast.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ BROWSE ************************************ */
+.sasBrowseIcon {
+background: transparent url('16_png/Browse.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBrowseIcon   {
+background: transparent url('16_png/Browse.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ BURST DEFINITION ************************************ */
+.sasBurstDefinitionIcon {
+background: transparent url('16_png/BurstDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBurstDefinitionIcon   {
+background: transparent url('16_png/BurstDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ BUSINESS CONTEXTS ************************************ */
+.sasBusinessContextsIcon {
+background: transparent url('16_png/Store.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasBusinessContextsIcon   {
+background: transparent url('16_png/Store.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CALCULATED MEASURE ************************************ */
+.sasCalculatedMeasureIcon {
+background: transparent url('16_png/CalculatedMeasure.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCalculatedMeasureIcon   {
+background: transparent url('16_png/CalculatedMeasure.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CAMPAIGN ************************************ */
+.sasCampaignIcon {
+background: transparent url('16_png/Campaign.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCampaignIcon   {
+background: transparent url('16_png/Campaign.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CAMPAIGN GROUP ************************************ */
+.sasCampaignGroupIcon {
+background: transparent url('16_png/CampaignGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCampaignGroupIcon   {
+background: transparent url('16_png/CampaignGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ CAMPAIGN GROUP DEFINITION ************************************ */
+.sasCampaignGroupDefinitionIcon {
+background: transparent url('16_png/CampaignGroupDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCampaignGroupDefinitionIcon   {
+background: transparent url('16_png/CampaignGroupDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ CATEGORY ************************************ */
+.sasCategoryIcon {
+background: transparent url('16_png/Category.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCategoryIcon   {
+background: transparent url('16_png/Category.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ CHARACTER TYPE ************************************ */
+.sasCharacterTypeIcon {
+background: transparent url('16_png/CharacterType.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCharacterTypeIcon   {
+background: transparent url('16_png/CharacterType.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ CHARTS ************************************ */
+.sasChartsIcon {
+background: transparent url('16_png/Charts.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasChartsIcon   {
+background: transparent url('16_png/Charts.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CHECKBOX DESKTOP ************************************ */
+.sasCheckboxDesktopIcon {
+background: transparent url('16_png/CheckboxDesktop.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCheckboxDesktopIcon   {
+background: transparent url('16_png/CheckboxDesktop.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CI TREATMENT ************************************ */
+.sasCITreatmentIcon {
+background: transparent url('16_png/CITreatment.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCITreatmentIcon   {
+background: transparent url('16_png/CITreatment.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ CLEAR ************************************ */
+.sasClearIcon {
+background: transparent url('16_png/Clear.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasClearIcon   {
+background: transparent url('16_png/Clear.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CLEAR ALL ************************************ */
+.sasClearAllIcon {
+background: transparent url('16_png/ClearAll.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasClearAllIcon   {
+background: transparent url('16_png/ClearAll.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ CLEAR SEARCH ************************************ */
+.sasClearSearchIcon {
+background: transparent url('16_png/ClearSearch.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasClearSearchIcon   {
+background: transparent url('16_png/ClearSearch.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CLOSE TAB ************************************ */
+.sasCloseTabIcon {
+background: transparent url('other_png/CloseTab.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCloseTabIcon   {
+background: transparent url('other_png/CloseTab.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CODE ************************************ */
+.sasCodeIcon {
+	background: transparent url('16_png/Code.png') center center
+		no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .sasCodeIcon {
+	background: transparent url('16_png/Code.png') center center
+		no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+/* ************************************ COLLAPSE ALL NODES ************************************ */
+.sasCollapseAllNodesIcon {
+background: transparent url('16_png/CollapseAllNodes.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCollapseAllNodesIcon   {
+background: transparent url('16_png/CollapseAllNodes.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ COLUMN ************************************ */
+.sasColumnIcon {
+background: transparent url('16_png/Column.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasColumnIcon   {
+background: transparent url('16_png/Column.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ COLUMN FLAGGED ************************************ */
+.sasColumn_flaggedIcon {
+background: transparent url('16_png/DetailTag.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasColumn_flaggedIcon   {
+background: transparent url('16_png/DetailTag.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ COMMENT ************************************ */
+.sasCommentIcon {
+background: transparent url('16_png/Comment.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCommentIcon   {
+background: transparent url('16_png/Comment.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ COMMENTS BLANK ************************************ */
+.sasCommentsBlankIcon {
+background: transparent url('16_png/CommentsBlank.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCommentsBlankIcon   {
+background: transparent url('16_png/CommentsBlank.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ COMMUNICATIONS ************************************ */
+.sasCommunicationsIcon {
+background: transparent url('16_png/Communications.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCommunicationsIcon   {
+background: transparent url('16_png/Communications.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ COMMUNICATIONS DEFINITION ************************************ */
+.sasCommunicationsDefinitionIcon {
+background: transparent url('16_png/CommunicationsDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCommunicationsDefinitionIcon   {
+background: transparent url('16_png/CommunicationsDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ COMPONENT ************************************ */
+.sasComponentIcon {
+background: transparent url('16_png/Component.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasComponentIcon   {
+background: transparent url('16_png/Component.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ COMPONENT GEAR ************************************ */
+.sasComponentGearIcon {
+background: transparent url('16_png/Component.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasComponentGearIcon   {
+background: transparent url('16_png/Component.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ CONCATENATE ************************************ */
+.sasConcatenateIcon {
+background: transparent url('16_png/Concatenate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasConcatenateIcon   {
+background: transparent url('16_png/Concatenate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ CONDITIONAL ACTION SET ************************************ */
+.sasConditionalActionSetIcon {
+background: transparent url('16_png/ConditionalActionSet.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasConditionalActionSetIcon   {
+background: transparent url('16_png/ConditionalActionSet.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ CONNECT ************************************ */
+.sasConnectIcon {
+background: transparent url('16_png/Connect.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasConnectIcon   {
+background: transparent url('16_png/Connect.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ COPY ************************************ */
+.sasCopyIcon {
+background: transparent url('16_png/Copy.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCopyIcon   {
+background: transparent url('16_png/Copy.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CORRELATION ************************************ */
+.sasCorrelationIcon {
+background: transparent url('16_png/Correlation.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCorrelationIcon   {
+background: transparent url('16_png/Correlation.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CSVFile ************************************ */
+.sasCsvFileIcon {
+background: transparent url('16_png/CSVFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCsvFileIcon   {
+background: transparent url('16_png/CSVFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ CUT ************************************ */
+.sasCutIcon {
+background: transparent url('16_png/Cut.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCutIcon   {
+background: transparent url('16_png/Cut.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DASHBOARD ************************************ */
+.sasDashboardIcon {
+background: transparent url('16_png/Dashboard.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDashboardIcon   {
+background: transparent url('16_png/Dashboard.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ DATABASE CATALOG ************************************ */
+.sasDatabaseCatalogIcon {
+background: transparent url('16_png/DatabaseCatalog.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDatabaseCatalogIcon   {
+background: transparent url('16_png/DatabaseCatalog.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DATABASE SCHEMA ************************************ */
+.sasDatabaseSchemaIcon {
+background: transparent url('16_png/DatabaseSchema.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDatabaseSchemaIcon   {
+background: transparent url('16_png/DatabaseSchema.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DATA CONSOLIDATE ************************************ */
+.sasDataConsolidateIcon {
+background: transparent url('16_png/FSDataSpec.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDataConsolidateIcon   {
+background: transparent url('16_png/FSDataSpec.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DATA DEFINITION ************************************ */
+.sasDataDefinitionIcon {
+	background: transparent url('16_png/DataDefinition.png') center center
+		no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .sasDataDefinitionIcon {
+	background: transparent url('16_png/DataDefinition.png') center center
+		no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ DATA EXPLORATION ************************************ */
+.sasDataExplorationIcon {
+background: transparent url('16_png/DataExploration.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDataExplorationIcon   {
+background: transparent url('16_png/DataExploration.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DATA SET EXPLORE ************************************ */
+.sasDataSetExploreIcon {
+background: transparent url('16_png/DataExploration.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDataSetExploreIcon   {
+background: transparent url('16_png/DataExploration.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DATA SET VIEW ************************************ */
+.sasDataSetViewIcon {
+background: transparent url('16_png/DataSetView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDataSetViewIcon   {
+background: transparent url('16_png/DataSetView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DATE ************************************ */
+.sasDateIcon {
+background: transparent url('16_png/Date.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDateIcon   {
+background: transparent url('16_png/Date.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DATE TIME ************************************ */
+.sasDateTimeIcon {
+background: transparent url('16_png/DateTime.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDateTimeIcon   {
+background: transparent url('16_png/DateTime.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DEACTIVATE ************************************ */
+.sasDeactivateIcon {
+background: transparent url('16_png/Deactivate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDeactivateIcon   {
+background: transparent url('16_png/Deactivate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DECISION DIAGRAM ************************************ */
+.sasDecisionDiagramIcon {
+background: transparent url('16_png/DecisionDiagram.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDecisionDiagramIcon   {
+background: transparent url('16_png/DecisionDiagram.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DECISION LOGIC ************************************ */
+.sasDecisionLogicIcon {
+background: transparent url('16_png/DecisionLogic.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDecisionLogicIcon   {
+background: transparent url('16_png/DecisionLogic.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ DELETE ************************************ */
+.sasDeleteIcon {
+background: transparent url('16_png/Delete.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDeleteIcon   {
+background: transparent url('16_png/Delete.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ DEPLOY ************************************ */
+.sasDeployIcon {
+background: transparent url('16_png/Deploy.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDeployIcon   {
+background: transparent url('16_png/Deploy.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DEPLOYED JOB ************************************ */
+.sasDeployedJobIcon {
+background: transparent url('16_png/DeployedJob.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDeployedJobIcon   {
+background: transparent url('16_png/DeployedJob.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ DEPLOYED JOB FLOW ************************************ */
+.sasDeployedJobFlowIcon {
+background: transparent url('16_png/DeployedJobFlow.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDeployedJobFlowIcon   {
+background: transparent url('16_png/DeployedJobFlow.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DETAIL DATA ITEMS ************************************ */
+.sasDetailDataItemsIcon {
+background: transparent url('16_png/DetailDataItems.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDetailDataItemsIcon   {
+background: transparent url('16_png/DetailDataItems.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DETAIL TAG ************************************ */
+.sasDetailTagIcon {
+background: transparent url('16_png/DetailTag.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDetailTagIcon   {
+background: transparent url('16_png/DetailTag.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DETAILS GROUP ************************************ */
+.sasDetailsGroupIcon {
+background: transparent url('16_png/DetailsGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDetailsGroupIcon   {
+background: transparent url('16_png/DetailsGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ DISCONNECT ************************************ */
+.sasDisconnectIcon {
+background: transparent url('16_png/Disconnect.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDisconnectIcon   {
+background: transparent url('16_png/Disconnect.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DISTRIBUTION DEFINITION ************************************ */
+.sasDistribution_definitionIcon {
+background: transparent url('16_png/BurstDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDistribution_definitionIcon   {
+background: transparent url('16_png/BurstDefinition.pngg') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DOCUMENT ************************************ */
+.sasDocumentIcon {
+background: transparent url('16_png/Document.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDocumentIcon   {
+background: transparent url('16_png/Document.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DOWNLOAD ************************************ */
+.sasDownloadIcon {
+background: transparent url('16_png/Download.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDownloadIcon   {
+background: transparent url('16_png/Download.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DOCUMENT MANAGER ************************************ */
+.sasDocumentManagerIcon {
+background: transparent url('16_png/DocumentManager.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDocumentManagerIcon   {
+background: transparent url('16_png/DocumentManager.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DRILLDOWN ************************************ */
+.sasDrillDownIcon {
+background: transparent url('16_png/DrillDown.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDrillDownIcon   {
+background: transparent url('16_png/DrillDown.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DRILLUP ************************************ */
+.sasDrillUpIcon {
+background: transparent url('16_png/DrillUp.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDrillUpIcon   {
+background: transparent url('16_png/DrillUp.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ DSN ************************************ */
+.sasDSNIcon {
+background: transparent url('16_png/DSN.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasDSNIcon   {
+background: transparent url('16_png/DSN.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ EDIT ************************************ */
+.sasEditIcon {
+background: transparent url('16_png/Edit.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEditIcon   {
+background: transparent url('16_png/Edit.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ EMAIL TEMPLATE ************************************ */
+.sasEmailTemplateIcon {
+background: transparent url('16_png/EmailTemplate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEmailTemplateIcon   {
+background: transparent url('16_png/EmailTemplate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ EMPLOYEE PROFILE ************************************ */
+.sasEmployeeProfileIcon {
+background: transparent url('16_png/EmployeeProfile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEmployeeProfileIcon   {
+background: transparent url('16_png/EmployeeProfile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ ENTERPRISE GUIDE PROJECT ************************************ */
+.sasEnterpriseGuideProjectIcon {
+background: transparent url('16_png/EnterpriseGuideProject.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEnterpriseGuideProjectIcon   {
+background: transparent url('16_png/EnterpriseGuideProject.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ENTERPRISE MINER DIAGRAM ************************************ */
+.sasEnterpriseMinerDiagramIcon {
+background: transparent url('16_png/PFDModel.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEnterpriseMinerDiagramIcon   {
+background: transparent url('16_png/PFDModel.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ENTERPRISE MINER PROJECT ************************************ */
+.sasEnterpriseMinerProjectIcon {
+background: transparent url('16_png/EnterpriseMinerTransport.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEnterpriseMinerProjectIcon   {
+background: transparent url('16_png/EnterpriseMinerTransport.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+/* ************************************ ENTERPRISE MINER TRANSPORT ************************************ */
+.sasEnterpriseMinerTransportIcon {
+background: transparent url('16_png/EnterpriseMinerTransport.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEnterpriseMinerTransportIcon   {
+background: transparent url('16_png/EnterpriseMinerTransport.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ERROR STATUS ************************************ */
+.sasErrorStatusIcon {
+	background: transparent url('16_png/ErrorStatus.png')
+		center center no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .sasErrorStatusIcon {
+	background: transparent url('16_png/ErrorStatus.png')
+		center center no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+/* ************************************ EVENT ************************************ */
+.sasEventIcon {
+background: transparent url('16_png/Event.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasEventIcon   {
+background: transparent url('16_png/Event.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ EXCEL FILE ************************************ */
+.sasExcelFileIcon {
+background: transparent url('16_png/ExcelFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExcelFileIcon   {
+background: transparent url('16_png/ExcelFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ EXCEL FILE FOR SAS ************************************ */
+.sasExcelFileForSASIcon {
+background: transparent url('16_png/ExcelFileForSAS.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExcelFileForSASIcon   {
+background: transparent url('16_png/ExcelFileForSAS.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ EXCEPTION ************************************ */
+.sasExceptionReportIcon {
+background: transparent url('16_png/ExceptionReport.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExceptionReportIcon   {
+background: transparent url('16_png/ExceptionReport.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ EXPORT ************************************ */
+.sasExportIcon {
+background: transparent url('16_png/ExportDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExportIcon   {
+background: transparent url('16_png/ExportDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ EXPORT DEFINITION ************************************ */
+.sasExportDefinitionIcon {
+background: transparent url('16_png/ExportDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExportDefinitionIcon   {
+background: transparent url('16_png/ExportDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ EXTERNAL FILE ************************************ */
+.sasExternalFileIcon {
+background: transparent url('16_png/ExternalFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasExternalFileIcon   {
+background: transparent url('16_png/ExternalFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ FAVORITES FOLDER ************************************ */
+.sasFavoritesFolderIcon {
+background: transparent url('16_png/FavoritesFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFavoritesFolderIcon   {
+background: transparent url('16_png/FavoritesFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ FILE ************************************ */
+.sasFileIcon {
+background: transparent url('16_png/File.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFileIcon   {
+background: transparent url('16_png/File.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ FILTER ************************************ */
+.sasFilterIcon {
+background: transparent url('16_png/Filter.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFilterIcon   {
+background: transparent url('16_png/Filter.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ FIND ************************************ */
+.sasFindIcon {
+background: transparent url('16_png/Find.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFindIcon   {
+background: transparent url('16_png/Find.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ FOLD ************************************ */
+.sasFoldIcon {
+background: transparent url('16_png/Fold.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFoldIcon   {
+background: transparent url('16_png/Fold.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FOLDER ************************************ */
+.sasFolderIcon {
+background: transparent url('16_png/Folder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFolderIcon   {
+background: transparent url('16_png/Folder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FORECAST CHART ************************************ */
+.sasForecastChartIcon {
+background: transparent url('16_png/ForecastChart.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasForecastChartIcon   {
+background: transparent url('16_png/ForecastChart.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FORECASTING GRAPH ************************************ */
+.sasForecastingGraphIcon {
+background: transparent url('16_png/ForecastChart.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasForecastingGraphIcon   {
+background: transparent url('16_png/ForecastChart.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FORECASTING GRAPHS ************************************ */
+.sasForecastingGraphsIcon {
+background: transparent url('16_png/FSProject.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasForecastingGraphsIcon   {
+background: transparent url('16_png/FSProject.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ FORM ************************************ */
+.sasFormIcon {
+background: transparent url('16_png/Form.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFormIcon   {
+background: transparent url('16_png/Form.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FORM SET ************************************ */
+.sasFormSetIcon {
+background: transparent url('16_png/FormSet.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFormSetIcon   {
+background: transparent url('16_png/FormSet.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FORMULA ************************************ */
+.sasFormulaIcon {
+background: transparent url('16_png/Formula.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFormulaIcon   {
+background: transparent url('16_png/Formula.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FS DATA SPEC ************************************ */
+.sasFSDataSpecIcon {
+background: transparent url('16_png/FSDataSpec.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFSDataSpecIcon   {
+background: transparent url('16_png/FSDataSpec.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ FS PROJECT ************************************ */
+.sasFSProjectIcon {
+background: transparent url('16_png/FSProject.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasFSProjectIcon   {
+background: transparent url('16_png/FSProject.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ GAUGE DASHBOARD COMPONENT ************************************ */
+.sasGaugeDashboardComponentIcon {
+background: transparent url('16_png/GaugeDashboardComponent.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGaugeDashboardComponentIcon   {
+background: transparent url('16_png/GaugeDashboardComponent.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ GENERATED TRANSFORMATION ************************************ */
+.sasGeneratedTransformationIcon {
+background: transparent url('16_png/GeneratedTransformation.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGeneratedTransformationIcon   {
+background: transparent url('16_png/GeneratedTransformation.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ GENERIC KNOWN OBJECT ************************************ */
+.sasGenericKnownObjectIcon {
+background: transparent url('16_png/GenericKnownObject.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGenericKnownObjectIcon   {
+background: transparent url('16_png/GenericKnownObject.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ GENERIC SAS OBJECT ************************************ */
+.sasGenericSASObjectIcon {
+background: transparent url('16_png/GenericSASObject.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGenericSASObjectIcon   {
+background: transparent url('16_png/GenericSASObject.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ GEO ANALYSIS FILE ************************************ */
+.sasGeoAnalysisFileIcon {
+background: transparent url('16_png/GeoAnalysisFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGeoAnalysisFileIcon   {
+background: transparent url('16_png/GeoAnalysisFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ GIS MEMBER ************************************ */
+.sasGISMemberIcon {
+background: transparent url('16_png/GISMember.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGISMemberIcon   {
+background: transparent url('16_png/GISMember.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ GLOBE ************************************ */
+.sasGlobeIcon {
+background: transparent url('16_png/Globe.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGlobeIcon   {
+background: transparent url('16_png/Globe.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ GLOBAL VARIABLES ************************************ */
+.sasGlobalVariablesIcon {
+background: transparent url('16_png/GlobalVariables.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGlobalVariablesIcon   {
+background: transparent url('16_png/GlobalVariables.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ GO BUTTON ************************************ */
+.sasGoButtonIcon {
+background: transparent url('16_png/GoButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGoButtonIcon  {
+background: transparent url('16_png/GoButton.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ HELP BUTTON ************************************ */
+.sasHelpButtonIcon {
+background: transparent url('16_png/HelpButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHelpButtonIcon  {
+background: transparent url('16_png/HelpButton.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HIDDEN ************************************ */
+.sasHiddenIcon {
+background: transparent url('16_png/Hidden.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHiddenIcon  {
+background: transparent url('16_png/Hidden.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ HIDE MAP ************************************ */
+.sasHideMapIcon {
+background: transparent url('16_png/HideMap.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHideMapIcon  {
+background: transparent url('16_png/HideMap.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ HIDDEN ************************************ */
+.sasHiddenIcon {
+background: transparent url('16_png/Hidden.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHiddenIcon  {
+background: transparent url('16_png/Hidden.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ HIERARCHY VIEW  ************************************ */
+.sasHierarchyViewIcon {
+background: transparent url('16_png/HierarchyView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHierarchyViewIcon  {
+background: transparent url('16_png/HierarchyView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ HISTORY  ************************************ */
+.sasHistoryIcon {
+	background: transparent url('16_png/History.png') center center
+		no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .sasHistoryIcon {
+	background: transparent url('16_png/History.png') center center
+		no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+/* ************************************ HP RISK EXPLORATION  ************************************ */
+.sasHPRiskExplorationIcon {
+background: transparent url('16_png/HPRiskExploration.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHPRiskExplorationIcon  {
+background: transparent url('16_png/HPRiskExploration.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ HTML FILE  ************************************ */
+.sasHTMLFileIcon {
+background: transparent url('16_png/HTMLFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasHTMLFileIcon  {
+background: transparent url('16_png/HTMLFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ IMAGE  ************************************ */
+.sasImageIcon {
+background: transparent url('16_png/Image.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasImageIcon  {
+background: transparent url('16_png/Image.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ INDICATOR  ************************************ */
+.sasIndicatorIcon {
+background: transparent url('16_png/Indicator.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasIndicatorIcon  {
+background: transparent url('16_png/Indicator.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ INDICATOR DATA ICON  ************************************ */
+.sasIndicatorDataIcon {
+background: transparent url('16_png/IndicatorData.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasIndicatorDataIcon {
+background: transparent url('16_png/IndicatorData.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ INDICATOR GAUGE DEFINITION  ************************************ */
+.sasIndicatorGaugeDefinitionIcon {
+background: transparent url('16_png/IndicatorGaugeDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasIndicatorGaugeDefinitionIcon  {
+background: transparent url('16_png/IndicatorGaugeDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ INDICATOR GAUGE GRAPHICS HANDLER  ************************************ */
+.sasIndicatorGaugeGraphicsHandlerIcon {
+background: transparent url('16_png/IIndicatorGaugeGraphicsHandler.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasIndicatorGaugeGraphicsHandlerIcon  {
+background: transparent url('16_png/IndicatorGaugeGraphicsHandler.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ INFORMATION  ************************************ */
+.sasInformationIcon {
+	background: transparent url('16_png/Information.png') center center
+		no-repeat;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+}
+
+.dijitDisabled .sasInformationIcon {
+	background: transparent url('16_png/Information.png') center center
+		no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ INFORMATION FILE  ************************************ */
+.sasInformationFileIcon {
+background: transparent url('16_png/InformationFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasInformationFileIcon  {
+background: transparent url('16_png/InformationFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ INFORMATION MAP OLAP  ************************************ */
+.sasInformationMapOLAPIcon {
+background: transparent url('16_png/InformationMapOLAP.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasInformationMapOLAPIcon  {
+background: transparent url('16_png/InformationMapOLAP.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ INFORMATION MAP RELATIONAL  ************************************ */
+.sasInformationMapRelationalIcon {
+background: transparent url('16_png/InformationMapRelational.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasInformationMapRelationalIcon  {
+background: transparent url('16_png/InformationMapRelational.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ IT DATA MART  ************************************ */
+.sasITDataMartIcon {
+background: transparent url('16_png/ITDataMart.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasITDataMartIcon  {
+background: transparent url('16_png/ITDataMart.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ JOB  ************************************ */
+.sasJobIcon {
+background: transparent url('16_png/Job.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasJobIcon  {
+background: transparent url('16_png/Job.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ JOB CUBE  ************************************ */
+.sasJobCubeIcon {
+background: transparent url('16_png/JobCube.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasJobCubeIcon  {
+background: transparent url('16_png/JobCube.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ JOB DEPLOYED identical to deployed job  ************************************ */
+.sasJob_deployedIcon {
+background: transparent url('16_png/DeployedJob.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasJob_deployedIcon {
+background: transparent url('16_png/DeployedJob.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ JOB FLOW DEPLOYED  ************************************ */
+.sasJobFlow_deployedIcon {
+background: transparent url('16_png/DeployedJobFlow.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasJobFlow_deployedIcon {
+background: transparent url('16_png/DeployedJobFlow.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ KEY  ************************************ */
+.sasKeyIcon {
+background: transparent url('16_png/Key.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasKeyIcon  {
+background: transparent url('16_png/Key.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ KPI PROJECT FILE  ************************************ */
+.sasKPIProjectFileIcon {
+background: transparent url('16_png/KPIProjectFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasKPIProjectFileIcon {
+background: transparent url('16_png/KPIProjectFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ KPI RANGE SLIDER  ************************************ */
+.sasKPIRangeSliderIcon {
+background: transparent url('16_png/Range.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasKPIRangeSliderIcon {
+background: transparent url('16_png/Range.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ LEGEND  ************************************ */
+.sasLegendIcon {
+background: transparent url('16_png/Legend.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLegendIcon  {
+background: transparent url('16_png/Legend.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ LIBRARY  ************************************ */
+.sasLibraryIcon {
+background: transparent url('16_png/Library.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLibraryIcon  {
+background: transparent url('16_png/Library.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ LINKED OUTCOME MARKER ************************************ */
+.sasLinkedOutcomeMarkerIcon {
+background: transparent url('16_png/LinkedOutcomeMarker.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLinkedOutcomeMarkerIcon   {
+background: transparent url('16_png/LinkedOutcomeMarker.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ LOCK CLOSED ************************************ */
+.sasLockClosedIcon {
+background: transparent url('16_png/LockClosed.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLockClosedIcon   {
+background: transparent url('16_png/LockClosed.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ LOCK OPEN ************************************ */
+.sasLockOpenIcon {
+background: transparent url('16_png/LockOpen.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLockOpenIcon   {
+background: transparent url('16_png/LockOpen.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ LOG ************************************ */
+.sasLogIcon {
+background: transparent url('16_png/Log.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLogIcon   {
+background: transparent url('16_png/Log.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ LOGICAL SERVER ************************************ */
+.sasLogicalServerIcon {
+background: transparent url('16_png/LogicalServer.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasLogicalServerIcon   {
+background: transparent url('16_png/LogicalServer.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ MAIL ************************************ */
+.sasMailIcon {
+background: transparent url('16_png/Mail.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMailIcon   {
+background: transparent url('16_png/Mail.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ MAXIMIZE VIEW ************************************ */
+.sasMaximizeViewIcon {
+background: transparent url('16_png/MaximizeView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMaximizeViewIcon   {
+background: transparent url('16_png/MaximizeView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MEASURE ************************************ */
+.sasMeasureIcon {
+background: transparent url('16_png/Measure.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMeasureIcon   {
+background: transparent url('16_png/Measure.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ MEASURE CALCULATED ************************************ */
+.sasMeasure_calculatedIcon {
+background: transparent url('16_png/CalculatedMeasure.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMeasure_calculatedIcon   {
+background: transparent url('16_png/CalculatedMeasure.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ MENU ARROW DOWN ************************************ */
+.sasMenuArrowDownIcon {
+background: transparent url('other_png/MenuArrowDown.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMenuArrowDownIcon   {
+background: transparent url('other_png/MenuArrowDown.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MENU ARROW DOWN LIGHT ************************************ */
+.sasMenuArrowDownLightIcon {
+background: transparent url('other_png/MenuArrowDown_light.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMenuArrowDownLightIcon   {
+background: transparent url('other_png/MenuArrowDown_light.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ MERGE DATA ************************************ */
+.sasMergeDataIcon {
+background: transparent url('16_png/MergeData.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMergeDataIcon   {
+background: transparent url('16_png/MergeData.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ MESSAGE QUEUE ************************************ */
+.sasMessageQueueIcon {
+background: transparent url('16_png/MessageQueue.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMessageQueueIcon   {
+background: transparent url('16_png/MessageQueue.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ MESSAGE QUEUE IBM WEBSPHERE ************************************ */
+.sasMessageQueueIBMWebsphereIcon {
+background: transparent url('16_png/MessageQueueIBMWebsphere.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMessageQueueIBMWebsphereIcon   {
+background: transparent url('16_png/MessageQueueIBMWebsphere.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MESSAGE QUEUE JMS ************************************ */
+.sasMessageQueueJMSIcon {
+background: transparent url('16_png/MessageQueueJMS.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMessageQueueJMSIcon   {
+background: transparent url('16_png/MessageQueueJMS.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ MESSAGE QUEUE MICROSOFT ************************************ */
+.sasMessageQueueMicrosoftIcon {
+background: transparent url('16_png/MessageQueueMicrosoft.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMessageQueueMicrosoftIcon   {
+background: transparent url('16_png/MessageQueueMicrosoft.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ META ************************************ */
+.sasMetaIcon {
+background: transparent url('16_png/GeneratedTransformation.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMetaIcon   {
+background: transparent url('16_png/GeneratedTransformation.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ METADATA TABLE ************************************ */
+.sasMetadataTableIcon {
+background: transparent url('16_png/MetadataTable.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMetadataTableIcon   {
+background: transparent url('16_png/MetadataTable.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ METADATA TABLES ************************************ */
+.sasMetadataTablesIcon {
+background: transparent url('16_png/MetadataTables.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMetadataTablesIcon   {
+background: transparent url('16_png/MetadataTables.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ METADATA TABLE VIEW ************************************ */
+.sasMetadataTableViewIcon {
+background: transparent url('16_png/MetadataTableView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMetadataTableViewIcon   {
+background: transparent url('16_png/MetadataTableView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ METRICS TABLE ************************************ */
+.sasMetricsTableIcon {
+background: transparent url('16_png/MetricsTable.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMetricsTableIcon   {
+background: transparent url('16_png/MetricsTable.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ MINING RESULTS ************************************ */
+.sasMiningResultsIcon {
+background: transparent url('16_png/MiningResults.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMiningResultsIcon   {
+background: transparent url('16_png/MiningResults.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ MISSING  ************************************ */
+.sasMissingIcon {
+background: transparent url('16_png/missing.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMissingIcon   {
+background: transparent url('16_png/missing.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ MORE ************************************ */
+.sasMoreIcon {
+background: transparent url('16_png/More.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMoreIcon   {
+background: transparent url('16_png/More.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ MOVE LEFT ************************************ */
+.sasMoveLeftIcon {
+background: transparent url('16_png/MoveLeft.png') center center no-repeat;
+width: 16px;
+height: 16px;
+
+text-align: center;
+}
+
+.dijitDisabled .sasMoveLeftIcon   {
+background: transparent url('16_png/MoveLeft.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ MOVE RIGHT ************************************ */
+.sasMoveRightIcon {
+background: transparent url('16_png/MoveRight.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMoveRightIcon   {
+background: transparent url('16_png/MoveRight.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MYFOLDER RIGHT ************************************ */
+.sasMyFolderIcon {
+background: transparent url('16_png/MyFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasMyFolderIcon {
+background: transparent url('16_png/MyFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ NESTROWS ************************************ */
+.sasNestRowsIcon {
+background: transparent url('16_png/NestRows.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNestRowsIcon  {
+background: transparent url('16_png/NestRows.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ NEW FOLDER ************************************ */
+.sasNewFolderIcon {
+background: transparent url('16_png/NewFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewFolderIcon   {
+background: transparent url('16_png/NewFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NEW STARBURST ************************************ */
+.sasNewIcon {
+background: transparent url('16_png/NewStarburst.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewIcon   {
+background: transparent url('16_png/NewStarburst.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NODE ************************************ */
+.sasNodeIcon {
+background: transparent url('16_png/Node.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNodeIcon   {
+background: transparent url('16_png/Node.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ NODE CONNECT ************************************ */
+.sasNodeConnectIcon {
+background: transparent url('16_png/NodeConnect.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNodeConnectIcon   {
+background: transparent url('16_png/NodeConnect.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ NODE GROUP ************************************ */
+.sasNodeGroupIcon {
+background: transparent url('16_png/NodeGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNodeGroupIcon   {
+background: transparent url('16_png/NodeGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NOTE ************************************ */
+.sasNoteIcon {
+background: transparent url('16_png/Note.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNoteIcon   {
+background: transparent url('16_png/Note.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NUMERIC TYPE ************************************ */
+.sasNumericTypeIcon {
+background: transparent url('16_png/NumericType.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNumericTypeIcon   {
+background: transparent url('16_png/NumericType.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ OBJECT SPAWNER ************************************ */
+.sasObjectSpawnerIcon {
+background: transparent url('16_png/ObjectSpawner.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasObjectSpawnerIcon   {
+background: transparent url('16_png/ObjectSpawner.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ OLAP CUBE ************************************ */
+.sasOLAPCubeIcon {
+background: transparent url('16_png/OLAPCube.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCubeIcon   {
+background: transparent url('16_png/OLAPCube.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OLAP DIMENSION ************************************ */
+.sasOLAPDimensionIcon {
+background: transparent url('16_png/OLAPDimension.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPDimensionIcon   {
+background: transparent url('16_png/OLAPDimension.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OLAP DIMENSION SHARED ************************************ */
+.sasOLAPDimension_sharedIcon {
+background: transparent url('16_png/SharedOLAPDimension.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPDimension_sharedIcon   {
+background: transparent url('16_png/SharedOLAPDimension.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ OLAP HIERARCHY ************************************ */
+.sasOLAPHierarchyIcon {
+background: transparent url('16_png/OLAPHierarchy.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPHierarchyIcon   {
+background: transparent url('16_png/OLAPHierarchy.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OLAP LEVEL ************************************ */
+.sasOLAPLevelIcon {
+background: transparent url('16_png/OLAPLevel.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPLevelIcon   {
+background: transparent url('16_png/OLAPLevel.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OLAP SCHEMA ************************************ */
+.sasOLAPSchemaIcon {
+background: transparent url('16_png/OLAPSchema.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPSchemaIcon   {
+background: transparent url('16_png/OLAPSchema.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ OLAP SERVER ************************************ */
+.sasOLAPServerIcon {
+background: transparent url('16_png/OLAPServer.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOLAPServerIcon   {
+background: transparent url('16_png/OLAPServer.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OPEN ************************************ */
+.sasOpenIcon {
+background: transparent url('16_png/Open.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOpenIcon   {
+background: transparent url('16_png/Open.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ OPTIMIZATION GROUP ************************************ */
+.sasOptimizationGroupIcon {
+background: transparent url('16_png/OptimizationGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOptimizationGroupIcon   {
+background: transparent url('16_png/OptimizationGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ OPTIONS ************************************ */
+.sasOptionsIcon {
+background: transparent url('16_png/Options.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOptionsIcon   {
+background: transparent url('16_png/Options.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ORCHESTRATION JOB ************************************ */
+.sasOrchestrationJobIcon {
+background: transparent url('16_png/OrchestrationJob.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOrchestrationJobIcon   {
+background: transparent url('16_png/OrchestrationJob.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ORGANIZATIONAL ANALYSIS FILE ************************************ */
+.sasOrganizationalAnalysisFileIcon {
+background: transparent url('16_png/OrganizationalAnalysisFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOrganizationalAnalysisFileIcon   {
+background: transparent url('16_png/OrganizationalAnalysisFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ORG CHART FILE ************************************ */
+.sasOrgChartFileIcon {
+background: transparent url('16_png/OrganizationalAnalysisFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOrgChartFileIcon   {
+background: transparent url('16_png/OrganizationalAnalysisFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ORG CHART FILE SIMULATED ************************************ */
+.sasOrgChartFileSimulatedIcon {
+background: transparent url('16_png/OrganizationalAnalysisSimulatedFile .png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOrgChartFileSimulatedIcon   {
+background: transparent url('16_png/OrganizationalAnalysisSimulatedFile .png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ ORGANIZATIONAL ANALYSIS SIMULATED FILE ************************************ */
+.sasOrganizationalAnalysisSimulatedFileIcon {
+background: transparent url('16_png/OrganizationalAnalysisSimulatedFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasOrganizationalAnalysisSimulatedFileIcon   {
+background: transparent url('16_png/OrganizationalAnalysisSimulatedFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PARETO CHART ************************************ */
+.sasParetoChartIcon {
+background: transparent url('16_png/ParetoChart.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasParetoChartIcon   {
+background: transparent url('16_png/ParetoChart.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PASTE ************************************ */
+.sasPasteIcon {
+background: transparent url('16_png/Paste.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPasteIcon   {
+background: transparent url('16_png/Paste.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PDF FILE ************************************ */
+.sasPDFFileIcon {
+background: transparent url('16_png/PDFFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPDFFileIcon   {
+background: transparent url('16_png/PDFFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PERCENTAGE ************************************ */
+.sasPercentageIcon {
+background: transparent url('16_png/Percentage.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPercentageIcon   {
+background: transparent url('16_png/Percentage.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ PERFORMANCE INSIGHT ************************************ */
+.sasPerformanceInsightIcon {
+background: transparent url('16_png/PerformanceInsight.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPerformanceInsightIcon   {
+background: transparent url('16_png/PerformanceInsight.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PERFORMANCE MONITOR ************************************ */
+.sasPerformanceMonitorIcon {
+background: transparent url('16_png/PerformanceMonitor.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPerformanceMonitorIcon   {
+background: transparent url('16_png/PerformanceMonitor.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PFD MODEL ************************************ */
+.sasPFDModelIcon {
+background: transparent url('16_png/PFDModel.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPFDModelIcon   {
+background: transparent url('16_png/PFDModel.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PLAN ************************************ */
+.sasPlanIcon {
+background: transparent url('16_png/Plan.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPlanIcon   {
+background: transparent url('16_png/Plan.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+/* ************************************ PLAY ************************************ */
+.sasPlayIcon {
+background: transparent url('16_png/Play.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPlayIcon   {
+background: transparent url('16_png/Play.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ POWERPOINT FILE ************************************ */
+.sasPowerPointFileIcon {
+background: transparent url('16_png/PowerPointFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPowerPointFileIcon   {
+background: transparent url('16_png/PowerPointFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ PREASSIGNED LIBRARY ************************************ */
+.sasPreassignedLibraryIcon {
+background: transparent url('16_png/PreassignedLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPreassignedLibraryIcon   {
+background: transparent url('16_png/PreassignedLibrary.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PRINT ************************************ */
+.sasPrintIcon {
+background: transparent url('16_png/Print.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPrintIcon   {
+background: transparent url('16_png/Print.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PROCESS ************************************ */
+.sasProcessIcon {
+background: transparent url('16_png/Process.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasProcessIcon   {
+background: transparent url('16_png/Process.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PROJECT ************************************ */
+.sasProjectIcon {
+background: transparent url('16_png/Project.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasProjectIcon   {
+background: transparent url('16_png/Project.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PROMOTED SOLUTION ************************************ */
+.sasPromotedSolutionIcon {
+background: transparent url('16_png/PromotedSolution.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPromotedSolutionIcon   {
+background: transparent url('16_png/PromotedSolution.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ PROMPT ************************************ */
+.sasPromptIcon {
+background: transparent url('16_png/Prompt.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPromptIcon   {
+background: transparent url('16_png/Prompt.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PROMPT GROUP ************************************ */
+.sasPromptGroupIcon {
+background: transparent url('16_png/PromptGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPromptGroupIcon   {
+background: transparent url('16_png/PromptGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PROPERTIES ************************************ */
+.sasPropertiesIcon {
+background: transparent url('16_png/Properties.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPropertiesIcon   {
+background: transparent url('16_png/Properties.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PROXY LIST ************************************ */
+.sasProxyListIcon {
+background: transparent url('16_png/ProxyList.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasProxyListIcon   {
+background: transparent url('16_png/ProxyList.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PUBLISHING CHANNEL ************************************ */
+.sasPublishingChannelIcon {
+background: transparent url('16_png/PublishingChannel.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPublishingChannelIcon   {
+background: transparent url('16_png/PublishingChannel.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PUBLISHED SOLUTION ************************************ */
+.sasPublishedSolutionIcon {
+background: transparent url('16_png/PublishedSolution.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPublishedSolutionIcon   {
+background: transparent url('16_png/PublishedSolution.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ QUIESCE ************************************ */
+.sasQuiesceIcon {
+background: transparent url('16_png/Quiesce.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasQuiesceIcon   {
+background: transparent url('16_png/Quiesce.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ RANGE ************************************ */
+.sasRangeIcon {
+background: transparent url('16_png/Range.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRangeIcon   {
+background: transparent url('16_png/Range.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ RANGE SPM ************************************ */
+.sasRangeSPMIcon {
+background: transparent url('16_png/Range.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRangeSPMIcon   {
+background: transparent url('16_png/Range.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ READ ONLY LIBRARY ************************************ */
+.sasReadOnlyLibraryIcon {
+background: transparent url('16_png/ReadOnlyLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReadOnlyLibraryIcon   {
+background: transparent url('16_png/ReadOnlyLibrary.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ REDO ************************************ */
+.sasRedoIcon {
+background: transparent url('16_png/Redo.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRedoIcon   {
+background: transparent url('16_png/Redo.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ REFRESH ************************************ */
+.sasRefreshIcon {
+background: transparent url('16_png/Refresh.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+border-radius: 4px 4px 4px 4px;
+}
+
+.dijitDisabled .sasRefreshIcon   {
+background: transparent url('16_png/Refresh.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ REGROUP NODES ************************************ */
+.sasRegroupNodesIcon {
+background: transparent url('16_png/RegroupNodes.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRegroupNodesIcon   {
+background: transparent url('16_png/RegroupNodes.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ REJECT FORM ************************************ */
+.sasRejectFormIcon {
+background: transparent url('16_png/RejectForm.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRejectFormIcon   {
+background: transparent url('16_png/RejectForm.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ REPLY ************************************ */
+.sasReplyIcon {
+background: transparent url('16_png/ReponseStandard.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReplyIcon   {
+background: transparent url('16_png/ReponseStandard.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ REPORT ************************************ */
+.sasReportIcon {
+background: transparent url('16_png/Report.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReportIcon   {
+background: transparent url('16_png/Report.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ REPORT COMPONENT ************************************ */
+.sasReportComponentIcon {
+background: transparent url('16_png/ReportComponent.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReportComponentIcon   {
+background: transparent url('16_png/ReportComponent.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ REPORT DEFINITION ************************************ */
+.sasReportDefinitionIcon {
+background: transparent url('16_png/ReportDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReportDefinitionIcon   {
+background: transparent url('16_png/ReportDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ REPORT DATA GROUP ************************************ */
+.sasReportDetailGroupIcon {
+background: transparent url('16_png/DetailsGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReportDetailGroupIcon   {
+background: transparent url('16_png/DetailsGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ RESET ************************************ */
+.sasResetIcon {
+background: transparent url('16_png/Reset.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasResetIcon   {
+background: transparent url('16_png/Reset.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ RESPONSE DEFINITION ************************************ */
+.sasResponseDefinitionIcon {
+background: transparent url('16_png/ResponseDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasResponseDefinitionIcon   {
+background: transparent url('16_png/ResponseDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ RESPONSES ************************************ */
+.sasResponsesIcon {
+background: transparent url('16_png/ResponseDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasResponsesIcon   {
+background: transparent url('16_png/ResponseDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ RESPONSE STANDARD ************************************ */
+.sasReponseStandardIcon {
+background: transparent url('16_png/ReponseStandard.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasReponseStandardIcon   {
+background: transparent url('16_png/ReponseStandard.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ RESTORE VIEW ************************************ */
+.sasRestoreViewIcon {
+background: transparent url('16_png/RestoreView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRestoreViewIcon   {
+background: transparent url('16_png/RestoreView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ RESULTS BOOK ************************************ */
+.sasResultsBookIcon {
+background: transparent url('16_png/ResultsBook.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasResultsBookIcon   {
+background: transparent url('16_png/ResultsBook.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ROTATE LEFT ************************************ */
+.sasRotateLeftIcon {
+background: transparent url('16_png/RotateLeft.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRotateLeftIcon   {
+background: transparent url('16_png/RotateLeft.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ ROTATE RIGHT ************************************ */
+.sasRotateRightIcon {
+background: transparent url('16_png/RotateRight.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRotateRightIcon   {
+background: transparent url('16_png/RotateRight.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ RTDMA ACTIVITY ************************************ */
+.sasRTDMActivityIcon {
+background: transparent url('16_png/RTDMActivity.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasRTDMActivityIcon   {
+background: transparent url('16_png/RTDMActivity.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ SAS DATA SET ************************************ */
+.sasSASDataSetIcon {
+background: transparent url('16_png/SASDataSet.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSASDataSetIcon   {
+background: transparent url('16_png/SASDataSet.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SAS FOLDERS ************************************ */
+.sasSASFoldersIcon {
+background: transparent url('16_png/SASFolders.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSASFoldersIcon   {
+background: transparent url('16_png/SASFolders.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SAS PROGRAM FILE ************************************ */
+.sasSASProgramFileIcon {
+background: transparent url('16_png/SASProgramFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSASProgramFileIcon   {
+background: transparent url('16_png/SASProgramFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SAS REPORT 2G ************************************ */
+.sasSASReport2GIcon {
+background: transparent url('16_png/SASReport2G.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSASReport2GIcon   {
+background: transparent url('16_png/SASReport2G.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SAVE ************************************ */
+.sasSaveIcon {
+background: transparent url('16_png/Save.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSaveIcon   {
+background: transparent url('16_png/Save.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SAVE AS ************************************ */
+.sasSaveAsIcon {
+background: transparent url('16_png/SaveAs.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSaveAsIcon   {
+background: transparent url('16_png/SaveAs.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SCORECARD ************************************ */
+.sasScorecardIcon {
+background: transparent url('16_png/Scorecard.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasScorecardIcon   {
+background: transparent url('16_png/Scorecard.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SEARCH ************************************ */
+.sasSearchIcon {
+background: transparent url('16_png/Search.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSearchIcon   {
+background: transparent url('16_png/Search.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SEARCH FOLDER ************************************ */
+.sasSearchFolderIcon {
+background: transparent url('16_png/SearchFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSearchFolderIcon   {
+background: transparent url('16_png/SearchFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ SECURED FOLDER ************************************ */
+.sasSecuredFolderIcon {
+background: transparent url('16_png/SecuredFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSecuredFolderIcon   {
+background: transparent url('16_png/SecuredFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ SECURED LIBRARY ************************************ */
+.sasSecuredLibraryIcon {
+background: transparent url('16_png/SecuredLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSecuredLibraryIcon   {
+background: transparent url('16_png/SecuredLibrary.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SECURED TABLE ************************************ */
+.sasSecuredTableIcon {
+background: transparent url('16_png/SecuredTable.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSecuredTableIcon   {
+background: transparent url('16_png/SecuredTable.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SEEDS ************************************ */
+.sasSeedsIcon {
+background: transparent url('16_png/UserGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSeedsIcon   {
+background: transparent url('16_png/UserGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ SELECTION CAMPAIGN DEFINITION ************************************ */
+.sasSelectionCampaignDefinitionIcon {
+background: transparent url('16_png/SelectionCampaignDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSelectionCampaignDefinitionIcon   {
+background: transparent url('16_png/SelectionCampaignDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SERVER ************************************ */
+.sasServerIcon {
+background: transparent url('16_png/Server.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasServerIcon   {
+background: transparent url('16_png/Server.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SHARED OLAP DIMENSION ************************************ */
+.sasSharedOLAPDimensionIcon {
+background: transparent url('16_png/SharedOLAPDimension.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSharedOLAPDimensionIcon   {
+background: transparent url('16_png/SharedOLAPDimension.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SHORTCUT ************************************ */
+.sasShortcutIcon {
+background: transparent url('16_png/Shortcut.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasShortcutIcon   {
+background: transparent url('16_png/Shortcut.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SHOW ACTIONS ************************************ */
+.sasSShowActionsButtonIcon {
+background: transparent url('16_png/ShowActionsButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasShowActionsButtonIcon   {
+background: transparent url('16_png/ShowActionsButton.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ SHOW MAP ************************************ */
+.sasShowMapIcon {
+background: transparent url('16_png/Globe.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasShowMapIcon   {
+background: transparent url('16_png/Globe.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ SLIDER ARROW FIRST PAGE ************************************ */
+.sasSliderArrowFirstPageIcon {
+background: transparent url('16_png/SliderArrowFirstPage.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSliderArrowFirstPageIcon   {
+background: transparent url('16_png/SliderArrowFirstPage.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SLIDER ARROW LAST PAGE ************************************ */
+.sasSliderArrowLastPageIcon {
+background: transparent url('16_png/SliderArrowLastPage.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSliderArrowLastPageIcon   {
+background: transparent url('16_png/SliderArrowLastPage.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SLIDER ARROW NEXT ************************************ */
+.sasSliderArrowNextIcon {
+background: transparent url('16_png/SliderArrowNext.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSliderArrowNextIcon   {
+background: transparent url('16_png/SliderArrowNext.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ SLIDER ARROW PREVIOUS ************************************ */
+.sasSliderArrowPreviousIcon {
+background: transparent url('16_png/SliderArrowPrevious.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSliderArrowPreviousIcon   {
+background: transparent url('16_png/SliderArrowPrevious.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SPM PROJECT FILE ************************************ */
+.sasSPMProjectFileIcon {
+background: transparent url('16_png/STMProjectFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSPMProjectFileIcon   {
+background: transparent url('16_png/StMProjectFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SOURCE DATABASE ************************************ */
+.sasSourceDatabaseIcon {
+background: transparent url('16_png/SourceDatabase.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSourceDatabaseIcon   {
+background: transparent url('16_png/SourceDatabase.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ SPELL CHECK ************************************ */
+.sasSpellCheckIcon {
+background: transparent url('16_png/SpellCheck.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSpellCheckIcon   {
+background: transparent url('16_png/SpellCheck.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ STATUS ************************************ */
+.sasStatusIcon {
+background: transparent url('16_png/Status.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStatusIcon   {
+background: transparent url('16_png/Status.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ STICKY NOTE ************************************ */
+.sasStickyNoteIcon {
+background: transparent url('16_png/StickyNote.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStickyNoteIcon   {
+background: transparent url('16_png/StickyNote.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ STM PROJECT FILE ************************************ */
+.sasStMProjectFileIcon {
+background: transparent url('16_png/StMProjectFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStMProjectFileIcon   {
+background: transparent url('16_png/StMProjectFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ STM REPORT ************************************ */
+.sasSTMReportIcon {
+background: transparent url('16_png/STMReport.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSTMReportIcon   {
+background: transparent url('16_png/STMReport.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ STOP ************************************ */
+.sasStopIcon {
+background: transparent url('16_png/Stop.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStopIcon   {
+background: transparent url('16_png/Stop.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ STORE ************************************ */
+.sasStoreIcon {
+background: transparent url('16_png/Store.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStoreIcon   {
+background: transparent url('16_png/Store.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ STORED PROCESS ************************************ */
+.sasStoredProcessIcon {
+background: transparent url('16_png/StoredProcess.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStoredProcessIcon   {
+background: transparent url('16_png/StoredProcess.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ STORED PROCESS REPORT ************************************ */
+.sasStoredProcessReportIcon {
+background: transparent url('16_png/StoredProcessReport.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasStoredProcessReportIcon   {
+background: transparent url('16_png/StoredProcessReport.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SUBMIT FORM ************************************ */
+.sasSubmitFormIcon {
+background: transparent url('16_png/SubmitForm.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasSubmitFormIcon   {
+background: transparent url('16_png/SubmitForm.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SUBMIT SAS CODE ************************************ */
+.sasSubmitIcon {
+background: transparent url('16_png/SubmitSASCode.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSubmitIcon   {
+background: transparent url('16_png/SubmitSASCode.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ SUBSCRIBE ************************************ */
+.sasSubscribeIcon {
+background: transparent url('16_png/Subscribe.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSubscribeIcon   {
+background: transparent url('16_png/Subscribe.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ SWAP ICON ************************************ */
+.sasSwapIcon {
+background: transparent url('16_png/Swap.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSwapIcon   {
+background: transparent url('16_png/Swap.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ TABLE META DATA ************************************ */
+.sasTable_metadataIcon {
+background: transparent url('16_png/MetadataTable.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTable_metadataIcon   {
+background: transparent url('16_png/MetadataTable.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ TABLES METADATA VIEW ************************************ */
+.sasTables_metadata_viewIcon {
+background: transparent url('16_png/MetadataTableView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTables_metadata_viewIcon   {
+background: transparent url('16_png/MetadataTableView.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ TASK LIST ************************************ */
+.sasTaskListIcon {
+background: transparent url('16_png/TaskList.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTaskListIcon   {
+background: transparent url('16_png/TaskList.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ TEMPLATE ************************************ */
+.sasTemplateIcon {
+background: transparent url('16_png/Template.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTemplateIcon   {
+background: transparent url('16_png/Template.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ TEXT CLUSTER ************************************ */
+.sasTextClusterIcon {
+background: transparent url('16_png/TextCluster.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTextClusterIcon   {
+background: transparent url('16_png/TextCluster.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ TREE ************************************ */
+.sasTreeIcon {
+background: transparent url('16_png/Tree.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTreeIcon   {
+background: transparent url('16_png/Tree.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ TREE VIEW ************************************ */
+.sasTreeViewIcon {
+background: transparent url('16_png/Tree.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTreeViewIcon   {
+background: transparent url('16_png/Tree.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ TREND ************************************ */
+.sasTrendIcon {
+background: transparent url('16_png/Trend.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasTrendIcon   {
+background: transparent url('16_png/Trend.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ UNCHECKED CHECBOX DESKTOP ************************************ */
+.sasTUncheckedCheckboxDesktopIcon {
+background: transparent url('16_png/UncheckedCheckboxDesktop.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasUncheckedCheckboxDesktopIcon   {
+background: transparent url('16_png/UncheckedCheckboxDesktop.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+
+/* ************************************ UNDO ************************************ */
+.sasUndoIcon {
+background: transparent url('16_png/Undo.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUndoIcon    {
+background: transparent url('16_png/Undo.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ UNFOLD ************************************ */
+.sasUnfoldIcon {
+background: transparent url('16_png/Unfold.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUnfoldIcon    {
+background: transparent url('16_png/Unfold.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ UPLOAD ************************************ */
+.sasUploadIcon {
+background: transparent url('16_png/Upload.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUploadIcon    {
+background: transparent url('16_png/Upload.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ USER ************************************ */
+.sasUserIcon {
+background: transparent url('16_png/User.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserIcon    {
+background: transparent url('16_png/User.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ USER DEFINED TEMPLATE ************************************ */
+.sasUserDefinedTemplateIcon {
+background: transparent url('16_png/UserDefinedTemplate.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserDefinedTemplateIcon    {
+background: transparent url('16_png/UserDefinedTemplate.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ USER PREFERENCES ************************************ */
+.sasUserPreferencesIcon {
+background: transparent url('16_png/UserPreferences.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserPreferencesIcon    {
+background: transparent url('16_png/UserPreferences.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ USER GROUP ************************************ */
+.sasUserGroupIcon {
+background: transparent url('16_png/UserGroup.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserGroupIcon    {
+background: transparent url('16_png/UserGroup.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ USER ROLE ************************************ */
+.sasUserRoleIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserRoleIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ USER WORKSPACE ************************************ */
+.sasUserWorkspaceIcon {
+background: transparent url('16_png/UserWorkspace.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUserWorkspaceIcon {
+background: transparent url('16_png/UserWorkspace.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ USERS ROLE ************************************ */
+.sasUsersRoleIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUsersRoleIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ USERS ROLE NODE ICON ************************************ */
+.sasUsersRoleNodeIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUsersRoleNodeIcon {
+background: transparent url('16_png/UsersRole.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+/* ************************************ VARIABLE DEFINITION ************************************ */
+.sasVariableDefinitionIcon {
+background: transparent url('16_png/VariableDefinition.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVariableDefinitionIcon {
+background: transparent url('16_png/VariableDefinition.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ VIEW TILES ************************************ */
+.sasViewTilesIcon {
+background: transparent url('16_png/ViewTiles.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasViewTilesIcon {
+background: transparent url('16_png/ViewTiles.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* ************************************ VIRTUAL FOLDER ************************************ */
+.sasVirtualFolderIcon {
+background: transparent url('16_png/VirtualFolder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVirtualFolderIcon {
+background: transparent url('16_png/VirtualFolder.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ VISUAL DATA FLOW ************************************ */
+.sasVisualDataFlowIcon {
+background: transparent url('16_png/VisualDataFlow.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVisualDataFlowIcon {
+background: transparent url('16_png/VisualDataFlow.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ VISUAL DATA QUERY ************************************ */
+.sasVisualDataQueryIcon {
+background: transparent url('16_png/VisualDataQuery.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVisualDataQueryIcon {
+background: transparent url('16_png/VisualDataQuery.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ VISUAL EXPLORATION ************************************ */
+.sasVisualExplorationIcon {
+background: transparent url('16_png/VisualExploration.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVisualExplorationIcon {
+background: transparent url('16_png/VisualExploration.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ VISUAL EXPLORATION FILE ************************************ */
+.sasVisualExplorationFileIcon {
+background: transparent url('16_png/VisualExplorationFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasVisualExplorationFileIcon {
+background: transparent url('16_png/VisualExplorationFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+/* ************************************ WARNING STATUS ************************************ */
+.sasWarningStatusIcon {
+background: transparent url('16_png/WarningStatus.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWarningStatusIcon   {
+background: transparent url('16_png/WarningStatus.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+/* ************************************ WEB FUNNEL ************************************ */
+.sasWebIcon {
+background: transparent url('16_png/Web.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWebIcon   {
+background: transparent url('16_png/Web.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ WEB FUNNEL ************************************ */
+.sasWebFunnelIcon {
+background: transparent url('16_png/WebFunnel.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWebFunnelIcon   {
+background: transparent url('16_png/WebFunnel.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ WEB MART ************************************ */
+.sasWebMartIcon {
+background: transparent url('16_png/WebMart.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWebMartIcon   {
+background: transparent url('16_png/WebMart.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ WEB PAGE OVERLAY ************************************ */
+.sasWebPageOverlayIcon {
+background: transparent url('16_png/WebPageOverlay.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWebPageOverlayIcon   {
+background: transparent url('16_png/WebPageOverlay.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ WEB SERVICE ************************************ */
+.sasWebServiceIcon {
+background: transparent url('16_png/WebService.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWebServiceIcon   {
+background: transparent url('16_png/WebService.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+/* ************************************ WORD FILE ************************************ */
+.sasWordFileIcon {
+background: transparent url('16_png/WordFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasWordFileIcon    {
+background: transparent url('16_png/WordFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ XML FILE ************************************ */
+.sasXMLFileIcon {
+background: transparent url('16_png/XMLFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasXMLFileIcon    {
+background: transparent url('16_png/XMLFile.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ZOOM IN ************************************ */
+.sasZoomInIcon {
+background: transparent url('16_png/ZoomIn.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasZoomInIcon    {
+background: transparent url('16_png/ZoomIn.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ ZOOM OUT ************************************ */
+.sasZoomOutIcon {
+background: transparent url('16_png/ZoomOut.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasZoomOutIcon    {
+background: transparent url('16_png/ZoomOut.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* /////////////// ****************** LARGE STATUS ICONS  ////////////////////////// **************************** */
+
+
+
+/* ************************************ ERROR STATUS ************************************ */
+.sasErrorStatusIcon32 {
+background: transparent url('32_png/ErrorStatus.png') center center no-repeat;
+width: 32px;
+height: 32px;
+text-align: center;
+}
+
+.dijitDisabled .sasErrorStatusIcon32   {
+background: transparent url('32_png/ErrorStatus.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ INFORMATION STATUS ************************************ */
+.sasInformationStatusIcon {
+background: transparent url('32_png/InformationStatus.png') center center no-repeat;
+width: 32px;
+height: 32px;
+text-align: center;
+}
+
+.dijitDisabled .sasInformationStatusIcon   {
+background: transparent url('32_png/InformationStatus.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ WARNING STATUS ************************************ */
+.sasWarningStatusLgIcon {
+background: transparent url('32_png/WarningStatus.png') center center no-repeat;
+width: 32px;
+height: 32px;
+text-align: center;
+}
+
+.dijitDisabled .sasWarningStatusLgIcon   {
+background: transparent url('32_png/WarningStatus.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+/* /////////////// ****************** ANIMATIONS  ////////////////////////// **************************** */
+
+.sasBusyIcon {
+background: transparent url('other_png/ProgressIndicatorSpinner.gif') center center no-repeat;
+width: 32px;
+height: 32px;
+text-align: center;
+}
+
+/*Loading animation*/
+.dijitIconLoading {
+background: url('other_png/loadingAnimation.gif') top left no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+
+
+
+
+/* ************************************ CHECKBOX  ************************************ */
+.sasCheckboxIcon {
+background: transparent url('other_png/Checkbox.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasCheckboxIcon   {
+background: transparent url('other_png/Checkbox.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ UNCHECKED CHECKBOX  ************************************ */
+.sasUncheckedCheckboxIcon {
+background: transparent url('other_png/UncheckedCheckbox.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasUncheckedCheckboxIcon   {
+background: transparent url('other_png/UncheckedCheckbox.png') center center no-repeat;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

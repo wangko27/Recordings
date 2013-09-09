@@ -1,0 +1,164 @@
+/* ========= Styling rules to affect widgets ========= */
+/* ========= Styling rules to affect widgets ========= */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.corporate .dijitPopup {
+  /* .box-shadow(0 1px 5px rgba(0,0,0,0.25)); */
+
+}
+.corporate .dijitTooltipDialogPopup {
+  /* exception popups: do not use a shadow on these because they aren't rectangular */
+
+  /* .box-shadow(none); */
+
+}
+/* The highlight is shown in the ComboBox menu.  TODO: move to form/Common.less */
+.corporate .dijitComboBoxHighlightMatch {
+  background-color: #a3a3a3;
+}
+.corporate .dijitFocusedLabel {
+  /* for checkboxes or radio buttons, hatch border around the corresponding label, to indicate focus */
+
+  /* outline: 0 dotted @focus-outline-color; */
+
+}
+/* Drag and Drop*/
+.corporate .dojoDndItem {
+  border-color: #5d6065;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+}
+.corporate .dojoDndItemOver {
+  background-color: #c3d5e5;
+  padding: 1px;
+  border: 0 solid #134570;
+  color: #353535;
+}
+.corporate .dojoDndItemAnchor,
+.corporate .dojoDndItemSelected {
+  background-color: #d1dfeb;
+  padding: 1px;
+  border: 1px solid #d1dfeb;
+  color: #353535;
+}
+.corporate .dojoDndItemBefore,
+.corporate .dojoDndItemAfter {
+  border-color: #134570;
+}
+.corporate table.dojoDndAvatar {
+  border: 1px solid #5d6065;
+  border-collapse: collapse;
+  background-color: #e0e2e5;
+  /*.box-shadow(0 1px 3px rgba(0, 0, 0, .25)); */
+
+}
+.corporate .dojoDndAvatarHeader td {
+  height: 20px;
+  padding-left: 21px;
+}
+.corporate.dojoDndMove .dojoDndAvatarHeader,
+.corporate.dojoDndCopy .dojoDndAvatarHeader {
+  background: url("images/dndCopy.png") center center no-repeat;
+}
+.corporate .dojoDndAvatarItem td {
+  padding: 5px;
+}
+.corporate.dojoDndMove .dojoDndAvatarHeader {
+  background-color: #f58383;
+  background: url("images/dndMove.png") center center no-repeat;
+}
+.corporate.dojoDndCopy .dojoDndAvatarHeader {
+  background-color: #f58383;
+  background: url("images/dndCopy.png") center center no-repeat;
+}
+.corporate.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+  background-color: #97e68d;
+  background: url("images/dndMove.png") center center no-repeat;
+}
+.corporate.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+  background-color: #97e68d;
+  background: url("images/dndCopy.png") center center no-repeat;
+}

@@ -1,0 +1,60 @@
+
+/* *************** STRUCTURAL ************************************** */
+/* DO NOT change the order in which the strutural css appear on this
+css because all others layer on top */
+
+/* By default each product must call this css file in their pages. If they have additional styling unique to their
+product they must also call that css file which is located in the corporate/css directory. The corporate css directory
+should only be home to the unique style pages for each product. There is an additional signin_page.css that products
+like webdms use. The signin_page is not called on this page. Each product that wants to access the signin_page needs to also include
+that css file in their html page. 
+
+The only css files that are not referenced on this page are:
+.corporate.css itself
+-the css used by the individual product that contains customization unique to them and these files are in the css subdirectory
+-signin_page.css
+
+note - we have to import mutliple pages instead of just having all the css listed here because IE won't read anything after 30
+
+
+*/
+
+
+@import url("dijit.css"); /* this is common to all the themes */
+
+
+
+/* *************** NOT DOJO BASELINE ************************************** */
+/* These files are used by products that do not use dijit layout and require
+a baseline styling for the default html5 selectors including any necessary
+resets as well as a fundamental grid. */
+
+
+@import url("corporate_core.css");
+
+
+/* *************** REMAINING CSS ************************************** */
+
+/* do not put these in alphabetical order without heavily testing to makes
+sure that there are no consequential specifity issues */
+
+@import url("corporate_base.css");
+@import url("corporate_supplemental.css");
+
+
+
+
+
+/* *************** IMPORT RTL CSS ************************************** */
+@import url("corporate_rtl.css");
+
+
+/* *************** MEDIA QUERIES CSS ************************************** */
+/* do not change the position of this css file. It must come last in this
+stack until it's contents are actually represented in this corporate.css file. 
+For now DO NOT convert this to a less file.
+*/
+
+@import url("mediaqueries.css");
+
+

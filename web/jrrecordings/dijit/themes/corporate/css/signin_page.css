@@ -1,0 +1,292 @@
+/* this is custom styling for the sign in page only. It must be called by the products and it is not 
+automatically loaded by corporate .css */
+/* ********************************* SIGN IN PAGE ***************************** */
+/* this is custom styling for the sign in page only. It must be called by the products and it is not 
+automatically loaded by corporate .css */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+#page {
+  width: 100%;
+  height: 100%;
+  border: 0 solid #134570;
+  margin: 0 auto;
+  position: absolute;
+  background: url("../images/backgrounds/transparent1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.wrapperlogon {
+  min-width: 300px;
+  width: 400px;
+  margin: 3em auto;
+  border: 4px solid #5d6065;
+  background-color: #e0e2e5;
+  border: 1px solid #e0e2e5;
+}
+#loginForm ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+header .row-fluid > .span4 > h1,
+header .row-fluid > .span12 > h1 {
+  /*
+color: @text-color-light;
+text-shadow: @text-shadow-dark;
+*/
+
+}
+.container-fluid {
+  padding: 1em;
+}
+img.logon {
+  background: none;
+  width: 100%;
+  max-width: 125px;
+  float: left;
+  padding-top: 0;
+  padding-left: 4px;
+}
+/* ************* MY PATCH there is something in here that if you take it out the sign in breaks *************** */
+label {
+  display: block;
+}
+input {
+  outline: 0;
+  background-color: #e0e2e5;
+}
+fieldset {
+  padding-left: 6px;
+  border: 0;
+}
+legend {
+  font-size: 1.40em;
+  font-weight: 700;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #5d6065;
+}
+.form label {
+  margin-left: 10px;
+  /* color: @text-color;  */
+}
+.submit input {
+  width: auto;
+  padding: 9px 15px;
+  border: 0;
+  /* color: @text-color;  */
+
+}
+#loginForm ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.signin {
+  clear: both;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.logonlabel {
+  float: left;
+}
+.ksignin {
+  background: #134570;
+}
+.inputaccent {
+  padding-bottom: 20px;
+}
+.inputaccent2 {
+  width: 95%;
+}
+.logoninput {
+  float: left;
+  margin-top: 2px;
+}
+/* **************************** SIGNIN BUTTON TEXT ********************** */
+/* this applies to the header only */
+.corporate .signin .dijitButtonText {
+  text-align: center;
+  font-weight: 700;
+}
+.corporate .signin .dijitButtonText {
+  padding: 3px;
+  font-weight: 700;
+}
+/* ************** SIGNIN BUTTON DEFAULT APPEARANCE ******************* */
+/* ************** Default state of all Button appearance including disabled *** */
+.corporate .signin .dijitButtonNode {
+  background-color: #134570;
+  border: 1px solid #5d6065;
+  color: #ffffff;
+  text-shadow: 0 0 0 #000000;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 2px;
+}
+/* ************** SIGNIN BUTTON HOVER APPEARANCE ******************* */
+.corporate .signin .dijitButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .signin .dijitDropDownButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .signin .dijitComboButton .dijitButtonNodeHover {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .signin .dijitComboButton .dijitDownArrowButtonHover {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .signin .dijitToggleButtonHover .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  border: 1px solid #6c7c93;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* ************** SIGNIN BUTTON ACTIVE AND CHECKED GENERAL APPEARANCE ******************* */
+.corporate .signin .dijitButtonActive .dijitButtonNode,
+.corporate .signin .dijitDropDownButtonActive .dijitButtonNode,
+.corporate .signin .dijitComboButtonActive .dijitButtonNode,
+.corporate .signin .dijitToggleButtonActive .dijitButtonNode {
+  color: #ffffff;
+  background-color: #1a609c;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  border: 1px solid #6c7c93 !important;
+}
+/* ************** SIGNIN BUTTON DISABLED ******************* */
+.corporate .signin .dijitDisabled * {
+  /*
+text-shadow: @signin-button-disabled-text-shadow;
+background-color: @signin-button-disabled-background-color;
+color: @disabled-color;
+*/
+
+}
+.corporate .signin .dijitButtonDisabled .dijitButtonNode,
+.corporate .signin .dijitDropDownButtonDisabled .dijitButtonNode,
+.corporate .signin .dijitComboButtonDisabled .dijitButtonNode,
+.corporate .signin .dijitToggleButtonDisabled .dijitButtonNode {
+  color: #cccccc;
+  background-color: #5d6065;
+  border: 0 solid #5d6065;
+  /* text-shadow: @signin-button-disabled-text-shadow; */
+
+  outline: none;
+  opacity: 0.4;
+}
+footer {
+  border-width: 0;
+}

@@ -1,0 +1,429 @@
+/* @text-color-dark: #353535; */
+/* TabContainer 
+ * 
+ * Styling TabContainer means styling the TabList and Its content container  (dijitTitlePane)
+ * 
+ * Tab List: (including 4 kinds of tab location)
+ * 		.dijitTabContainerTop-tabs     - tablist container at top
+ * 		.dijitTabContainerBottom-tabs  - tablist container at bottom
+ * 		.dijitTabContainerLeft-tabs    - tablist container at left
+ * 		.dijitTabContainerRight-tabs   - tablist container at right
+ * 
+ * Tab Strip Button:
+ * 		.dijitTabStripIcon - tab strip button icon
+ * 		.dijitTabStripMenuIcon - down arrow icon position
+ * 		.dijitTabStripSlideLeftIcon - left arrow icon position
+ * 		.dijitTabStripSlideRightIcon - right arrow icon position
+ * 
+ * 		.tabStripButtonDisabled - styles for disabled tab strip buttons
+ * 
+ * Tab Button:
+ * 		.dijitTabContainerTop-tabs .dijitTab     - styles for top tab button container
+ * 		.dijitTabContainerBottom-tabs .dijitTab  - styles for bottom tab button container
+ * 		.dijitTabContainerLeft-tabs .dijitTab    - styles for left tab button container
+ * 		.dijitTabContainerRight-tabs .dijitTab   - styles for right tab button container
+ * 
+ * 		.dijitTabContainerTop-tabs .dijitTabChecked .dijitTab
+ * 				- styles for selected status of top tab button
+ * 		same to Bottom, Left, Right Tabs
+ * 
+ * 		.dijitTabHover .dijitTab   - styles when mouse hover on tab buttons
+ * 		.dijitTabActive .dijitTab  - styles when mouse down on tab buttons
+ * 		.dijitTabChecked .dijitTab  - styles when on buttons of selected tab
+ * 
+ * 		.dijitTabCloseButton - the close action buttons lie at the right top of each tab button on closable tabs
+ * 		.dijitTabCloseButtonHover - styles when mouse hover on close action button
+ * 		.dijitTabCloseButtonActive - styles when mouse down on close action button
+ * 
+ * Tab Button: (checked status)
+ * 
+ * Tab Content Container:
+ * 		.dijitTabContainerTop-dijitContentPane
+ * 		.dijitTabContainerBottom-dijitContentPane
+ * 		.dijitTabContainerLeft-dijitContentPane
+ * 		.dijitTabContainerRight-dijitContentPane - for background and padding
+ * 
+ * Nested Tabs:
+ * 		.dijitTabContainerNested - Container for nested tabs
+ * 		.dijitTabContainerTabListNested - tab list container for nested tabs
+ */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+/* ***************************  TAB WRAPPER AND CONTAINER  ******************************************* */
+.corporate .dijitTabPaneWrapper {
+  background-color: #ffffff;
+}
+.dijitTabContainerBottom-container,
+.dijitTabContainerTop-container,
+.dijitTabContainerLeft-container,
+.dijitTabContainerRight-container {
+  /* border: 1px solid #134570; */
+
+}
+/* ***************************  CLOSE BUTTON AND SPACER  ******************************************* */
+/* ***************  tab close button icon call ****************** */
+.corporate .dijitTabCloseButton {
+  background: url("images/tab_close_up.png") center center no-repeat;
+  width: 16px;
+  height: 16px;
+  /*
+margin-left: 5px;
+margin-right:-5px;
+*/
+
+}
+/* ***************  tab close button hover ****************** */
+.corporate .dijitTabCloseButtonHover {
+  /* need to add another image or color */
+
+  background: url("images/tab_close_over.png") center center no-repeat;
+}
+/* ***************  tab close active ****************** */
+.corporate .dijitTabCloseButtonActive {
+  /* need to add another image or color for state */
+
+  background: url("images/tab_close_down.png") center center no-repeat;
+}
+/* ***************  tab close spacer ****************** */
+.corporate .dijitTabSpacer {
+  /* set the spacer invisible.  note that height:0 doesn't work on IE/quirks, it's still 10px. */
+
+  display: none;
+}
+/* ***************************  STATES  ******************************************* */
+/* ***************  default (unselected) tab ****************** */
+.corporate .dijitTab {
+  color: #353535;
+  border: 1px solid #5d6065;
+  background-color: #e0e2e5;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+/* **************  tab on hover ********************** */
+.corporate .dijitTabHover {
+  color: #353535;
+  border-color: #d1dfeb;
+  background-color: #f0f1f2;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+/* *************** active tab ************************ */
+.corporate .dijitTabActive {
+  color: #353535;
+  border-color: #d1dfeb;
+  background-color: #d1dfeb;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ********************  tab selected/checked ********************* */
+.corporate .dijitTabChecked {
+  color: #000000;
+  border-color: #5d6065;
+  background-color: #ffffff;
+  background-image: none;
+}
+/* ********************  tab disabled ********************** */
+.corporate .dijitTabDisabled {
+  background-color: #d1d5db;
+  opacity: 0.4;
+}
+/* *********************  tab strip button * ********************** */
+.corporate .tabStripButton {
+  /* was 	background-color:@button-background-color; */
+
+  /* background-color: transparent; */
+
+  background-color: #e0e2e5;
+  border: none;
+}
+/* ****************** TOP TAB UNIQUE PROPERTIES ONLY ***************************************************** */
+/* note: this adds unique properties you want added to top tab */
+/*************** top tab (unselected) ***************/
+.corporate .dijitTabContainerTop-tabs .dijitTab {
+  /* unselected (and not hovered/pressed) tab */
+
+  top: 1px;
+  /* used for overlap */
+
+  margin-right: 1px;
+  padding: 3px 6px;
+  /* padding: 4px 4px 3px 4px; */
+
+  border-bottom-width: 0;
+  min-width: 60px;
+  text-align: left;
+}
+/* ************** top tab selected (selected/checked) ************** */
+.corporate .dijitTabContainerTop-tabs .dijitTabChecked {
+  padding: 4px 6px;
+}
+/* ****************** BOTTOM TAB PROPERTIES ONLY ***************************************************** */
+/* note: this adds properties you want added to top tab but not bottom tab */
+.corporate .dijitTabContainerBottom-tabs .dijitTab {
+  /* unselected (and not hovered/pressed) tab */
+
+  top: -1px;
+  /* used for overlap */
+
+  margin-right: 1px;
+  padding: 3px 6px;
+  border-top-width: 0;
+  min-width: 60px;
+  text-align: center;
+}
+/* ************** bottom tab selected ************** */
+.corporate .dijitTabContainerBottom-tabs .dijitTabChecked {
+  /*padding-bottom: 9px;
+	padding-top: 4px; */
+
+  padding: 3px 6px;
+}
+/* ****************** LEFT TAB PROPERTIES ONLY ***************************************************** */
+/* ************** left tab unselected ************** */
+.corporate .dijitTabContainerLeft-tabs .dijitTab {
+  /* unselected (and not hovered/pressed) tab */
+
+  left: 1px;
+  /* used for overlap */
+
+  margin-bottom: 1px;
+  padding: 3px 8px 4px 4px;
+}
+/* ************** left tab selected ************** */
+.corporate .dijitTabContainerLeft-tabs .dijitTabChecked {
+  border-right-width: 0;
+  padding-right: 9px;
+}
+/* ****************** RIGHT TAB PROPERTIES ONLY ***************************************************** */
+/* ************** right tab unselected (and not hovered/pressed)  ************** */
+.corporate .dijitTabContainerRight-tabs .dijitTab {
+  /* unselected (and not hovered/pressed) tab */
+
+  left: -1px;
+  /* used for overlap */
+
+  margin-bottom: 1px;
+  padding: 3px 8px 4px 4px;
+}
+/* ************** right tab selected ***************/
+.corporate .dijitTabContainerRight-tabs .dijitTabChecked {
+  /* selected tab */
+
+  padding-left: 5px;
+  border-left-width: 0;
+}
+/* ****************** ROUND CORNER TAB PROPERTIES ONLY ***************************************************** */
+/* ************** round corner tabs ************** */
+/* ****************** SCROLL TAB PROPERTIES ONLY ***************************************************** */
+/* *********** left/right scroll buttons + menu button *********** */
+.corporate .tabStripButton {
+  border: 1px solid #5d6065;
+  min-height: 25px;
+}
+.corporate .dijitTabListContainer-top .tabStripButton {
+  /* padding: 4px 3px; */
+
+  padding: 2px;
+  /* margin-top:7px; */
+
+}
+.corporate .dijitTabListContainer-bottom .tabStripButton {
+  /* padding: 4px 3px; */
+
+  padding: 2px;
+  /* margin-bottom:7px; */
+
+}
+.corporate .tabStripButtonHover {
+  background-color: #f0f1f2;
+}
+.corporate .tabStripButtonActive {
+  background-color: #d1dfeb;
+}
+.corporate .dijitTabStripIcon {
+  height: 16px;
+  width: 16px;
+  margin: 0 auto;
+  background: url("images/common_formarrow_left.png") center center no-repeat;
+  background-color: transparent;
+}
+.corporate .dijitTabStripSlideRightIcon {
+  background: url("images/common_formarrow_right.png") center center no-repeat;
+}
+.corporate .dijitTabStripMenuIcon {
+  background: url("images/common_formarrow_down.png") center center no-repeat;
+}
+/* ************** disabled tab strip ************** */
+.corporate .dijitTabListContainer-top .tabStripButtonDisabled,
+.corporate .dijitTabListContainer-bottom .tabStripButtonDisabled {
+  opacity: 0.5;
+  border: 1px solid #5d6065;
+  /* to match border of TabContainer itself */
+
+}
+.corporate .tabStripButtonDisabled .dijitTabStripSlideLeftIcon {
+  background: url("images/common_formarrow_left.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+.corporate .tabStripButtonDisabled .dijitTabStripSlideRightIcon {
+  background: url("images/common_formarrow_right.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+.corporate .tabStripButtonDisabled .dijitTabStripMenuIcon {
+  background: url("images/common_formarrow_right.png") center center no-repeat;
+  opacity: 0.4;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+}
+/* ****************** NESTED TAB PROPERTIES ONLY ***************************************************** */
+.corporate .dijitTabContainerNested .dijitTabListWrapper {
+  height: auto;
+}
+.corporate .dijitTabContainerNested .dijitTabContainerTop-tabs {
+  border-bottom: solid 1px #5d6065;
+  padding: 2px 2px 4px;
+}
+.corporate .dijitTabContainerTabListNested .dijitTab {
+  border: none;
+  padding: 4px;
+  border-color: #5d6065;
+  -webkit-transition-property: background-color, border-color;
+  -moz-transition-property: background-color, border-color;
+  transition-property: background-color, border-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* ************** nested default ************** */
+.corporate .dijitTabContainerTabListNested .dijitTab {
+  background: none;
+  border: none;
+  top: 0;
+  /* to override top: 1px/-1px for normal tabs */
+
+}
+/* ************** nested hover ************** */
+.corporate .dijitTabContainerTabListNested .dijitTabHover {
+  border: solid 1px #5d6065;
+  padding: 3px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.corporate .dijitTabContainerTabListNested .dijitTabHover .tabLabel {
+  text-decoration: none;
+}
+/* ************** nested active ************** */
+.corporate .dijitTabContainerTabListNested .dijitTabActive {
+  border: solid 1px #5d6065;
+  padding: 3px;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* ************** nested checked ************** */
+.corporate .dijitTabContainerTabListNested .dijitTabChecked {
+  padding: 3px;
+  border: solid 1px #5d6065;
+}
+.corporate .dijitTabContainerTabListNested .dijitTabChecked .tabLabel {
+  text-decoration: none;
+  background-image: none;
+}
+.corporate .dijitTabPaneWrapperNested {
+  border: none;
+  /* prevent double border */
+
+}

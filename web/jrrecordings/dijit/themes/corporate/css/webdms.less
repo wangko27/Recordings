@@ -1,0 +1,1115 @@
+/* ****************** WEB EDITOR SUPPLEMENTAL STYLE SHEET  ************************ */
+/* UX designer is Samantha Dupont. Developer contact is Mike Monaco */
+
+
+@import "../variables";
+
+
+
+#main {
+border: 0px;
+}
+
+.mainhome {
+background-color: @container-background-color;
+}
+
+.bottom-block {
+padding: .25em;
+}
+
+.leftcolumn {
+width:30%;
+float: left;
+}
+
+.tabs {
+width: 100%;
+height: 100%;
+}
+
+
+.dijitToolbar .dijitButtonContents {
+margin: 0;
+padding: 0;
+/* width: 30px; */
+/* width: 18px; */
+}
+
+.dijitContentPane {
+display: block;
+overflow: auto;
+}
+
+#filesSelect {
+width: 100%!important;
+}
+
+.obsNumCell {
+background-color: @obsNumCell-background-color!important;
+width: 2em;
+}
+
+#aboutDialog .dijitDialogCloseIcon {
+display: none;
+}
+
+#aboutDialog .dijitDialogTitleBar {
+ /* outer container for the titlebar of the dialog */
+}
+
+#aboutDialog .dijitDialogPaneContent {
+}
+
+#aboutDialog h2 {
+margin: 0 0 1em 0;
+}
+
+.propertiesTable {
+background-color: @container-background-color;
+}
+
+.nameValue {
+width: 100%;
+}
+
+.nameValue td {
+vertical-align: top;
+}
+
+.standardTable {
+}
+
+
+.tip {
+/* font-style: italic; */
+}
+
+.accent {
+font-weight: 700;
+}
+
+
+
+
+.dijitDialogPaneContentArea > div {
+width: 100%;
+margin-bottom: 4px;
+clear: both;
+padding-bottom: 10px;
+}
+
+#rememberCheckbox .logoninput {
+	padding-top: 5px;
+}
+
+
+.dijitDialogPaneContent > div > div {
+}
+
+
+.dijitDialogPaneContent > div > p {
+clear: both;
+padding-top: 10px;
+}
+
+.dijitDialogPaneContent > div > div > p {
+text-align: left;
+}
+
+
+.dijitDialogPaneContent > div > div > label {
+float: left;
+}
+
+.dijitDialogPaneContent > div > div > input {
+width: 40%;
+float: left;
+}
+
+.dijitDialogPaneContent > div > div > span,
+.dijitDialogPaneContent > div > div > div {
+width: 20%;
+float: left;
+}
+
+.saveAsTree, .moveDestTree  {
+overflow: scroll;
+min-height: 200px;
+border: 0 solid  @base-border-color;
+background-color: @container-background-color;
+
+
+}
+
+
+#uploader span.dijitReset.dijitInline.dijitButtonNode input {
+/* font-size: 2em; */
+/* top: -3px; */
+/* right: -3px; */
+opacity: 1;
+position: relative;
+overflow: visible!important;
+}
+
+
+#uploadCtrl {
+overflow: visible!important;
+}
+
+
+#uploadForm span {
+overflow: visible!important;
+}
+
+#dmstabs_tablist_leftBtn {
+}
+
+#dmstabs_tablist_rightBtn {
+}
+
+#dmstabs_tablist_menuBtn {
+}
+
+
+
+
+
+/* ******************************** APPEARANCE OF ITEMS IN THE LIBRARY AREA and FILE SHORTCUTS ******************************** */
+
+
+/* ********************************** common looks and feel between both lib and file shortcuts */
+#FilerefGridPane .fileref-grid-item .dijitButton .dijitButtonNode,
+.corporate #FilerefGridPane .fileref-grid-item-selected .dijitButton .dijitButtonNode,
+#libraryGridPane .library-grid-item .dijitButton .dijitButtonNode,
+#libraryGridPane .library-grid-item-selected .dijitButton .dijitButtonNode {
+padding: 10px 0 10px 0;
+/* width: 98%; */
+width: 70px;
+margin: 0;
+color: @text-color;
+/* font-size: 0.65em; */
+}
+
+
+
+#FilerefGridPane .ExplorerGridIcon .dijitButton  {
+/*
+margin: 0;
+vertical-align: middle;
+text-align: center;
+width: 95%;
+*/
+}
+
+
+
+#LibraryGridPane .ExplorerGridIcon .library-grid-item .dijitButtonNode .dijitIcon,
+#FilerefGridPane .ExplorerGridIcon .dijitButtonNode .dijitIcon  {
+	width: 100%;
+}
+
+
+.ExplorerGridIcon .library-grid-item .dijitButtonText,
+.ExplorerGridIcon .dijitButtonText {
+float: left;
+width: 90%;
+color: @text-color;
+}
+
+
+.library-grid-item,
+.library-grid-item-selected,
+#FilerefGridPane .fileref-grid-item,
+#FilerefGridPane .fileref-grid-item-selected {
+float: left;
+margin: .5em;
+}
+
+
+
+/* ******************************** APPEARANCE OF ITEMS IN THE LIBRARY AREA  ******************************** */
+
+/* ********************************** default status */
+#libraryGridPane .library-grid-item .dijitButton .dijitButtonNode {
+border: @base-border;
+background-color: @base-background-color;
+}
+
+
+/* ********************************** selected status */
+#libraryGridPane .library-grid-item-selected .dijitButton .dijitButtonNode {
+border: @selected-border;
+background-color: @selected-background-color;
+}
+
+
+
+
+/* ********************************** hover status */
+#libraryGridPane .library-grid-item .dijitButton .dijitButtonHover {
+background-color: @hovered-background-color;
+}
+
+/* ************************** active status */
+#LibraryGridPane .library-grid-item .dijitButtonActive .dijitButtonNode {
+background-color: @selected-background-color;
+}
+
+
+/* ******************************** APPEARANCE OF ITEMS IN THE FILE SHORTCUTS AREA ******************************** */
+
+
+
+/* ********************************** default status */
+#FilerefGridPane .fileref-grid-item .dijitButton .dijitButtonNode {
+border: @base-border;
+background-color: @container-background-color;
+}
+
+
+/* ********************************** selected status */
+#FilerefGridPane .fileref-grid-item-selected .dijitButton .dijitButtonNode {
+border: @selected-border;
+background-color: @selected-background-color;
+}
+
+/* ********************************** hover status */
+#FilerefGridPane .fileref-grid-item .dijitButton .dijitButtonHover  {
+background-color: @hovered-background-color;
+}
+
+/* ************************** active status */
+#FilerefGridPane .fileref-grid-item .dijitButtonActive .dijitButtonNode {
+background-color: @active-background-color;
+}
+
+
+/* ******************************** ICONS ******************************** */
+
+.gridFileIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/Document.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.gridUnkownIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/GenericKnownObject.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.gridUrlIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/HTMLFile.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+
+.gridTableIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/SASDataSet.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.gridLibraryIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/Library.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.gridViewIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/DataSetView.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+
+
+.gridLibraryReadOnly {
+background: transparent url('../images/sasIcons/sasdark/24_png/ReadOnlyLibrary.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+
+
+
+.treeLibraryRootNode {
+background: transparent url('../images/sasIcons/sasdark/16_png/Library.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeLibraryOpen {
+background: transparent url('../images/sasIcons/sasdark/16_png/Library.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeLibraryClosed {
+background: transparent url('../images/sasIcons/sasdark/16_png/Library.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeLibraryReadOnly {
+background: transparent url('../images/sasIcons/sasdark/16_png/ReadOnlyLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeSASTable {
+background: transparent url('../images/sasIcons/sasdark/16_png/SASDataSet.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeSASView {
+background: transparent url('../images/sasIcons/sasdark/16_png/DataSetView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectFolder {
+background: transparent url('../images/sasIcons/sasdark/16_png/Folder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectFolderOpen {
+background: transparent url('../images/sasIcons/sasdark/16_png/Folder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectGenericFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/Document.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectCSVFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/CSVFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectSASFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/SASProgramFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectSASTable {
+background: transparent url('../images/sasIcons/sasdark/16_png/SASDataSet.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectHtmlFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/HTMLFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectPowerPointFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/PowerPointFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+
+
+
+.treeProjectWordFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/WordFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectExcelFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/ExcelFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectTextFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/File.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectImageFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/Image.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectPDFFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/PDFFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectXMLFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/XMLFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.treeProjectLogFile {
+background: transparent url('../images/sasIcons/sasdark/16_png/Log.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.libraryEngineProperty {
+background: transparent url('../images/sasIcons/sasdark/16_png/SourceDatabase.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.libraryFolderProperty {
+background: transparent url('../images/sasIcons/sasdark/16_png/Folder.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.libraryLockedPropery {
+background: transparent url('../images/sasIcons/sasdark/16_png/Options.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.library-grid-item img {
+margin: 5px;
+}
+
+.fileref-grid-item img {
+margin: 5px;
+}
+
+
+.log {
+color: @log_blue;
+}
+
+.error {
+color: @error-color;
+}
+
+.sascode {
+color: @sascode_color;
+}
+
+.note {
+
+}
+
+
+#uploader {
+background-color: @container-background-color;
+}
+
+
+p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+
+.corporate .dijitBorderContainer-dijitContentPane {
+/*
+padding: 2px;
+*/
+}
+
+
+
+/*
+.dijitTree {
+	height: 95%!important;
+}
+*/
+
+
+
+/* THESE ARE ICONS THAT WEBDMS CALLS WITHOUT USING THE proper NAME FROM */
+
+
+/* ************************************ GO TO LINE ************************************ */
+.sasGoToLineIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/GoButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasGoToLineIcon  {
+background: transparent url('../images/sasIcons/sasdark/16_png/GoButton.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ NEW ************************************ */
+.sasNewIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/NewStarburst.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/NewStarburst.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NEW SHORTCUT ************************************ */
+.sasNewShortcut {
+background: transparent url('../images/sasIcons/sasdark/16_png/Shortcut.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewShortcut {
+background: transparent url('../images/sasIcons/sasdark/16_png/Shortcut.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+/* ************************************ PREVIOUS ************************************ */
+.sasPreviousPageIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallLeft.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasPreviousPageIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallLeft.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PREVIOUS ************************************ */
+.sasPreviousPageIcon24 {
+background: transparent url('../images/sasIcons/sasdark/24_png/ArrowSmallLeft.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasPreviousPageIcon24   {
+background: transparent url('../images/sasIcons/sasdark/24_png/ArrowSmallLeft.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ PROGRAM FILE ICON ************************************ */
+.sasNewProgramIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/SASProgramFile.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewProgramIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/SASProgramFile.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SUBMIT CODE ************************************ */
+.sasSubmitIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/SubmitSASCode.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSubmitIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/SubmitSASCode.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ SUBMIT AS IN GO ************************************ */
+.sasSubmitgoIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/GoButton.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasSubmitgoIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/GoButton.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ OPEN IN NEW TAB ************************************ */
+.sasOpenInNewTab {
+background: transparent url('../images/sasIcons/sasdark/16_png/OpenInNewTab.png') center center no-repeat;
+width: 16px;
+height: 16px;
+}
+
+.dijitDisabled .sasOpenInNewTab   {
+background: transparent url('../images/sasIcons/sasdark/16_png/OpenInNewTab.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ TREE ************************************ */
+.sasTreeViewIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/HierarchyView.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasTreeViewIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/HierarchyView.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ LIST VIEW ************************************ */
+.sasListViewIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/ViewTiles.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasListViewIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ViewTiles.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ READ ONLY LIBRARY ICONS ************************************ */
+
+.treeLibraryReadOnly {
+background: transparent url('../images/sasIcons/sasdark/16_png/ReadOnlyLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .treeLibraryReadOnly  {
+background: transparent url('../images/sasIcons/sasdark/16_png/ReadOnlyLibrary.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.gridLibraryReadOnly {
+background: transparent url('../images/sasIcons/sasdark/16_png/ReadOnlyLibrary.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .gridLibraryReadOnly  {
+background: transparent url('../images/sasIcons/sasdark/16_png/ReadOnlyLibrary.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.dijitDisabled .sasNewShortcut   {
+background: transparent url('../images/sasIcons/sasdark/16_png/Shortcut.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NEW LIBRARY ************************************ */
+.sasNewLibrary {
+background: transparent url('../images/sasIcons/sasdark/16_png/Library.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNewLibrary   {
+background: transparent url('../images/sasIcons/sasdark/16_png/Library.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NEXT ************************************ */
+.sasNextPageIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallRight.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasNextPageIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ArrowSmallRight.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ NEXT ************************************ */
+.sasNextPageIcon24 {
+background: transparent url('../images/sasIcons/sasdark/24_png/ArrowSmallRight.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasNextPageIcon24  {
+background: transparent url('../images/sasIcons/sasdark/24_png/ArrowSmallRight.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ REFRESH ************************************ */
+.sasRefreshIcon24 {
+background: transparent url('../images/sasIcons/sasdark/24_png/Refresh.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasRefreshIcon24   {
+background: transparent url('../images/sasIcons/sasdark/24_png/Refresh.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PROPERTIES ************************************ */
+.sasPropertiesIcon24 {
+background: transparent url('../images/sasIcons/sasdark/24_png/Properties.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasPropertiesIcon24   {
+background: transparent url('../images/sasIcons/sasdark/24_png/Properties.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ PRINT ************************************ */
+.sasPrintIcon24 {
+background: transparent url('../images/sasIcons/sasdark/24_png/Print.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasPrintIcon24   {
+background: transparent url('../images/sasIcons/sasdark/24_png/Print.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* **** CLOSE CLEAR **** */
+.sasClearIcon {
+background: transparent url('../images/sasIcons/sasdark/24_png/ClearAll.png') center center no-repeat;
+width: 24px;
+height: 24px;
+text-align: center;
+}
+
+.dijitDisabled .sasClearIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/ClearAll.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* ************************************ DEPLOY ************************************ */
+.sasTemplateIcon {
+background: transparent url('../images/sasIcons/sasdark/16_png/Deploy.png') center center no-repeat;
+width: 16px;
+height: 16px;
+text-align: center;
+}
+
+.dijitDisabled .sasTemplateIcon   {
+background: transparent url('../images/sasIcons/sasdark/16_png/Deploy.png') center center no-repeat;
+opacity: 0.4;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+/* ************************************ MIGRATED FROM NON CDD VERSION OF WEB DMS ************************************ */
+
+
+.dijitBorderContainer-child {
+    border: none!important;
+}
+
+
+
+.dijitTabCloseButton {
+    margin-left:0px;
+}
+
+.dijitToolbar .dijitButtonContents {
+	margin: 0;
+	padding: 0;
+	/* width: 30px; */
+
+}
+.corporate .dijitToolbar {
+    margin-bottom: 0;
+}
+
+.corporate .dijitIcon {
+    padding:0px;
+}
+
+.dojoxUploaderFileListTable {
+	 width: 100%;
+}
+
+.dojoxUploaderFileListTable  td {
+	 text-align: left;
+}
+
+.dojoxGridArrowButtonChar {
+     width: 10%,
+	 position: relative;
+	 float: left;
+}
+
+.dojoxGridArrowButtonNode {
+     width: 10%,
+	 position: relative;
+	 float: left;
+}
+
+.dojoxGridColCaption {
+     width: 80%,
+	 position: relative;
+	 float: left;
+}
+
+
+
+#uploadActionBar .dijitButton .dijitButtonNode {
+    margin-left: 4px;
+}
+
+/********************File Sortcuts/File References BEGIN******************/
+#fileRefGrid .dojoxGridHeader{
+   display:none;
+}
+
+#fileRefGrid .dojoxGridRow{
+   border-width:0px;
+}
+
+#fileRefGrid td.dojoxGridCell{
+   border-width:0px;
+}
+
+#fileRefGrid .fileRefIcon {
+vertical-align:middle;
+}
+
+#fileRefGrid .fileRefGridRowKeyHover {
+  background-color: @hovered-background-color;
+  background-repeat: repeat-x;
+  padding: 3px 0 1px;
+  border-color: @hovered-border-color;
+  border-width: 1px 0;
+  color: @text-color;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  opacity:0.5;
+}
+
+#fileRefGrid { height:95% !important; }
+
+#fileRefGrid .dojoxGridRowOdd {
+   background-color: @container-background-color;
+}
+
+/********************File Sortcuts/File References END********************/
+
+/* Table Viewer */
+.toolbarText {
+    margin-top:5px;
+	margin-right:10px;
+	margin-bottom: 5px;
+	margin-left:5px;
+}
+
+.rowNavigation {
+	float:right;
+}
+
+#tblToolbarSeparator {
+	margin-right: 2px;
+	margin-left: 11px
+}
+/* Table Viewer END*/
+
+.mblView {
+   background-color: white;
+}
+
+.mblIconContainer {
+   background-color: white;
+}
+
+.mblIconItemPane {
+   background-color: white;
+ }
+
+ .container-fluid.mobile_keymain {
+	height: 85%;
+	padding: 0;
+}
+
+/* 
+.mblView .mblScrollableView {
+ overflow: visible!important; 
+}
+*/
+
+
+.corporate .dijitInputField .dijitPlaceHolder {
+/*	padding:0px;
+	color: @inputfieldneutral!important;
+	*/
+}
+
+.corporate td.dijitMenuItemLabel {
+}
+
+.dj_a11y .dijitToolbar, .dj_a11y .dijitButtonContents .dijitButtonText, .dj_a11y .dijitTab .tabLabel, .dj_a11y .dijitToolbar .dijitButtonContents {
+   width: auto;
+   height: auto;
+}
+
+.corporate .dijitSplitterV, .corporate .dijitGutterV {
+margin: 1px!important;
+}
+
+
+
+/*Loading animation*/
+.corporate .dijitIconLoading {
+	background: transparent url(@image-progressIndicator-spinner) no-repeat;
+	height: 32px!important;
+	width: 32px!important;
+}
+
+.corporate .dijitContentPaneLoading .dijitIconLoading,
+.corporate .dijitContentPaneError .dijitIconError {
+margin-right: 9px;
+margin-left: 8px;
+margin-top: 15px;
+}
+
+.corporate .dijitContentPaneLoading {
+	vertical-align: bottom;
+}
+
+/* Log colors. */
+.sasError {
+	color: @sasError;
+}
+
+.sasMessage {
+	color: @sasMessage;
+}
+
+.sasWarning {
+	color: @sasWarning;
+}
+
+.sasSource {
+	color: @sasSource;
+}
+
+.sasNote {
+	color: @sasNote;
+}
+
+#widget_searchInputDesktop .dijitButtonNode {
+/* border: 1px solid red; */
+}
+
+
+
+#searchGrid .dojoxGridHeader{
+   display:none;
+}
+
+
+.focus-line { 
+background-color: #C5CED8; 
+}
+
+
+#searchResultsMessage {
+font-size: .75em!important;
+color: #353535!important;
+height: 30px!important;
+}
+
+
+#closeButton {
+/* margin-left: 33px; */
+float: right;
+}
+
+
+/* *************** FOCUS TEST ************************ */
+
+*:focus 
+{ 
+  -moz-outline: 3px solid #FFFF00  !important; 
+  -moz-outline-offset: 1px         !important; 
+  -moz-outline-radius: 5px         !important; 
+border: 1px solid red!important;
+}
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+/* TitlePane 
+ * 
+ * Styling TitlePane means styling the TitlePane title and its content container  (dijitTitlePane)
+ * 
+ * TitlePane title:
+ * 1. TitlePane title (default styling): 
+ * 		.dijitTitlePaneTitle - TitlePane's title div style: background-color, border
+ *
+ * 2. hovered TitlePane title (ie, mouse hover on a title bar)
+ * 		.dijitTitlePaneTitleHover - styles when mouse hover on the title div
+ * 
+ * 3. active TitlePane title (ie, mouse down on a title bar)
+ * 		.dijitTitlePaneTitleActive - styles when mouse down on the title div
+ * 
+ * 
+ * TitlePane Content Container:
+ * 1. outer/inner container: 
+ * 		.dijitTitlePaneContentOuter / dijitTitlePaneContentInner - styles for the content outer div
+ */
+
+@import "variables";
+
+
+/* ******* default look ********* */
+.corporate .dijitTitlePaneTitle {
+color: @titlepane-text-color;
+border: @titlepane-border;
+border-bottom: @titlepane-border-bottom;
+background-color: @titlepane-background-color;
+.transition-property(background-color,border);
+.transition-duration(.3s);
+.transition-timing-function(linear);
+
+/*
+min-height:17px;
+*/
+
+padding: 5px 7px 2px 7px;
+
+}
+
+
+
+/* ******* text ********* */
+.corporate .dijitTitlePaneTextNode {
+margin-left: 4px;
+margin-right: 4px;
+vertical-align:text-top;
+}
+
+.corporate .dijitTitlePane .dijitTitlePaneTextNode {
+/* color: @titlepane-text-color; */
+background-color: transparent;	/* pick up color from dijitAccordionInnerContainer */
+min-height:17px;
+font-weight: 700;
+font-size: 1.10em;
+}
+
+
+
+
+
+/* ******* hover ********* */
+.corporate .dijitTitlePaneTitleHover {
+color: @titlepane-hover-text-color;
+border: @titlepane-hover-border;
+background-color: @titlepane-hover-background-color;
+}
+
+/* ******* active/checked ********* */
+.corporate .dijitTitlePaneTitleActive {
+border: @titlepane-selected-border;
+background-color: @titlepane-selected-background-color;
+.transition-duration(.1s);
+}
+
+/* ******* focus ********* */
+.corporate .dijitTitlePaneTitleFocus {
+	margin-top:3px;
+	padding-bottom:2px;
+}
+
+/* ******* icon ********* */
+.corporate .dijitTitlePane .dijitArrowNode {
+	background: url(@image-arrow-sprite_down_light) center center no-repeat;
+	height: 7px;
+	width: 7px;
+}
+
+.corporate .dijitTitlePane .dijitOpen .dijitArrowNode {
+background: url(@image-arrow-sprite_down_light) center center no-repeat;
+}
+.corporate .dijitTitlePane .dijitClosed .dijitArrowNode {
+background: url(@image-arrow-sprite_down_light) center center no-repeat;
+}
+
+.corporate .dijitTitlePaneContentOuter {
+background-color: @titlepane-ContentOuter-background-color;
+border: @titlepane-border;
+border-top:none;
+margin-top: 0;
+}
+
+.corporate .dijitTitlePaneContentInner {
+padding: 4px;
+background-color: #f0f1f2;
+}
+
+.corporate .dijitTitlePaneContentInner p {
+margin-top: 0;
+}
+
+

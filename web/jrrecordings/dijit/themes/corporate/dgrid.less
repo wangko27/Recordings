@@ -1,0 +1,251 @@
+@import "variables";
+
+
+
+.corporate .dgrid {
+border: @dojoxGrid-default-border;
+display: block;
+/* height: 30em; */
+overflow: hidden;
+position: relative;
+}
+
+.corporate .dgrid-header {
+background-color: @dojoxGridHeader-background-color;
+    left: 0;
+    position: absolute;
+    right: 17px;
+}
+
+.corporate .dgrid-header-scroll {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.corporate .dgrid-footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.dgrid-header-hidden, html.has-quirks .dgrid-header-hidden .dgrid-cell {
+    border-bottom: medium none !important;
+    border-top: medium none !important;
+    font-size: 0;
+    height: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.corporate .dgrid-footer-hidden {
+    display: none;
+}
+
+.corporate .dgrid-sortable {
+    cursor: pointer;
+}
+
+.corporate .dgrid-row-table {
+border: medium none;
+border-collapse: collapse;
+empty-cells: show;
+height: 100%;
+table-layout: fixed;
+width: 100%;    
+}
+
+.corporate .dgrid-cell {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-box-sizing: border-box;
+    border-color: #E8E1CF;
+    border-image: none;
+    border-right: #E8E1CF;
+    border-style: none solid solid;
+    border-width: 1px;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+	color: @text-color;
+}
+
+.corporate .dgrid-cell-padding {
+    padding: 3px;
+}
+
+
+.corporate .dgrid-content {
+    height: 99%;
+    position: relative;
+}
+
+
+.corporate .dgrid-scroller {
+    bottom: 0;
+    margin-top: 25px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: @container-background-color;
+}
+
+.corporate .dgrid-loading {
+    height: 100%;
+    position: relative;
+}
+
+.corporate .dgrid-above {
+    bottom: 0;
+    position: absolute;
+}
+
+.corporate .ui-icon {
+/* background-image: url("images/ui-icons_222222_256x240.png"); */
+/* background: url(images/grid_sort_up.gif) top left no-repeat; */
+background: url(@image-missing) center center no-repeat;
+height: 16px;
+width: 16px;
+}
+
+.ui-icon-triangle-1-e {
+    /* background-position: 0 0; */
+}
+
+.ui-icon-triangle-1-se {
+    /* background-position: 0 0; */
+}
+
+.corporate .dgrid-expando-icon {
+background: url(@image-missing) center center no-repeat;
+height: 16px;
+width: 16px;
+}
+
+.corporate .dgrid-tree-container {
+overflow: hidden;
+transition-duration: 0.3s;
+}
+
+.dgrid-tree-container.dgrid-tree-resetting {
+}
+
+.corporate .dgrid-sort-arrow {
+    /* background-position: 0 0; */
+    display: block;
+    float: right;
+    height: 16px;
+    margin: 0 4px 0 5px;
+	background: url(@image-dgridsortdown) center center no-repeat;
+	
+}
+
+.corporate .dgrid-sort-up .dgrid-sort-arrow {
+/* background-position: 0 0; */
+ background: url(@image-dgridsortup) center center no-repeat;
+}
+
+
+.dgrid-input {
+    width: 99%;
+}
+
+html.has-mozilla .dgrid *:focus, html.has-opera .dgrid *:focus {
+    /* outline: 0 dotted black; */
+}
+
+html.has-ie-6-7.has-no-quirks .dgrid-row-table {
+    width: auto;
+}
+
+html.has-quirks .dgrid-row-table, html.has-ie-6 .dgrid-row-table {
+    height: auto;
+}
+
+html.has-quirks .dgrid-header-scroll, html.has-ie-6 .dgrid-header-scroll {
+    font-size: 0;
+}
+
+html.has-mozilla .dgrid-focus {
+    outline-offset: -1px;
+}
+
+.corporate .dgrid-scrollbar-measure {
+    height: 100px;
+    overflow: scroll;
+    position: absolute;
+    top: -9999px;
+    width: 100px;
+}
+
+#dgrid-css-dgrid-loaded {
+    display: none;
+}
+
+
+.corporate .dgrid-header {
+overflow: hidden;
+background-color: #bdd6df;
+border: @base-border-color;
+padding: 0;
+font-weight: 700;
+color: @text-color;
+}
+
+
+.corporate .dgrid-header-row {
+overflow: hidden;
+background-color: @dgridHeader-background-color;
+border: @base-border-color;
+padding: 0;
+font-weight: 700;
+color: @text-color;
+}
+
+bdd6df
+.corporate .dgrid-footer {
+overflow: hidden;
+padding: 0 2px;
+background-color: @dgridFooter-background-color;
+border-top: 0 solid #ffffff;
+}
+
+
+
+.dgrid-pagination .dgrid-page-disabled, .has-ie-6-7 .dgrid-navigation .dgrid-page-disabled, .has-ie.has-quirks .dgrid-navigation .dgrid-page-disabled {
+    color: @text-color!important;
+}
+
+.dgrid-resize-header-container {
+	font-weight: bold;
+}
+
+
+.corporate .dgrid-row-even {
+background-color: @dojoxg-gridrow-even-background-color;
+
+}
+
+.corporate .dgrid-row-odd {
+background-color: @dojoxg-gridrow-odd-background-color;
+}
+
+.corporate .dgrid-selected {
+    background-color: @selected-background-color;
+}
+
+
+.corporate .dgrid-navigation a {
+font-weight: normal;
+}
+
+
+
+

@@ -1,0 +1,153 @@
+/* @text-color-dark: #353535; */
+/* @text-color-dark: #353535; */
+/* log colors */
+/* @hovered-border-color: #d1dfeb; */
+/* @hovered-background-color: #f0f1f2; */
+/* used for content panel backgrounds, dialog backgrounds etc */
+/* ******* content pane ********* */
+/* ******* DialogPaneTitleBar ********* */
+/* ******* DialogPaneContent ********* */
+/* ******* DialogPaneActionBar ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* @accordion-border: 1px solid #6c7c93; */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* @accordion-selected-border: 1px solid #6c7c93;*/
+/* ******* disabled ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* @menuitem-hover-font-weight: 700; */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* selected tab top ********* */
+/* ******* hover tab top ********* */
+/* ******* active/checked tab top ********* */
+/* ******* disabled tab top ********* */
+/* ******* disabled ********* */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* not needed at this point */
+/************* TOOL BAR SEPARATOR *************** */
+/* ******* default look ********* */
+/* ******* hover ********* */
+/* ******* active/checked ********* */
+/* ******* selected ********* */
+/* ******* disabled ********* */
+/* ******* default ********* */
+/* ******* hover ********* */
+/* ******* selected ********* */
+/* ******* active ********* */
+/* *** this was from spriteArrows.png and is used extensively @image-arrow-sprite **** */
+/* *** this was spriteRoundedIconsSmall.png   @image-sprite-rounded-small */
+/* *** this was dnd.png @image-dnd *** */
+/* *** this was rotator.png @image-rotator  *** */
+/* *** was @image-form-button-arrows: "images/commonFormArrows.png"; *** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** this was checkboxRadioButtonStates.png and appears to only be used on Menu.less **** */
+/* *** used to be sliderThumbs.png **** */
+/* horizontal */
+/* vertical */
+/* was tabClose.png @image-layout-tab-close */
+/* was tooltip.png @image-tooltip */
+.dijitBorderContainer .dijitSplitterH {
+  height: 6px;
+}
+.dijitBorderContainer .dijitSplitterV {
+  width: 6px;
+}
+.dijitBorderContainer .dijitSplitterH .dojoxToggleSplitterIcon {
+  background-image: url('images/splitterToggleH.png');
+  background-repeat: no-repeat;
+  width: 71px;
+  height: 6px;
+  top: 0;
+  left: 45%;
+  cursor: pointer;
+}
+.dijitBorderContainer .dijitSplitterV .dojoxToggleSplitterIcon {
+  background-image: url('images/splitterToggleV.png');
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 6px;
+  height: 71px;
+  left: 0;
+  top: 45%;
+  cursor: pointer;
+}
+.dojoxToggleSplitterTop .dojoxToggleSplitterIconOpen,
+.dojoxToggleSplitterBottom .dojoxToggleSplitterIconClosed {
+  background-position: 0 -12px !important;
+}
+.dojoxToggleSplitterBottom .dojoxToggleSplitterIconOpen,
+.dojoxToggleSplitterTop .dojoxToggleSplitterIconClosed {
+  background-position: 0 0 !important;
+}
+.dojoxToggleSplitterLeft .dojoxToggleSplitterIconOpen,
+.dojoxToggleSplitterRight .dojoxToggleSplitterIconClosed {
+  background-position: -12px 0 !important;
+}
+.dojoxToggleSplitterRight .dojoxToggleSplitterIconOpen,
+.dojoxToggleSplitterLeft .dojoxToggleSplitterIconClosed {
+  background-position: 0 0 !important;
+}
+.dojoxToggleSplitterTop .dojoxToggleSplitterIconOpenHover,
+.dojoxToggleSplitterBottom .dojoxToggleSplitterIconClosedHover {
+  background-position: 0 -18px !important;
+}
+.dojoxToggleSplitterBottom .dojoxToggleSplitterIconOpenHover,
+.dojoxToggleSplitterTop .dojoxToggleSplitterIconClosedHover {
+  background-position: 0 -6px !important;
+}
+.dojoxToggleSplitterLeft .dojoxToggleSplitterIconOpenHover,
+.dojoxToggleSplitterRight .dojoxToggleSplitterIconClosedHover {
+  background-position: -18px 0 !important;
+}
+.dojoxToggleSplitterRight .dojoxToggleSplitterIconOpenHover,
+.dojoxToggleSplitterLeft .dojoxToggleSplitterIconClosedHover {
+  background-position: -6px 0 !important;
+}
+.dojoxToggleSplitterTop .dojoxToggleSplitterA11y,
+.dojoxToggleSplitterBottom .dojoxToggleSplitterA11y {
+  display: none;
+  text-align: center;
+}
+.dojoxToggleSplitterRight .dojoxToggleSplitterA11y,
+.dojoxToggleSplitterLeft .dojoxToggleSplitterA11y {
+  display: none;
+  position: relative;
+  top: 48%;
+}
+.dijit_a11y .dojoxToggleSplitterA11y {
+  display: block;
+}

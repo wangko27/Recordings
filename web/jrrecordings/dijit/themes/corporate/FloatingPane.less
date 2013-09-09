@@ -1,0 +1,152 @@
+@import "variables";
+
+
+.dojoxFloatingPane {
+	background-color: @dojoxFloatingPane-background-color;
+	position:relative; 
+	border: @dojoxFloatingPane-border;
+	overflow: hidden;
+}
+
+.dojoxFloatingPaneFg {
+}
+
+/* titleNode */
+.dojoxFloatingPaneTitle {
+	background-color: @dojoxFloatingPaneTitle-background-color;
+	border: @dojoxFloatingPaneTitle-border;
+	padding:4px 4px 2px 4px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+
+/* Icons */
+.dojoxFloatingCloseIcon {
+	background:url(@image-layout-tab-close_up) no-repeat center center; 
+	width:16px;
+	height:16px; 
+	overflow:hidden;
+	float:right; 
+}
+
+.dojoxFloatingMinimizeIcon {
+background: url(@image-arrow-sprite_down) center center no-repeat;
+	width:7px;
+	margin: 0px 4px;
+	overflow:hidden;
+	float:right; 
+}
+
+
+.floatingPaneMaximized .dojoxFloatingMaximizeIcon { 
+display:none; 
+}
+
+.dojoxFloatingMaximizeIcon {
+background: url(@image-arrow-sprite_down) center center no-repeat;
+	width:7px;
+	margin: 0px 4px;
+	overflow:hidden;
+	float:right;	
+}
+
+.floatingPaneMaximized .dojoxFloatingRestoreIcon { 
+display:inline; 
+}
+
+.dojoxFloatingRestoreIcon {
+background: url(@image-arrow-sprite_down) center center no-repeat;
+	width:7px;
+	margin: 0px 4px;
+	float:right;
+	display:none;
+}
+
+.dojoxFloatingResizeHandle {
+	background:url('images/resize.png') no-repeat bottom right;
+	position:absolute; 
+	right:0; 
+	bottom:0; 	
+	width:16px;
+	height:16px; 
+	cursor:nw-resize;
+}
+
+.dojoxFloatingCloseIcon {
+	width:15px;
+	height:15px; 
+	overflow:hidden;
+	float:right; 
+	cursor:pointer;
+	background: url(@image-sprite-rounded-small_x) center center no-repeat;
+	
+}
+
+/* our un-used dock styles for now */
+.dojoxFloatingDockDefault {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	overflow:hidden; 
+	margin:0;
+	margin-bottom:3px; 
+	padding:0px; 
+	width:100%;
+	z-index:99; /* position the dock _just_ below the lowest pane */
+
+	background:transparent;
+
+}
+
+.dojoxDockList {
+	padding: 0px;
+	margin: 0px;
+}
+
+.dojoxDockRestoreButton {
+background: url(@image-sprite-rounded-small_up) center center no-repeat;
+	width:16px; height:16px;
+	overflow:hidden; 
+	float:left;
+	margin-top:2px; 
+}
+
+.dojoxDockTitleNode {
+	overflow:hidden;
+}
+
+/* Modifications */
+
+.dojoxDock {
+	display: block;
+	border: @dojoxDock-border;
+	position: absolute;
+	padding:0;
+	margin:0;
+	background: @dojoxDock-background-color;
+}
+
+.dojoxDockNode {
+	border: @dojoxDockNode-border;
+	cursor:pointer; 
+	list-style: none;
+	padding: 2px;
+	margin: 0px;
+	height: 16px;
+	width: auto;
+	float: left;
+	background-color: @dojoxDockNode-background-color;
+}
+
+
+.dojoxFloatingPaneContent {
+	overflow: auto;
+	background-color: @dojoxFloatingPaneContent-background-color;
+	height: 100%; 
+	width:	100%; 
+}
+
+.dojoxFloatingPaneCanvas {
+	background-color: @dojoxFloatingPaneCanvas-background-color;
+}
