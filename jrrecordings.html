@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>jrrecordings</title>
+    <link rel="stylesheet" type="text/css" href="src/dijit/themes/claro/claro.css">
+    <script>
+        dojoConfig = {
+            baseUrl: './src', 
+            isDebug: true,
+            packages:[
+                {
+                   name: "dojo",
+                   location: "dojo"
+                },
+                {
+                   name: "dojox",
+                   location: "dojox"
+                },
+                {
+                    name:"sas-commons",
+                    location:"sas-commons"
+                },
+                {
+                    name:"jrrecordings",
+                    location:"jrrecordings"
+                },
+                {
+                    name:"dijit",
+                    location:"dijit"
+                },
+                {
+                    name:"dgrid",
+                    location:"dgrid"
+                },
+                {
+                    name:"put-selector",
+                    location:"put-selector"
+                },
+                {
+                    name:"xstyle",
+                    location:"xstyle"
+                }
+            ]
+        };
+    </script>
+
+    <script type="text/javascript" src="src/dojo/dojo.js" data-dojo-config="isDebug:true"></script>
+    <!--
+    <script type="text/javascript" src="src/dojo/DApp.js" data-dojo-config="isDebug:true"></script>
+    -->
+</head>
+<body class="corporate">
+    <div id="outsidecontainer"></div>
+    <script>
+        require([
+            'jrrecordings/jrrecordings',
+            'dojo/domReady!'
+        ], function( Jrrecordings ) {
+              var jrrecordings = new Jrrecordings({
+              }, 'outsidecontainer');
+              jrrecordings.startup();
+        });
+    </script>
+</body>
+</html>

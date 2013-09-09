@@ -55,20 +55,20 @@
 			<fileset dir="dist/Recordings" />
 		</war>
 	</target>
-	
-	<target name="deploy_lcl" depends="clean,package">
-		<echo>deploying...</echo>
-		<copy todir="${appserver_home}/webapps">
-			<fileset dir="dist" />
-		</copy>
-	</target>
-	
+
 	<target name="clean">
 		<echo>cleaning...</echo>
 		<delete>
 			<fileset dir="dist" />
 			<fileset dir="${appserver_home}/work" />
 		</delete>
+	</target>
+	
+	<target name="deploy_java" depends="clean,package">
+		<echo>deploying...</echo>
+		<copy todir="${appserver_home}/webapps">
+			<fileset dir="dist" />
+		</copy>
 	</target>
 	
 	<target name="deploy_web" depends="clean">
@@ -83,5 +83,9 @@
 		<copy todir="${appserver_home}/webapps/${project_name}/web">
 			<fileset dir="web" />
 		</copy>
+
+		<!--
+		<copy file="jrrecordings.htmlJON" todir="${appserver_home}/${project_name}" />
+		-->
 	</target>
 </project>
