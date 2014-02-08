@@ -26,7 +26,11 @@ sudo apt-get install mysql-server
 mysql -uroot -proot
 create database jrrecord;
 create user 'jrrecord'@'localhost' identified by 'jrsi1970';
-grant all on *.* to 'jrrecord'@'localhost';
+GRANT ALL ON jrrecord.* TO 'jrrecord'@'localhost';
+
+if creating user fails,
+drop user jrrecord@localhost;
+flush privilages;
 
 Get up-to-date data dump from remote jrrecordings.com
 in databaseManage:
@@ -35,10 +39,9 @@ in databaseManage:
   run views: in mysql, source create_views.sql
   
 -- Build and deploy:
-mkdir dist
-mkdir build
+mkdir dist build work
 using build.xml in root of project:
-ant deploy_lcl
+ant deploy_java
 ant deploy_web
 
 -- start tomcat
